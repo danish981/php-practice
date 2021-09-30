@@ -45,7 +45,11 @@ class InterfaceImplemented extends BookOne implements UserInterface, InterfaceTw
         return [
             "Book Title" => "Jheenga Lala Hur Hur",
             "Book Price" => 450.40,
-            "Book Author" => "Adeel Ameen"
+            "Book Author" => "Adeel Ameen",
+            "Book Publisher " => "Ebay Pubishers",
+            "Publishing Date" => date("Y-m-d"),
+            "Book pages" => 600
+
         ];
     }
 
