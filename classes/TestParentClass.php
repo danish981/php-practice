@@ -1,12 +1,14 @@
 <?php
 
 class TestParentClass {
-    function whoAmI(): void {
-        echo "perfect web solutions<br>";
+    function whoAmI(): string {
+        return "perfect web solutions \n";
     }
 
     function sameNameMethod() {
-        echo "i am  " . __METHOD__ . "<br>";
+        return "I am a " . __METHOD__ . "\b";
     }
+
+
 
 }

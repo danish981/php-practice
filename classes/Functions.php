@@ -166,7 +166,7 @@ class Functions {
      */
     public static function getTableArray(int $tableNum): array {
         if (is_numeric($tableNum)) {
-            $tableNum = abs($tableNum);
+            abs($tableNum);
             $tableArray = [];
             for ($i = 0; $i <= 10; $i++) {
                 $tableArray[] = ($tableNum * ($i + 1));
@@ -379,6 +379,9 @@ class Functions {
     public function getUltimateRandomString(int $stringLength = 10): string {
         return substr(md5(self::getRandomString($stringLength)), 0, $stringLength);
     }
+
+
+
 
 }
 
