@@ -1,0 +1,663 @@
+{
+  "125": {
+    "id": 125,
+    "modified": "2021-02-08T16:06:10-0500",
+    "expedition_name": "Antarctic Explorer: Discovering the 7th Continent",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/antarctic-explorer-discovering-the-7th-continent",
+    "description": "If this is your first visit, our classic Antarctic Explorer voyage gives you the best of the stunning Antarctic Peninsula in 11 days. Conquer the famed Drake Passage in your choice of four stabilized, polar-class vessels; explore majestic natural environments by zodiac and on foot; get up close and personal with penguins, whales and other wildlife; and enjoy talks on history, biology and glaciology by onboard polar experts. You can personalize your adventure with options that suit your interests, and cross the 7th Continent off the list\u2014your way.  Starting in 2021, this itinerary allows you to the opportunity to experience our pioneering new vessel, Ultramarine. This purpose-built vessel is designed to extend the boundaries of polar exploration and offer an unmatched Antarctic experience, including a flightseeing tour you\u2019ll never forget and a range of adventure options more extensive than any other ship in its class.",
+    "region_id": "ANT",
+    "region": "Antarctic",
+    "destinations": [
+      "Antarctic",
+      "Antarctica"
+    ],
+    "highlights": [
+      "Discover why this trip is perfect for first-time visitors to Antarctica",
+      "Explore highlights of the Antarctic Peninsula",
+      "Travel safely and comfortably aboard any of Quark Expeditions\u2019 three small, ice-strengthened expedition vessels",
+      "Learn about the environment and wildlife from on-board lecturers and specialists",
+      "Experience abundant wildlife: penguins, seals, whales and more!",
+      "On select itineraries, arrive in Buenos Aires, Argentina, the tango capital of the world, and let us take care of the rest of your journey"
+    ]
+  },
+  "153": {
+    "id": 153,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Antarctic Express: Crossing the Circle",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/antarctic-express-crossing-the-circle",
+    "description": "Check off a travel milestone by crossing the Antarctic Circle. Maximize your adventure by skipping the ocean transit and flying over the Drake Passage by charter plane. Simply combine our exciting Crossing the Circle: Southern Expedition itinerary with a direct round-trip flight from Chile to your polar-ready ship, to get our Antarctic Express: Crossing the Circle voyage. Then, explore the wonders of the Antarctic Peninsula by sea, and continue further to reach 66\u207033\u00b4 south. Check other achievements off your bucket list as well, such as sea kayaking through channels dotted with icebergs.",
+    "region_id": "ANT",
+    "region": "Antarctic",
+    "destinations": [
+      "Antarctic",
+      "Antarctica"
+    ],
+    "highlights": [
+      "Fly over the Drake Passage and experience the fastest, most direct way to Antarctica",
+      "Witness iconic Antarctic wildlife, such as penguins, seals and whales",
+      "Marvel at Antarctic Peninsula highlights, including crossing the Antarctic Circle",
+      "Celebrate crossing the Antarctic Circle with a toast",
+      "Enjoy onboard lectures and educational presentations from polar specialists"
+    ]
+  },
+  "160": {
+    "id": 160,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Crossing the Circle: Southern Expedition",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/crossing-the-circle-southern-expedition",
+    "description": "Setting foot on the 7th Continent is a polar achievement relatively few people experience in their lifetime. Even more rare is the incomparable milestone that\u2019s achieved when a traveler crosses the iconic Antarctic Circle. Navigating south of 66\u00b033\u0027 S is\u2014for most guests\u2014the highlight of the 14-day itinerary Crossing the Circle: Southern Expedition, which rewards passengers daily with views of dramatic ice formations, humpback whales swimming alongside the ship, leopard seals diving beneath your Zodiac, penguins sliding off icebergs into crystal waters, or giant petrels soaring above the crackling sea.  Starting in 2021, this itinerary allows you to the opportunity to experience our pioneering new vessel, Ultramarine. This purpose-built vessel is designed to extend the boundaries of polar exploration and offer an unmatched Antarctic experience, including a flightseeing tour you\u2019ll never forget and a range of adventure options more extensive than any other ship in its class.",
+    "region_id": "ANT",
+    "region": "Antarctic",
+    "destinations": [
+      "Antarctic",
+      "Antarctica"
+    ],
+    "highlights": [
+      "If you\u2019re travelling onboard Ultramarine in 2021, arrive in Buenos Aires, Argentina and let us take care of the rest of your journey",
+      "Be one of the few travelers to venture to 66\u00b033\u00b4",
+      "Visit Antarctic research stations",
+      "Witness abundant Antarctic wildlife, including penguins, seals and whales",
+      "Experience western Antarctic Peninsula highlights and visit iconic landing sites",
+      "Learn about Antarctica\u2019s history, glaciology and wildlife from onboard specialists",
+      "Enjoy helicopter flightseeing if you\u2019re travelling onboard Ultramarine in 2021 and experience a unique perspective of the Antarctic Peninsula"
+    ]
+  },
+  "174": {
+    "id": 174,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Falklands, South Georgia, and Antarctica: Explorers and Kings",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/falklands-south-georgia-and-antarctica-explorers-and-kings",
+    "description": "The Falklands (Malvinas), South Georgia \u0026amp; Antarctica itinerary is the fastest way to get to the rarely visited Falkland Islands and South Georgia before stepping foot on the 7th Continent. Stroll the quaint English village of Stanley in the Falklands, wander the islands\u2019 sandy dunes, and birdwatch at rugged seabird cliffs. In South Georgia, discover the beaches where king penguins breed \u2013 one of the highest densities of animal life on earth \u2013 and learn about the rich historical legacy of the places you visit. Both islands are known as meccas for wildlife with epic displays of animals congregating by the thousands. Then, explore the stunning Antarctic Peninsula and enter a world of ice, snow and natural wonders. Pursue your personal passions with a choice of rewarding activities and our extensive educational program.",
+    "region_id": "ANT",
+    "region": "Antarctic",
+    "destinations": [
+      "Antarctic",
+      "Antarctica",
+      "Falkland Islands",
+      "South Georgia"
+    ],
+    "highlights": [
+      "Wander the quaint British town of Stanley in the Falkland Islands (Islas Malvinas)",
+      "See South Georgia\u2019s incredible wildlife, including 30 breeding bird species and four penguin species",
+      "Follow in the wake of Sir Ernest Shackleton\u2019s perilous voyages to South Georgia and pause for a moment at his grave site",
+      "Explore the Antarctic Peninsula by ship, Zodiac and foot",
+      "Learn about Antarctica\u2019s unique geology, history and wildlife with our onboard lecturers",
+      "Immerse yourself in the icy realm of the Antarctic, with an optional kayaking excursion"
+    ]
+  },
+  "181": {
+    "id": 181,
+    "modified": "2021-02-01T12:39:23-0500",
+    "expedition_name": "Epic Antarctica: Crossing the Circle via Falklands and South Georgia",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/epic-antarctica-crossing-the-circle-falklands-and-south-georgia",
+    "description": "Our Epic Antarctica voyage is called so for a reason\u2014it includes all of the major Antarctic highlights you can imagine. From the Falkland Islands (Islas Malvinas) to South Georgia to the Antarctic Peninsula, you will have countless unforgettable moments on this adventure-packed, 23-day voyage. Start with the Falklands, reminiscent of both sandy Cape Cod and the English moors, home to albatross, dolphins, and five species of penguins. From there, venture to South Georgia where you\u2019ll enter the home of 300,000 breeding king penguins, 50 million other seabirds and 5 million seals. Then, explore the stunning Antarctic Peninsula, and finally cross the Antarctic Circle\u2014a significant milestone for any world traveler. Starting in 2021, this itinerary allows you to the opportunity to experience our pioneering new vessel, Ultramarine. This purpose-built vessel is designed to extend the boundaries of polar exploration and offer an unmatched Antarctic experience, including a flightseeing tour you\u2019ll never forget and a range of adventure options more extensive than any other ship in its class.",
+    "region_id": "ANT",
+    "region": "Antarctic",
+    "destinations": [
+      "Antarctic",
+      "Antarctica",
+      "Falkland Islands",
+      "South Georgia"
+    ],
+    "highlights": [
+      "Explore the world\u2019s seventh continent on the Antarctic Peninsula by ship, Zodiac and on foot;",
+      "Learn about Antarctica\u2019s unique geology, history and wildlife with an expert team of lecturers;",
+      "See the incredible wildlife of South Georgia, often referred to as \u201cthe Galapagos of the South.\u201d This includes more than 30 species of breeding birds, including four species of penguin;",
+      "Follow in the footsteps of Sir Ernest Shackleton\u2019s perilous voyage on South Georgia and pause for a moment at his graveside;",
+      "Explore the quaint, British town of Port Stanley in the Falkland Islands;",
+      "Crossing of the Antarctic Circle; and",
+      "On board lecturers and educational presentations from Polar specialists."
+    ]
+  },
+  "202": {
+    "id": 202,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Spitsbergen Explorer: Wildlife Capital of the Arctic",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/spitsbergen-explorer-wildlife-capital-of-the-arctic",
+    "description": "The largest island of the Svalbard archipelago, Spitsbergen is known as the \u201cwildlife capital of the Arctic,\u201d and on this unforgettable 12-day voyage, you will discover why. Building on our Spitsbergen Highlights and Intro to Spitsbergen itineraries, this longer journey has been designed to maximize time on the west and northern\/southern tips of the island, providing you optimal chances to witness the remarkable array of creatures who call this spectacular yet forbidding environment home\u2014including whales, walruses, Svalbard reindeer, seabirds by the thousands, and that most iconic of Arctic residents, the polar bear. In addition to giving you opportunities to observe this unique parade of wildlife, the longer itinerary also allows you more time to explore the vast tundra, appreciate the natural beauty of the surprisingly colorful Arctic wilderness, and benefit from our range of on-board lectures and educational programs. Come aboard with the most knowledgeable, experienced and passionate team in the industry for an extraordinary High Arctic adventure.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Spitsbergen"
+    ],
+    "highlights": [
+      "Encounter iconic arctic wildlife, such as polar bears, walrus and reindeer",
+      "Take advantage of continuous daylight",
+      "Hike the tundra and explore the polar desert",
+      "Cruise in a Zodiac to explore glaciers, fjords, icebergs and more",
+      "Immerse yourself in the icy realm of the Arctic with optional kayaking adventures"
+    ]
+  },
+  "216": {
+    "id": 216,
+    "modified": "2021-01-28T14:32:15-0500",
+    "expedition_name": "North Pole: The Ultimate Arctic Adventure",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/north-pole-the-ultimate-arctic-adventure",
+    "description": "In 1991, Quark Expeditions fulfilled the bucket-list dreams of several dozen travelers by taking them to the hard-to-reach North Pole\u2014a journey that previously existed only in the wildest imaginations of the most adventurous travelers. Navigating through the thick sea ice aboard a nuclear-powered icebreaker\u2014helmed by the most innovative expedition team in the industry\u2014Quark Expeditions became the first-ever operator to bring travelers to the venerable North Pole. That inaugural voyage fueled the desires of subsequent adventurers who also longed to stand at 90\u00b0 North\u2014the very top of the world where every direction you look is south\u2014and bask in the glory of a polar adventure experienced by so few. Three decades have passed and Quark Expeditions, the recognized Leader in Polar Adventures, still leads the way in polar travel\u2014and the North Pole remains one of the most sought-after Arctic destinations. Imagine the thrill of a powerful icebreaker crushing through multi-year pack ice as it pushes toward 90\u00b0 North. Or envision yourself aboard a helicopter as it soars over the icy Arctic Ocean\u2014or standing on a remote spot on the planet where so few have ever set foot. Join us on this exhilarating journey and discover for yourself why the North Pole has, for centuries, stirred the minds and hearts of explorers and adventurers the world-over.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "North Pole"
+    ],
+    "highlights": [
+      "Stand at the top of the world at 90\u00b0N",
+      "Experience the largest, most powerful nuclear icebreaker in the world, 50 Years of Victory",
+      "Enjoy helicopter sightseeing above the Arctic Ocean",
+      "Possibly view polar bears, walrus and other arctic wildlife",
+      "Take advantage of optional tethered flight by hot air balloon (weather permitting)",
+      "Cruise in a zodiac",
+      "Visit Franz Josef Land historical sites, wildlife and wildflowers"
+    ]
+  },
+  "223": {
+    "id": 223,
+    "modified": "2021-02-25T11:13:30-0500",
+    "expedition_name": "Three Arctic Islands: Iceland, Greenland, Spitsbergen",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/three-arctic-islands-iceland-greenland-spitsbergen",
+    "description": "Named one of National Geographic Traveler\u2019s 50 Tours of a Lifetime, this unforgettable voyage begins above the Arctic Circle at Spitsbergen, the \u201cwildlife capital of the Arctic,\u201d ventures to the spectacular, remote landscape of East Greenland, and ends in Iceland. In Spitsbergen, you\u2019ll visit spectacular glacier fronts, steep-walled fjords and wind-swept tundra, where wildlife sightings include walrus, polar bears, Svalbard reindeer and thousands of birds. During your tour of Greenland\u2019s remote eastern coast, you\u2019ll explore the remains of ancient Thule settlements and keep an eye out for grazing muskoxen\u201440 percent of the world\u2019s muskoxen population lives here. The towering cliffs, massive glaciers, rugged fjords and vast swaths of untouched tundra in these breathtaking environments will provide sights, sounds and scenes you\u2019ve never experienced, permanently transforming your connection to the planet we call home. Explore the amazing Arctic, immerse yourself in the beauty and fragility of a wondrous region, and return with unique memories that will last a lifetime.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Greenland",
+      "Iceland"
+    ],
+    "highlights": [
+      "Experience one of National Geographic Traveler\u2019s 50 Tours of a Lifetime",
+      "Marvel at the glaciers and wildlife of Spitsbergen and East Greenland",
+      "Hike the tundra and explore a remote fjord-strewn coast of East Greenland",
+      "Cruise in a Zodiac to explore diverse landscapes",
+      "Immerse yourself in the icy realm of the Arctic with optional kayaking adventures"
+    ]
+  },
+  "2998": {
+    "id": 2998,
+    "modified": "2021-01-15T13:19:53-0500",
+    "expedition_name": "South Georgia and Antarctic Peninsula: Penguin Safari",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/south-georgia-and-antarctic-peninsula-penguin-safari",
+    "description": "Our South Georgia and Antarctica: Penguin Safari itinerary is the fastest way to get to the seldom visited South Georgia Island while also setting foot on the 7th continent. As we set sail, photograph massive albatross and beautiful pintado petrels as they swoop and soar around the ship, guiding us toward South Georgia. Beaches teeming with king penguins and elephant seals greet us on this fabled island, where we\u2019ll pay our respects to famed explorer Sir Ernest Shackleton. Antarctica awaits, with its soaring peaks and staggering expanse. Go further into the Antarctic sea on a Zodiac, experience the rugged peninsula from a sea kayak, undertake an exhilarating hike up a sparkling glacier, or share an endearingly comical moment with an inquisitive gentoo, chinstrap and Ad\u00e9lie penguin. In these ways and countless others, Antarctica will amaze, surprise and delight. Starting in 2021, this itinerary allows you to the opportunity to experience our pioneering new vessel, Ultramarine. This purpose-built vessel is designed to extend the boundaries of polar exploration and offer an unmatched Antarctic experience, including a flightseeing tour you\u2019ll never forget and a range of adventure options more extensive than any other ship in its class.",
+    "region_id": "ANT",
+    "region": "Antarctic",
+    "destinations": [
+      "Antarctic",
+      "Antarctica",
+      "South Georgia"
+    ],
+    "highlights": [
+      "If you\u2019re travelling onboard Ultramarine in 2021, arrive in Buenos Aires, Argentina and let us take care of the rest of your journey",
+      "See South Georgia\u2019s incredible wildlife, including 30 breeding bird species and four penguin species",
+      "Follow in the wake of Sir Ernest Shackleton\u2019s perilous voyages to South Georgia and pause for a moment at his grave site",
+      "Explore the Antarctic Peninsula by ship, Zodiac and foot",
+      "Learn about Antarctica\u2019s unique geology, history and wildlife with our onboard lecturers",
+      "Immerse yourself in the icy realm of the Antarctic, with an optional paddling excursion",
+      "Enjoy helicopter flightseeing if you\u2019re travelling onboard Ultramarine in 2021 and experience a unique perspective of the Antarctic Peninsula"
+    ]
+  },
+  "3146": {
+    "id": 3146,
+    "modified": "2021-02-10T12:37:26-0500",
+    "expedition_name": "Antarctic Express: Fly the Drake",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/antarctic-express-fly-the-drake",
+    "description": "Answer the call of Antarctica by flying over the notorious Drake Passage by charter plane to land at King George Island before exploring the Antarctic Peninsula by ship. In just 8 adventure-packed days, you\u2019ll experience rewarding shore visits and Zodiac cruises, marvel at intimate wildlife encounters, explore historic sites and make the most of your landmark visit to the 7th Continent. Select from a range of adventure options and onboard activities that match your personal interests and make your expedition uniquely yours.",
+    "region_id": "ANT",
+    "region": "Antarctic",
+    "destinations": [
+      "Antarctic",
+      "Antarctica"
+    ],
+    "highlights": [
+      "Fly over the Drake Passage and experience the fastest, most direct way to Antarctica",
+      "Spot iconic Antarctic wildlife, such as penguins, seals and whales",
+      "Marvel at many of the Antarctic Peninsula highlights",
+      "Enjoy onboard presentations from polar specialists",
+      "Cruise in a Zodiac to get up close to icebergs, wildlife and more"
+    ]
+  },
+  "6621": {
+    "id": 6621,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Spitsbergen In Depth: Big Islands, Big Adventure",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/spitsbergen-in-depth-big-islands-big-adventure",
+    "description": "This 14-day journey offers the most extensive exploration of Spitsbergen in the Norwegian archipelago of Svalbard, including the opportunity to witness iconic Arctic wildlife like walrus, reindeer and polar bears, a glimpse into 16th-century maritime culture at secluded landing sites, and the rare chance to appreciate breathtaking views at the birdwatching utopias 14th of July Glacier and Alkefjellet. If conditions allow, we will also attempt a full circumnavigation of the archipelago during this memorable voyage, including a visit to the remote, uninhabited Arctic desert of Nordaustlandet. The wildlife-viewing opportunities on this trip will leave you with plenty of memories and photos: the walrus with its long tusks and distinctive whiskers; Arctic birds in all their varied majesty; small herds of reindeer loping across the tundra; and that most iconic of Arctic creatures, the polar bear, as it roams the edges of the pack ice. Shore excursions by Zodiac will enable you to set foot in places few humans have. This voyage truly is the big adventure you\u2019ve been waiting for.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Spitsbergen"
+    ],
+    "highlights": [
+      "Encounter iconic arctic wildlife, such as polar bears, walrus and reindeer",
+      "View numerous arctic bird species, like puffins, arctic terns and purple sandpipers",
+      "Take advantage of continuous daylight",
+      "Explore glaciers, fjords, icebergs and more with included Zodiac cruising",
+      "Immerse yourself in the icy realm of the Arctic with optional kayaking adventures",
+      "Hike the tundra and polar desert"
+    ]
+  },
+  "9051": {
+    "id": 9051,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Spitsbergen Highlights: Expedition in Brief",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/spitsbergen-highlights-expedition-in-brief",
+    "description": "On this extraordinary journey, you will pack all the excitement of an epic Arctic cruise into just seven days, cruising through pack ice along the west coast of Spitsbergen, retracing the steps of explorers from centuries past. Though this rocky island is covered in mountains and glaciers, the towering cliffs and fjords play host to a thriving and diverse ecosystem. Exploring as much of the area as possible, you will enjoy maximum opportunities to spot, among other wildlife, the walrus with its long tusks and distinctive whiskers, the resilient and Arctic birds in all their varied majesty, and that most iconic of Arctic creatures, the polar bear. As one of our most popular Arctic voyages, Spitsbergen Highlights: Expedition in Brief is now available on two ships, each providing a distinct polar experience. Ultramarine, our new, game-changing polar vessel, can take you to remote destinations no other ships can reach. Aboard Ultramarine, explore Spitsbergen in brand new ways\u2014taking advantage of the 20 quick-launching Zodiacs and more outdoor wildlife viewing spaces than other expedition ship its size\u2014to create the Arctic experience perfect for you. Ocean Adventurer, a passenger and staff favorite, is much loved for its intimate onboard ambiance that enables guests to connect with other travelers and members of the expedition team.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Spitsbergen"
+    ],
+    "highlights": [
+      "View iconic arctic wildlife, such as polar bears, walrus and reindeer",
+      "Enjoy all the adventure of an arctic expedition in a week",
+      "Cruise in a Zodiac to explore glaciers, fjords, icebergs and more",
+      "Hike the colorful tundra",
+      "Immerse yourself in the icy realm of the Arctic with optional kayaking adventures"
+    ]
+  },
+  "9096": {
+    "id": 9096,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Spitsbergen Photography: In Search of Polar Bears",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/spitsbergen-photography-in-search-of-polar-bears",
+    "description": "This unique 13-day voyage invites guests to embrace a true expeditionary spirit: rather than follow a set itinerary, together we\u2019ll allow our search for polar bears and other wildlife to determine our route and shore landings in the pristine Norwegian Arctic. You\u2019ll be experiencing this once-in-a-lifetime journey aboard our game-changing new expedition vessel, Ultramarine, which is equipped with 20 quick-launching Zodiacs, luxurious onboard amenities and the biggest portfolio of Adventure Options in the polar regions. Extensive outer decks, including a wrap around promenade deck and balconies in most cabins mean you\u2019ll always have access to wildlife viewings wherever they may occur. Cruising along the coast, ice edge and inner fjords of Spitsbergen, you\u2019ll be immersed in the natural wonders of the land of the midnight sun as we pursue our quest to photograph arctic wildlife: the polar bear as it prowls the edges of the pack ice on its perpetual hunt for food; the walrus with its long tusks and distinctive whiskers; cliff-dwelling Arctic birds in the thousands; and small herds of reindeer loping across the colorful tundra. Not to mention the landscape\u2014snow-topped mountains, massive glacier fronts, deep-walled fjords, and vast swaths of untouched tundra waiting to be photographed. Exploring this awe-inspiring region will capture you with its raw beauty.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Spitsbergen"
+    ],
+    "highlights": [
+      "View iconic arctic wildlife, like polar bears, walrus and arctic fox",
+      "Enjoy continuous daylight, perfect for photography buffs",
+      "Cruise in a Zodiac for closer views of glaciers, fjords, icebergs and more",
+      "Hike the colorful arctic tundra",
+      "Learn techniques and tips from onboard photographers"
+    ]
+  },
+  "9141": {
+    "id": 9141,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Northwest Passage: Epic High Arctic",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/northwest-passage-epic-high-arctic",
+    "description": "The fabled sea route connecting the Atlantic and Pacific Oceans, the Northwest Passage continues to grip our collective imagination. On this captivating 17-day voyage, we invite you aboard our game-changing new vessel, Ultramarine, to explore this fascinating waterway with an incredible range of on-board comforts and off-ship adventures no other vessel can offer. Passing through the Canadian Arctic archipelago, guests will journey back in time to the height of Arctic exploration, navigating the waters explored by sailors from different lands and visiting the sites that helped unlock the eventual discovery of this long-coveted route.  Aboard the technologically-advanced Ultramarine, you will explore this remarkable environment in unforgettable ways\u2014taking advantage of two twin-engine helicopters, 20 quick-launching Zodiads, the most extensive portfolio of adventure options in the industry, more outdoor wildlife viewing spaces than any other expedition ship its size\u2014to create your quintessential Arctic experience. Marvel at highlights of the Canadian Arctic and Greenland\u2019s stunning west coast, stopping at traditional Inuit and Greenlandic communities. Participate in included helicopter activities and take in the vast, pristine Arctic wilderness from the air. Visit the UNESCO World Heritage site Ilulissat Icefjord, whose Jakobshavn glacier calves off icebergs up to a kilometer high. And keep your eyes peeled for the elusive and majestic creatures who make their home in this harsh, remote landscapes, such as whales, walrus, muskoxen and polar bears. Come aboard Ultramarine, venture to the fabled route that for centuries held explorers in its grip, and return home forever bonded to the spirit of Arctic adventure.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Canada",
+      "Greenland"
+    ],
+    "highlights": [
+      "Experience highlights of the Canadian Arctic and Greenland",
+      "Visit traditional Inuit and Greenlandic communities",
+      "View arctic wildlife, such as whales, walrus and muskoxen",
+      "Explore the Ilulissat Icefjord, a UNESCO World Heritage Site",
+      "Cruise in a Zodiac to get up close to the spectacular scenery"
+    ]
+  },
+  "9186": {
+    "id": 9186,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Northwest Passage: In the Footsteps of Franklin",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/northwest-passage-in-the-footsteps-of-franklin",
+    "description": "Winding your way through the icy channels of the legendary Northwest Passage is history brought to life. On this compelling 17-day journey aboard our game-changing new vessel Ultramarine, passengers retrace the steps of the intrepid Franklin Expedition, which left the shores of England in 1845 in search of the last unexplored section of the Northwest Passage\u2014only to become permanently icebound. Its discovery more than a century and a half later was a much-celebrated moment in polar history. On Ultramarine, guests benefit from two twin-engine helicopters that will provide spectacular aerial views of the Arctic landscape, the most extensive portfolio of adventure options in the industry, more outdoor wildlife viewing spaces than any other expedition ship its size, and 20 quick-launching Zodiacs to get you closer to ancient glaciers, dramatic fjords and towering icebergs. Explore colorful Greenlandic villages, and shop for traditional Inuit handicrafts. Hike the endless Arctic backdrop and marvel at the vast, colorful tundra. Keep your eyes peeled for the elusive and majestic creatures that make their home in this wilderness, such as whales, walrus, muskoxen and polar bears. Come aboard Ultramarine, follow in the footsteps of Franklin\u2019s legendary Arctic voyage, and return home with memories to last a lifetime.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Canada",
+      "Greenland"
+    ],
+    "highlights": [
+      "Experience highlights of Greenland and the Canadian Arctic",
+      "Explore colorful Greenlandic villages and shop for traditional Inuit handicrafts",
+      "View iconic arctic wildlife, such as whales, walrus and muskoxen",
+      "Hike the colorful tundra",
+      "Cruise in a Zodiac to get up close to glaciers, fjords, icebergs and more"
+    ]
+  },
+  "12986": {
+    "id": 12986,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Intro to Spitsbergen: Fjords, Glaciers and Wildlife of Svalbard",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/intro-to-spitsbergen-fjords-glaciers-and-wildlife-of-svalbard",
+    "description": "This fascinating expedition provides a taste of everything Spitsbergen has to offer, starting with its largest settlement, Longyearbyen. The largest island of the Svalbard archipelago is known as the \u201cwildlife capital of the Arctic,\u201d and on this stirring voyage, we show you why. Geared toward optimum wildlife viewing, this 10-day expedition provides ample opportunities to witness walrus, reindeer, and that most iconic of Arctic denizens, the polar bear, in their natural habitat, while marveling at the surreal experience of continuous daylight. Explore the unique Arctic landscape, hike the vast and colorful tundra, learn about the history and geology of this remote wilderness, and join us on a gripping excursion to a faraway, unforgettable land. This exciting introductory journey to the remote Norwegian island, renowned for its stunning scenery and abundant, varied wildlife, is now available on two ships, each providing a distinct polar experience. Ultramarine, our new, game-changing polar vessel, can take you to remote destinations no other ships can reach. Aboard Ultramarine, explore Spitsbergen in brand new ways\u2014taking advantage of the 20 quick-launching Zodiacs, and more outdoor wildlife viewing spaces than other expedition ship its size\u2014to create the Arctic experience perfect for you. Ocean Adventurer, a passenger favorite, is much loved for its intimate onboard ambience that enables guests to connect with other travelers and members of the expedition team.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Spitsbergen"
+    ],
+    "highlights": [
+      "Encounter iconic arctic wildlife, such as polar bears, walrus and reindeer",
+      "Take advantage of continuous daylight",
+      "Hike the tundra and polar desert",
+      "Cruise in a Zodiac to explore glaciers, fjords, icebergs and more",
+      "Immerse yourself in the icy realm of the Arctic with optional kayaking adventures"
+    ]
+  },
+  "14871": {
+    "id": 14871,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Arctic Saga: Exploring Spitsbergen via the Faroes and Jan Mayen",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/arctic-saga-exploring-spitsbergen-the-faroes-and-jan-mayen",
+    "description": "Ideal for first-time guests to the polar regions, Arctic Saga: Exploring Spitsbergen via the Faroes and Jan Mayen allows you to venture to some of the most remote islands on Earth, observe fascinating history and culture, and experience the dreamlike wonder of the midnight sun. Sailing across the North Atlantic, you will be immersed in the Arctic\u2019s rugged beauty, highlighted by visits to the awe-inspiring and unspoiled destinations of Fair Isle, the Faroe Islands, Jan Mayen and Spitsbergen. Prepare to be amazed by an environment different from anything you\u2019ve ever witnessed, featuring immense fjords, towering glaciers, soaring sea stacks and coastal cliffs teeming with seabirds by the thousands. Observe reindeer, seals and whales in their natural habitat under a sunlit sky in the middle of the night. Guided by the most knowledgeable and passionate team in the industry, go where few others have gone, and return forever changed by the rich history, distinct culture and unforgettable backdrop of the Arctic.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Faroe Islands",
+      "Norway",
+      "Jan Mayen",
+      "Svalbard",
+      "Spitsbergen"
+    ],
+    "highlights": [
+      "Follow in the footsteps of the Norsemen on Fair Isle and the Vikings in the Faroe Islands",
+      "Explore the volcanic and glacier covered Jan Mayen island, in the heart of the North Atlantic Ocean",
+      "Encounter iconic arctic wildlife, such as puffins, reindeer, whales and seabirds",
+      "Cruise in a Zodiac to explore diverse landscapes and wildlife"
+    ]
+  },
+  "14931": {
+    "id": 14931,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Jewels of the Russian Arctic: Franz Josef Land and Novaya Zemlya",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/jewels-of-the-russian-arctic-franz-josef-land-and-novaya-zemlya",
+    "description": "One of Earth\u2019s least-explored frontiers and the newest destination to our portfolio, the sparsely populated Russian High Arctic is a place of isolated, rugged beauty that will leave you amazed. Few travelers have ever ventured into this near-uninhabited landscape. On Jewels of the Russian Arctic: Franz Josef Land and Novaya Zemlya, we follow the footsteps of early northern explorers to two of the most remote archipelagos on the planet, enabling guests to experience an in-depth exploration of seldom-visited regions in the stark and spectacular Russian Arctic. From the ancient mountains of Novaya Zemlya to the wildlife sanctuary of Franz Josef Land, these secluded lands offer an exhilarating mix of unique sights and adventures. Marvel at ice-capped peaks soaring majestically out of the Arctic sea. Watch in hushed wonder at the unforgettable sight of a polar bear roaming its natural environment. Immerse yourself in a corner of our planet few humans ever to, with the operator that knows polar adventure better than anyone.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Russia"
+    ],
+    "highlights": [
+      "Explore this rarely visited region of the Russian Arctic",
+      "Encounter iconic arctic wildlife, such as polar bears, walrus and seabirds",
+      "Explore glaciated Novaya Zemlya, where the earliest Arctic explorers overwintered",
+      "Visit significant sites at Franz Josef Land and learn about the region\u2019s storied history"
+    ]
+  },
+  "14971": {
+    "id": 14971,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "High Arctic Odyssey: Remote Russian Archipelagos",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/high-arctic-odyssey-remote-russian-archipelagos",
+    "description": "One of Earth\u2019s last regions to be discovered, and the newest destination in Quark Expeditions\u2019 portfolio, the High Russian Arctic is a place of mystery, beauty and wonder. On this stirring voyage along Russia\u2019s ice-draped coastlines, we invite you to become one of the first passengers to visit this little-known region and encounter sights rarely seen by even the most intrepid adventurers. From the breathtaking glaciers of Novaya Zemlya and Franz Josef Land to the stark, secluded islands of the icy Kara Sea, the remarkable features of this isolated wilderness will leave you awed and inspired. An incredible 22-day journey that will take you to far-flung landscapes unlike anything you\u2019ve ever witnessed, High Arctic Odyssey is exclusively designed to allow you to maximize your time exploring these pristine environments, appreciate the rich and dramatic polar history of these faraway destinations, and, especially, increase your chances of observing the region\u2019s diverse and magnificent wildlife, such as whales, seals, muskox, walruses and polar bears. If conditions allow, this itinerary will also include Severnaya Zemlya, the last major territorial discovery on Earth. Come aboard and venture to one of the most remote corners of the globe with the most experienced expedition team in the industry.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Russia"
+    ],
+    "highlights": [
+      "Experience a true expedition as we explore rarely visited Severnaya Zemlya",
+      "Encounter iconic Arctic wildlife, such as polar bears, walrus and seabirds",
+      "Explore glaciated Novaya Zemlya, where the earliest Arctic explorers overwintered",
+      "Visit significant sites at Franz Josef Land and learn about the region\u2019s storied history",
+      "Discover rarely visited islands of the icy Kara Sea"
+    ]
+  },
+  "15011": {
+    "id": 15011,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Under the Northern Lights: Exploring Iceland \u0026 East Greenland",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/under-the-northern-lights-exploring-iceland-east-greenland",
+    "description": "Explore two of the last unspoiled wilderness areas on the planet with the Under the Northern Lights: Exploring Iceland \u0026amp; East Greenland itinerary. Cruising along Iceland\u2019s mountainous Vestfjords and Greenland\u2019s remote northeast coast, home to the largest fjord system in the world, you\u2019ll discover diverse and dramatically rugged landscapes rich in iconic arctic wildlife. Immersed in the untamed beauty of the Arctic, you\u2019ll experience Inuit culture firsthand at Ittoqqortoormiit, visit ancient Thule sites steeped in history, and marvel at the majesty of massive icebergs and towering bird cliffs. If you\u2019re lucky, you may also catch sight of the spectacular northern lights dancing across the sky. The Arctic has been inspiring explorers for centuries, and our expeditions offer the chance for you to discover why. We\u2019re excited to host you on your unforgettable adventure! Feel free to reach out to our team of Polar Travel Advisers or your travel professional, who can answer your questions and provide assistance at any time.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Greenland",
+      "Iceland"
+    ],
+    "highlights": [
+      "Search for iconic arctic wildlife, such as polar bears, muskoxen and whales",
+      "Hike the tundra, visit an Inuit community and explore a breathtaking fjord system in East Greenland",
+      "Marvel at the dramatic mountains and bird cliffs of Iceland\u2019s oldest region",
+      "Possibly view the enchanting northern lights (aurora borealis)",
+      "Cruise in a Zodiac to explore diverse landscapes",
+      "Immerse yourself in the icy realm of the Arctic with optional kayaking adventures"
+    ]
+  },
+  "15051": {
+    "id": 15051,
+    "modified": "2021-03-12T09:53:00-0500",
+    "expedition_name": "Best of the Western Arctic: Canada and Greenland",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/best-of-the-western-arctic-canada-and-greenland",
+    "description": "On the Best of the Western Arctic: Canada and Greenland itinerary, you\u2019ll explore the northerly shores of Canada\u2019s Baffin Island and the western coast of Greenland, visiting local communities and searching for wildlife that inhabit this remote, mysterious realm. Zodiac cruising will give you one-of-a-kind perspectives of icebergs, glaciers and fjords. Community visits will reward you with insights into traditional and modern ways of life in the Western Arctic, and the rugged beauty of these pristine landscapes will leave you breathless, whether it\u2019s the soaring cliffs of Sam Ford Fjord or the sculpted icebergs that dominate the Ilulissat Icefjord. In a wildlife-rich region such as this, it\u2019s quite possible you\u2019ll spot whales or catch a glimpse of one of the Arctic\u2019s most iconic animals\u2014the polar bear. The Arctic has been inspiring explorers for centuries, and our expeditions offer the chance for you to discover why. We\u2019re excited to host you on your unforgettable adventure! Feel free to reach out to our team of Polar Travel Advisers or your travel professional, who can answer your questions and provide assistance at any time.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Canada",
+      "Greenland"
+    ],
+    "highlights": [
+      "Search for iconic arctic wildlife, such as polar bears, muskoxen, walrus and whales",
+      "Explore Canadian wildlife sanctuaries and the Ilulissat Icefjord, a UNESCO World Heritage Site",
+      "Visit traditional settlements and meet Inuit and Greenlandic locals",
+      "Cruise in a Zodiac to explore icebergs, glaciers, fjords and more",
+      "Immerse yourself in the icy realm of the Arctic with optional kayaking adventures"
+    ]
+  },
+  "15091": {
+    "id": 15091,
+    "modified": "2021-02-25T11:16:28-0500",
+    "expedition_name": "Four Arctic Islands: Spitsbergen, Jan Mayen, Greenland and Iceland",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/four-arctic-islands-spitsbergen-jan-mayen-greenland-and-iceland",
+    "description": "Perfect for first-time visitors to the Arctic, this voyage highlights four spectacular destinations near the top of the world and provides an unforgettable taste of the region, featuring giant icebergs, towering mountains, granite cliffs, iconic wildlife, traditional Inuit culture and more. Your adventure begins in the remote Norwegian island of Spitsbergen, renowned for its stunning scenery and abundant, varied wildlife such as polar bears and walrus. From there, sail south to the mysterious, volcanic Jan Mayen, a nature reserve so remote that few have ever been fortunate enough to explore this Arctic treasure. The next stop is Greenland\u2019s beguiling east coast, where you will cruise deep into Scoresbysund to marvel at the overwhelming beauty of the world\u2019s largest fjord system, gaze in awe at unimaginably vast icebergs, and admire the diversity of the flora and fauna that have fascinated explorers and visitors for centuries\u2014and seize the opportunity to explore the remains of ancient Thule settlements. Your epic adventure culminates with a journey under the midnight sun to Reykjavik, where you can soak up Icelandic culture in a city that never sleeps.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Greenland",
+      "Iceland",
+      "Norway",
+      "Jan Mayen",
+      "Svalbard",
+      "Spitsbergen"
+    ],
+    "highlights": [
+      "Search for iconic arctic wildlife, such as polar bears, walrus and reindeer",
+      "Explore the wildlife heaven of Spitsbergen, the volcanic Jan Mayen and the breathtaking Greenlandic fjord system all in one trip",
+      "Visit a remote Inuit community",
+      "Cruise in a Zodiac to explore glaciers, icebergs and more",
+      "Immerse yourself in the icy realm of the Arctic with optional kayaking adventures"
+    ]
+  },
+  "15131": {
+    "id": 15131,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Essential Greenland: Southern Coasts and Disko Bay",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/essential-greenland-southern-coasts-and-disko-bay",
+    "description": "Enjoy an ultra-immersive exploration of Greenland\u2019s most remote regions, sailing the icy waters of the rarely traveled southeast coast, traveling down to the lush southern tip, and stopping to visit local communities and observe imposing glaciers of the west coast. Visits to picturesque villages and Norse ruins will provide guests with an intimate look into Greenland\u2019s distinct culture and history, while the rugged landscape, highlighted by dramatic fjords, imposing glaciers, towering mountains and verdant valleys, will leave you breathless. On Essential Greenland: Southern Coasts and Disko Bay, spectacular, unspoiled wonders await at every turn.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Greenland"
+    ],
+    "highlights": [
+      "Search for iconic arctic wildlife, such as whales, seals and seabirds",
+      "Explore the Ilulissat Icefjord and Kujataa farming communities, both UNESCO World Heritage Sites",
+      "Meet locals and experience traditional Inuit settlements",
+      "Visit Norse historical sites and learn about this fascinating culture",
+      "Cruise in a Zodiac to explore icebergs, glaciers, fjords and more",
+      "Immerse yourself in the icy realm of the Arctic with optional kayaking adventures"
+    ]
+  },
+  "22191": {
+    "id": 22191,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Solar Eclipse 2021: Totality in Antarctica, with South Georgia",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/solar-eclipse-2021-totality-in-antarctica-south-georgia",
+    "description": "Total Solar Eclipses are rare in Antarctica, and 16 years ago, a group of Quark Expeditions passengers became the first humans ever to witness a Total Solar Eclipse on the 7th Continent. In 2021, we are reuniting some of the same eclipse experts who were on our 2003 expedition for a new voyage: Solar Eclipse 2021: Totality in Antarctica, with South Georgia. This voyage will be the perfect opportunity to be rendered awestruck by the overwhelming enormity of Antarctica: towering icebergs, mammoth glaciers and ice-covered mountains. You\u2019ll hike pristine glaciers, relax on a Zodiac cruise or enjoy comedic encounters with inquisitive penguins. Also, you\u2019ll learn about wildlife and polar history during onboard presentations by expedition team members, as well as two widely-respected eclipse experts who will prepare you for your total eclipse experience: award-winning National Geographic night-sky photographer Babak Tafreshi, who participated in the 2003 voyage, and American Eclipse author David Baron, who is featured in the popular TED Talk, \u201cYou owe it to yourself to experience a total solar eclipse.\u201d From Antarctica, you\u2019ll sail north, and on December 4th you\u2019ll become part of a select few to experience a Total Solar Eclipse in Antarctica. To enhance your eclipse experience, you will receive a pair of eclipse glasses, an invitation to a special evening celebration to commemorate your Total Solar Eclipse voyage. You will then complete your voyage by departing for South Georgia, known as the \u201cGalapagos of the South Seas,\u201d where you\u2019ll explore a region rich in wildlife and polar history.",
+    "region_id": "ANT",
+    "region": "Antarctic",
+    "destinations": [
+      "Antarctic",
+      "Antarctica",
+      "South Georgia"
+    ],
+    "highlights": [
+      "See South Georgia\u2019s incredible wildlife, including 30 breeding bird species and four penguin species",
+      "Follow in the footsteps of Sir Ernest Shackleton\u2019s perilous voyages to South Georgia and pause for a moment at his grave site",
+      "Witness a rare total solar eclipse from the deck of World Explorer in the Scotia Sea between the Orkney Islands and South Georgia.",
+      "Explore the Antarctic Peninsula by ship, Zodiac and foot",
+      "Learn about Antarctica\u2019s unique geology, history and wildlife with our onboard lecturers",
+      "Immerse yourself in the icy realm of the Antarctic, with an optional paddling excursion"
+    ]
+  },
+  "22271": {
+    "id": 22271,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Solar Eclipse 2021: Totality in Antarctica, with South Georgia and Falkland Islands",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/solar-eclipse-2021-totality-in-antarctica-south-georgia-and-falkland-islands",
+    "description": "Total Solar Eclipses are rare in Antarctica, and 16 years ago, a group of Quark Expeditions passengers became the first humans ever to witness a Total Solar Eclipse on the 7th continent. In 2021, we will bring back our special guest expert from the epic 2003 voyage, retired NASA scientist Fred Espenak, to join us on one of two special voyages: Solar Eclipse 2021: Totality in Antarctica, with South Georgia and Falkland Islands.  Designed for eclipse chasers, this itinerary offers the rare opportunity to witness the total eclipse of the sun while also setting foot in Antarctica, as well as a chance to explore the rarely visited sub-Antarctic Falkland Islands (Islas Malvinas) and South Georgia. During your voyage, you will have the opportunity to participate in talks led by Fred Espenak, known as \u201cMr. Eclipse,\u201d who has participated in 29 eclipse expeditions around the world, while also learn about the region, its wildlife and history, during onboard presentations by our team of polar experts. On December 4, the day of the Total Solar Eclipse, you will receive a pair of eclipse glasses, and an invitation to a special evening celebration where you can relive your eclipse experience with fellow passengers. The excitement of the voyage continues as your ship then departs for South Georgia and the Falkland Islands, where you will explore regions rich in wildlife and polar history.",
+    "region_id": "ANT",
+    "region": "Antarctic",
+    "destinations": [
+      "Antarctic",
+      "Antarctica",
+      "Falkland Islands",
+      "South Georgia"
+    ],
+    "highlights": [
+      "Explore the Antarctic Peninsula by ship, Zodiac and foot",
+      "Learn about Antarctica\u2019s unique geology, history and wildlife with our onboard lecturers",
+      "Immerse yourself in the icy realm of the Antarctic, with an optional kayaking excursion",
+      "Witness a rare total solar eclipse from the deck of Ocean Diamond in the Scotia Sea between the Orkney Islands and South Georgia.",
+      "See South Georgia\u2019s incredible wildlife, including 30 breeding bird species and four penguin species",
+      "Follow in the footsteps of Sir Ernest Shackleton\u2019s perilous voyages to South Georgia and pause for a moment at his grave site",
+      "Wander the quaint British town of Stanley in the Falkland Islands (Islas Malvinas)"
+    ]
+  },
+  "22486": {
+    "id": 22486,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Canada\u2019s Remote Arctic: Northwest Passage to Ellesmere and Axel Heiberg Islands",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/canadas-remote-arctic-northwest-passage-to-ellesmere-and-axel-heiberg-islands",
+    "description": "Here, at the top of the world, nature has created unique wonders in astonishing variety. Our game-changing new expedition vessel Ultramarine, equipped with two twin-engine helicopters and 20 quick-launching Zodiacs, enables you to explore this breathtaking environment from brand new perspectives. You\u2019ll experience the same sense of wonder felt by early explorers as they navigated the region\u2019s formidable bays, inlets and channels. On this exciting itinerary, we follow the natural guides of sea and ice to showcase the region\u2019s cultural, historic and geographic treasures, aiming to approach the farthest stretches of this rugged, rarely visited landscape. Ultramarine\u2019s unprecedented range of adventure options, including activities such as helicopter flightseeing, gives you an unrivalled polar experience. You\u2019ll be able to view the magnificent wildlife that make their home in this forbidding region: sea mammals, polar bears, muskox, and possibly even the elusive arctic wolf. From soaring cliffs to mummified forests, spectacular glacial formations to stunning alpine vistas, expansive waterways to sheltered shores, Canada\u2019s Remote Arctic provides the definitive experience of a mysterious, magical region few ever get to see.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Canada"
+    ],
+    "highlights": [
+      "Follow the footsteps of polar explorers and experience highlights of the Canadian Arctic ",
+      "Search for iconic Arctic wildlife such as polar bears and muskox",
+      "Enjoy flightseeing and heli landings with Ultramarine\u2019s two onboard helicopters",
+      "Cruise in a Zodiac to get up close to glaciers, fjords, icebergs and more",
+      "Learn about the environment and wildlife from our onboard polar experts"
+    ]
+  },
+  "22551": {
+    "id": 22551,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Arctic Express Canada: The Heart of the Northwest Passage",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/arctic-express-canada-the-heart-of-the-northwest-passage",
+    "description": "The quest for trade routes to the Far East inspired much of the age of exploration of North America, with the promise of the Northwest Passage its elusive jewel. On Arctic Express Canada, discover the great sea route at the top of the world\u2014that obsessed explorers for centuries\u2014on our game-changing new expedition ship Ultramarine, which allows you a journey no traditional vessel could offer: immersing yourself in the full Arctic experience while getting back home a week and a half later. Nature and wildlife are the guides on this voyage as you explore the region\u2019s diverse treasures. The Arctic\u2019s stark beauty offers an unforgettable backdrop, while Quark Expeditions\u2019 world-class team provides the knowledge and insight to help you connect with the region\u2019s unique history and geography. Ultramarine\u2019s two twin-engine helicopters, 20-quick-launching Zodiacs and unprecedented mix of on-ship amenities and off-ship adventure options will deliver an unrivalled Arctic experience no one else can.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Canada"
+    ],
+    "highlights": [
+      "Follow the footsteps of polar explorers and experience highlights of the Canadian Arctic ",
+      "Search for iconic Arctic wildlife such as polar bears and muskox",
+      "Enjoy flightseeing and heli landings with Ultramarine\u2019s two onboard helicopters",
+      "Cruise in a Zodiac to get up close to glaciers, fjords, icebergs and more",
+      "Learn about the environment and wildlife from our onboard polar experts"
+    ]
+  },
+  "22591": {
+    "id": 22591,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Greenland Adventure: Explore by Sea, Land and Air",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/greenland-adventure-explore-sea-land-and-air",
+    "description": "A first in polar adventure travel, Quark Expeditions has teamed up with municipal, regional and national partners to offer you the most extensive array of adventure activities and enable you to curate an authentic Greenland active adventure that best suits you. You\u2019ll experience this new voyage aboard our game-changing polar ship, Ultramarine, which is equipped with two twin-engine helicopters, 20 quick-launching Zodiacs, luxurious onboard amenities, and the biggest portfolio of Adventure Options in the Polar Regions. This one-of-a-kind voyage will immerse you in the stark, majestic landscape of world\u2019s second-largest ice mass. Based in and around Southeast Greenland\u2019s spectacular fjords, we take advantage of Ultramarine\u2019s twin-engine helicopters to take you to areas other can\u2019t reach. Ascend cascading coastal glaciers and step onto the vast polar plateau of the Greenland Ice Sheet. Travel by helicopter to glacial lakes high in the upper alpine zones. Roam the tundra with a resident chef and enjoy an unforgettable meal made from local ingredients. Join our Greenland Adventure, and return home with lifelong memories of one of Earth\u2019s most fascinating lands.",
+    "region_id": "ARC",
+    "region": "Arctic",
+    "destinations": [
+      "Arctic",
+      "Greenland"
+    ],
+    "highlights": [
+      "Experience an in-depth exploration of Southern Greenland from land, sea and air",
+      "Enjoy included helicopter flightseeing for a unique perspective of this rarely visited region ",
+      "Participate in optional helicopter adventure options such as Alpine Kayaking, Greenland Camp Experience and Mountain Biking",
+      "Learn about the environment and wildlife from our onboard polar experts"
+    ]
+  },
+  "23976": {
+    "id": 23976,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Essential Patagonia: Chilean Fjords and Torres del Paine",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/essential-patagonia-chilean-fjords-and-torres-del-paine",
+    "description": "Retrace Charles Darwin\u2019s epic voyage to the \u2018edge of the world\u2019 on our Essential Patagonia: Chilean Fjords and Torres del Paine expedition, a comprehensive journey into Chile\u2019s spectacular network of fjords and channels. Helicopter flightseeing and Zodiac cruises along this enchanting stretch of coastline provide awe-inspiring perspectives of some of the most remote and picturesque landscapes on Earth. From Magellanic penguin colonies and other seabirds to South American sea lions and southern elephant seals, the fascinating array of wildlife is as abundant as the majestic blue-toned tidewater glaciers. Join us in this enchanting wonderland and experience all the natural splendors of southern Patagonia.  By coming aboard for this special journey, you will also be among the first guests to experience our pioneering new vessel, Ultramarine. This purpose-built vessel is designed to extend the boundaries of exploration and offer an unmatched experience, including a flightseeing tour you\u2019ll never forget and a range of adventure options more extensive than any other ship in its class. We\u2019re excited to host you on your unforgettable adventure! Please feel free to reach out to our team of Polar Travel Advisers, who are happy to answer your questions and provide assistance at any time.",
+    "region_id": "ANT",
+    "region": "Antarctic",
+    "destinations": [
+      "Antarctic",
+      "Argentina",
+      "Chile"
+    ],
+    "highlights": [
+      "Encounter iconic wildlife, such as Magellanic penguins, sea lions and seabirds ",
+      "Experience some of the world\u2019s most remote glacial and fjord systems, including Glacier Alley",
+      "Retrace Darwin\u2019s route through the Beagle Channel and learn about the storied history of southern Chile ",
+      "Cruise in a Zodiac for a unique perspective of glaciers, fjords and channels",
+      "Enjoy helicopter flightseeing from Ultramarine for a unique perspective of the landscape"
+    ]
+  },
+  "24346": {
+    "id": 24346,
+    "modified": "2021-02-01T10:42:46-0500",
+    "expedition_name": "Celebrating Shackleton: Journey from Antarctica to South Georgia",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/celebrating-shackleton-journey-antarctica-to-south-georgia",
+    "description": "This brand new itinerary celebrates the life of Sir Ernest Shackleton, whose passing in South Georgia on January 5, 1922, marked the end of the Heroic Age of Antarctic Exploration. The 20-day itinerary Celebrating Shackleton: Journey from Antarctica to South Georgia (which will coincide with the centenary of Shackleton\u2019s death) not only honors one of Antarctica\u2019s greatest heroes\u2014but also his unwavering spirit of exploration, which Quark Expeditions continues to emulate to this day. Whereas Shackleton and his crew braved the harsh elements of Antarctica aboard Endurance, which had the most basic of amenities, guests on this voyage will board the brand new ship Ultramarine\u2014during its inaugural Antarctic sailing season. The technologically-advanced vessel will follow the route of Shackleton\u2019s Trans-Antarctic Expedition (1914\u20131917), allowing passengers to experience the full splendor of Antarctica and South Georgia while exploring on Ultramarine\u2019s two twin-engine helicopters and 20 fast-launching Zodiacs. Guests will cross the Drake Passage to the Antarctic Peninsula, visit the Weddell Sea (where the ill-fated Endurance met its tragic end), then onto Elephant Island and, ultimately, wildlife-rich South Georgia, where, if conditions allow, guests will pay homage to Shackleton at his grave at Grytviken. Throughout the voyage, passengers will enjoy special presentations by polar experts Tim Jarvis (author of \u201cChasing Shackleton\u201d) and Dr. Ross MacPhee, curator of the ground-breaking museum exhibit \u201cThe Endurance: Shackleton\u2019s Legendary Antarctic Expedition.\u201d",
+    "region_id": "ANT",
+    "region": "Antarctic",
+    "destinations": [
+      "Antarctic",
+      "Antarctica",
+      "South Georgia"
+    ],
+    "highlights": [
+      "Arrive in Buenos Aires, Argentina, the tango capital of the world, and let us take care of the rest of your journey",
+      "Explore the Antarctic Peninsula by ship, Zodiac and foot",
+      "Relive polar history on a visit to Shackleton\u2019s grave at the cemetery in Grytviken",
+      "Observe wildlife in South Georgia, known as the \u201cGalapagos of the Southern Ocean\u201d",
+      "Learn about Antarctica\u2019s unique geology, history and wildlife from our onboard experts",
+      "Enjoy a helicopter tour of the frozen Weddell Sea, where Shackleton\u2019s Endurance lies buried under the ice",
+      "Mark Ultramarine\u2019s first-ever New Year in the Antarctic"
+    ]
+  },
+  "24416": {
+    "id": 24416,
+    "modified": "2021-03-04T10:45:44-0500",
+    "expedition_name": "Antarctic Explorer: Discovering the 7th Continent plus Cape Horn \u0026 Diego Ramirez",
+    "url": "https:\/\/www.quarkexpeditions.com\/expeditions\/antarctic-explorer-discovering-the-7th-continent-plus-cape-horn-diego-ramirez",
+    "description": "Antarctica is an incredible destination with the power to transform those who are fortunate enough to experience it. At Quark Expeditions, we\u2019ve been delivering transformational polar experiences for three decades, and in that time we\u2019ve realized that the more personalized an expedition is, the more enriching the experience will be. That\u2019s why we\u2019ve designed this guide; to help you plan your perfect expedition to the 7th continent. If this is your first visit, this take on our classic Antarctic Explorer voyage gives you the best of the stunning Antarctic Peninsula, and on this special departure, the chance to land at the historical landmark of Cape Horn, and potentially visit albatross nesting grounds at Diego Ram\u00edrez Islands as well. Conquer the famed Drake Passage; explore majestic natural environments by Zodiac and on foot; get up close and personal with penguins, whales and other wildlife; and enjoy talks on history, biology and glaciology by our onboard polar experts. Antarctica has been inspiring explorers for centuries\u2014now it\u2019s your turn. Be among the first guests on our pioneering new vessel, Ultramarine. This purpose-built vessel is designed to extend the boundaries of polar exploration and offer an unmatched Antarctic experience, including a flightseeing tour you\u2019ll never forget and a range of adventure options more extensive than any other ship in its class. We\u2019re excited to host you on your unforgettable adventure! Please feel free to reach out to our team of Polar Travel Advisers, who are happy to answer your questions and provide assistance at any time.",
+    "region_id": "ANT",
+    "region": "Antarctic",
+    "destinations": [
+      "Antarctic",
+      "Antarctica",
+      "Chile"
+    ],
+    "highlights": [
+      "Arrive in Buenos Aires, Argentina, the tango capital of the world, and let us take care of the rest of your journey ",
+      "Explore highlights of the Antarctic Peninsula ",
+      "Enjoy helicopter flightseeing from Ultramarine for a unique perspective of the Antarctic Peninsula ",
+      "Enjoy talks about the environment, human history and wildlife from our onboard polar experts ",
+      "Experience abundant wildlife, such as penguins, seals and whales ",
+      "Visit Cape Horn National Park, UNESCO World Biosphere Reserve and Diego Ram\u00edrez Islands, nesting grounds for many species of albatross"
+    ]
+  }
+}
