@@ -363,7 +363,10 @@ class Functions {
 
     public static function getLowerRandomString(int $stringLength = 10) : string {
         $masterString = "";
-        
+        for($i = 1; $i <= $stringLength; $i++) {
+            $masterString .= self::$lowerLetters[random_int(0, 26)];
+        }
+        return $masterString;
     }
 
 
