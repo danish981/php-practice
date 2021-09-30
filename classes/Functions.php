@@ -378,7 +378,7 @@ class Functions {
         return $masterString;
     }
 
-    public function getUltimateRandomString(int $stringLength = 10): string {
+    public static function getUltimateRandomString(int $stringLength = 10): string {
         return substr(md5(self::getRandomString($stringLength)), 0, $stringLength);
     }
 
