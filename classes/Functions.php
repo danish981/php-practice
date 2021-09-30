@@ -381,6 +381,16 @@ class Functions {
     }
 
 
+    public static function getUpperRandomString(int $stringLength = 10) : string {
+        $masterString = "";
+        for($i = 1; $i <= $stringLength; $i++ ) {
+            $masterString .= self::$upperLetters[random_int(0, 26)];
+        }
+        return $masterString;
+    }
+
+
+
 
 
 }
