@@ -63,7 +63,9 @@ class Functions {
             "Allama mufti akmal",
             "Allama Shafeeq Ameeni",
             "Allama Ahmad Shah Bukhari",
-            "Allama Saad Hussain Rizvi"
+            "Allama Saad Hussain Rizvi",
+            "Allama aasim rizvi jehlum",
+            "Allama Ajmal qadri rahwali"
         ];
     }
 
@@ -380,18 +382,13 @@ class Functions {
         return substr(md5(self::getRandomString($stringLength)), 0, $stringLength);
     }
 
-
-    public static function getUpperRandomString(int $stringLength = 10) : string {
+    public static function getUpperRandomString(int $stringLength = 10): string {
         $masterString = "";
-        for($i = 1; $i <= $stringLength; $i++ ) {
+        for ($i = 1; $i <= $stringLength; $i++) {
             $masterString .= self::$upperLetters[random_int(0, 26)];
         }
         return $masterString;
     }
-
-
-
-
 
 }
 
