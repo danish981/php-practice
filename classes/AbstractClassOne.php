@@ -41,7 +41,19 @@ abstract class AbstractClassOne {
 
     protected function getCountryNames() {
         return [
-            "pakistan", "bangladesh", "indonesia", "afghanistan", "turkey", "palastine", "azarbaijan"
+            "pakistan",
+            "bangladesh",
+            "indonesia",
+            "afghanistan",
+            "turkey",
+            "palastine",
+            "azarbaijan",
+            "barma",
+            "morocco",
+            "iraq",
+            "iran",
+            "china",
+            "russia"
         ];
     }
 
