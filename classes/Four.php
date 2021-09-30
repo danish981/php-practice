@@ -37,7 +37,7 @@ class Four extends Three {
     }
 
     function test() {
-        echo "function test() is called of class Four <br>" . PHP_EOL;
+        echo "function test() is called of class Four \n" . PHP_EOL;
     }
 
     // method of class One can be called and can be overriden here
