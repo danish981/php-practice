@@ -9,15 +9,15 @@
 class One {
 
     public function test() {
-        echo "method test() is called of class One <br>" . PHP_EOL;
+        echo "method test() is called of class One \n" . PHP_EOL;
     }
 
     function func() {
-        echo "function func() is called of class One <br>" . PHP_EOL;
+        echo "function func() is called of class One\n" . PHP_EOL;
     }
 
     function oneFunction() {
-        echo "Hi from function one() of class One <br>" . PHP_EOL;
+        echo "Hi from function one() of class One \n" . PHP_EOL;
     }
 
 }

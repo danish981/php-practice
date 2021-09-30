@@ -30,8 +30,6 @@ class Functions {
 
     private static $charsArray = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
-
-
     public static function getCircumferance(float $radius): float {
         return 2.0 * PI * $radius;
     }
@@ -181,7 +179,7 @@ class Functions {
     /**
      * multiply all the given paramters and return the product
      * the demo of awesome variadic functions, thanks php for awesome functions
-     * @param int[] ...$args
+     * @param int ...$args
      * @return int
      */
     public static function getProduct(int ...$args): int {
@@ -213,7 +211,7 @@ class Functions {
     /**
      * the practice of awesome variadic functions for practicing,
      *
-     * @param int[] ...$numbers the list or paramters, the array simply
+     * @param int ...$numbers
      * @return int average of numbers given
      */
     public static function getAverage(int ...$numbers): int {
@@ -325,6 +323,7 @@ class Functions {
      * @param int $upperLimit the upper limit
      * @param int $arrayLength the size of the array
      * @return array filled with random numbers
+     * @throws Exception
      */
     public static function getArrayRandom(int $lowerValue = 10, int $upperLimit = 99, int $arrayLength = 20): array {
         $filledArray = [];
@@ -360,27 +359,24 @@ class Functions {
         }
     }
 
-
-    public static function getLowerRandomString(int $stringLength = 10) : string {
+    public static function getLowerRandomString(int $stringLength = 10): string {
         $masterString = "";
-        for($i = 1; $i <= $stringLength; $i++) {
+        for ($i = 1; $i <= $stringLength; $i++) {
             $masterString .= self::$lowerLetters[random_int(0, 26)];
         }
         return $masterString;
     }
 
-
-
-    public static function getRandomString(int $stringLength = 10) : string {
+    public static function getRandomString(int $stringLength = 10): string {
         $masterString = "";
         $charsLength = strlen(self::$charsArray);
-        for($i = 1; $i <= $stringLength; $i++) {
+        for ($i = 1; $i <= $stringLength; $i++) {
             $masterString .= self::$charsArray[random_int(0, $charsLength)];
         }
         return $masterString;
     }
 
-    public function getUltimateRandomString(int $stringLength = 10) : string {
+    public function getUltimateRandomString(int $stringLength = 10): string {
         return substr(md5(self::getRandomString($stringLength)), 0, $stringLength);
     }
 

@@ -34,6 +34,62 @@ final class AnotherFinal {
         echo "a quick brown fox jumps over the lazy dog $this->nextLine";
     }
 
+    public function setFieldTwo($fieldTwo): void {
+        $this->fieldTwo = $fieldTwo;
+    }
+
+    public function getFieldTwo() {
+        return $this->fieldTwo;
+    }
+
+    public function getSevereFever() {
+        return $this->severeFever;
+    }
+
+    public function setSevereFever($severeFever): void {
+        $this->severeFever = $severeFever;
+    }
+
+    public function getAgliLine(): string {
+        return $this->agliLine;
+    }
+
+    public function setAgliLine(string $agliLine): void {
+        $this->agliLine = $agliLine;
+    }
+
+    public function getFieldThree() {
+        return $this->fieldThree;
+    }
+
+    public function setFieldThree($fieldThree): void {
+        $this->fieldThree = $fieldThree;
+    }
+
+    public function getTestField() {
+        return $this->testField;
+    }
+
+    public function setTestField($testField): void {
+        $this->testField = $testField;
+    }
+
+    public function getAnotherPrivateField() {
+        return $this->anotherPrivateField;
+    }
+
+    public function setAnotherPrivateField($anotherPrivateField): void {
+        $this->anotherPrivateField = $anotherPrivateField;
+    }
+
+    public function getNextLine(): string {
+        return $this->nextLine;
+    }
+
+    public function setNextLine(string $nextLine): void {
+        $this->nextLine = $nextLine;
+    }
+
 }
 
 
