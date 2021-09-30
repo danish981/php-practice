@@ -360,6 +360,14 @@ class Functions {
         }
     }
 
+
+    public static function getLowerRandomString(int $stringLength = 10) : string {
+        $masterString = "";
+        
+    }
+
+
+
     public static function getRandomString(int $stringLength = 10) : string {
         $masterString = "";
         $charsLength = strlen(self::$charsArray);
