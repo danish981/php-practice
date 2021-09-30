@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/AbstractClassOne.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AbstractClassOne.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/BookOne.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/BookOne.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/C.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/C.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/InterfaceImplemented.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/InterfaceImplemented.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,35 +60,35 @@
       <file leaf-file-name="AbstractClassOne.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/AbstractClassOne.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="240">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InterfaceImplemented.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="C.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/C.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterfaceImplemented.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/InterfaceImplemented.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+            <state relative-caret-position="540">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnotherFinal.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/AnotherFinal.php">
+      <file leaf-file-name="BookOne.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/BookOne.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FinalClass.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/FinalClass.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="20">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -108,6 +108,8 @@
         <option value="$PROJECT_DIR$/classes/One.php" />
         <option value="$PROJECT_DIR$/classes/AbstractClassOne.php" />
         <option value="$PROJECT_DIR$/classes/InterfaceImplemented.php" />
+        <option value="$PROJECT_DIR$/classes/BookOne.php" />
+        <option value="$PROJECT_DIR$/classes/C.php" />
       </list>
     </option>
   </component>
@@ -150,6 +152,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -176,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633032169514</updated>
-      <workItem from="1633032177041" duration="1609000" />
+      <workItem from="1633032177041" duration="3197000" />
     </task>
     <task id="LOCAL-00001" summary="adding getters and setters to the class">
       <created>1633032592412</created>
@@ -199,15 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633034349261</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added few lines in code">
+      <created>1633034628907</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633034628907</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1609000" />
+    <option name="totallyTimeSpent" value="3197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21796875" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -239,7 +248,8 @@
     <MESSAGE value="adding getters and setters to the class" />
     <MESSAGE value="added a line" />
     <MESSAGE value="added country names" />
-    <option name="LAST_COMMIT_MESSAGE" value="added country names" />
+    <MESSAGE value="added few lines in code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added few lines in code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.min.css">
@@ -317,6 +327,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/InterfaceImplemented.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/BookOne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/InterfaceThree.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -332,15 +356,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/AbstractClassOne.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="240">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/InterfaceImplemented.php">
+    <entry file="file://$PROJECT_DIR$/classes/C.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+        <state relative-caret-position="500">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>

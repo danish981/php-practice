@@ -49,7 +49,6 @@ class InterfaceImplemented extends BookOne implements UserInterface, InterfaceTw
             "Book Publisher " => "Ebay Pubishers",
             "Publishing Date" => date("Y-m-d"),
             "Book pages" => 600
-
         ];
     }
 

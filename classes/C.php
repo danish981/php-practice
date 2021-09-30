@@ -20,7 +20,7 @@ class C extends B {
     }
 
     protected function protected_method_C() {
-        echo "i am protected method of class C<br>";
+        echo "i am protected method of class C";
     }
 
 }

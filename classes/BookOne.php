@@ -25,15 +25,15 @@ class BookOne {
         $bookTitle,
         $bookAuthor,
         $bookPrice) {
-        $this->bookAuthor = $bookAuthor;
-        $this->bookTitle = $bookTitle;
-        $this->bookId = $bookId;
-        $this->bookIsbn = $bookIsbn;
-        $this->currentChapterPages = $currentChapterPages;
-        $this->totalBookPages = $totalBookPages;
-        $this->currentChapterStudied = $currentChapterStudied;
-        $this->chapterNumber = $chapterNumber;
-        $this->bookPrice = $bookPrice;
+            $this->bookAuthor = $bookAuthor;
+            $this->bookTitle = $bookTitle;
+            $this->bookId = $bookId;
+            $this->bookIsbn = $bookIsbn;
+            $this->currentChapterPages = $currentChapterPages;
+            $this->totalBookPages = $totalBookPages;
+            $this->currentChapterStudied = $currentChapterStudied;
+            $this->chapterNumber = $chapterNumber;
+            $this->bookPrice = $bookPrice;
     }
 
     function getBookId() {
