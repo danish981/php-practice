@@ -27,11 +27,11 @@ final class FinalClass {
         $this->gamerUsername = $this->gameName . $this->gamerId;
     }
 
-    public final static function halwapuri() {
+    final public static function halwapuri() {
         return __METHOD__;
     }
 
-    public static final function getPubgKills(string $playerName): int {
+    final public static function getPubgKills(string $playerName): int {
         switch ($playerName) {
             case "danish" :
                 return 8787;
@@ -48,7 +48,7 @@ final class FinalClass {
         }
     }
 
-    function printStatement() {
+    function printStatement() : void {
         echo "jackdaws love my big sphinx of quartz $this->nextLine";
         echo "jackdaws love my big sphinx of quartz $this->nextLine";
         echo "jackdaws love my big sphinx of quartz $this->nextLine";
@@ -60,7 +60,7 @@ final class FinalClass {
         echo "jackdaws love my big sphinx of quartz $this->nextLine";
     }
 
-    public function printSentence() {
+    public function printSentence() : void {
         echo "a quick brown fox jumps over the lazy dog \r\n";
         echo "a quick brown fox jumps over the lazy dog \r\n";
         echo "a quick brown fox jumps over the lazy dog \r\n";
@@ -77,7 +77,7 @@ final class FinalClass {
 
     // NO NEED OF PROTECTED FIELDS BECUASE INHERITENCE IS NOT POSSIBLE
 
-    public final function getGamerData() {
+    final public function getGamerData() {
         return $this->gamerName;
     }
 
@@ -99,7 +99,7 @@ final class FinalClass {
         $this->gamerUsername = $username;
     }
 
-    public function getGamerId() {
+    public function getGamerId(): int {
         return $this->gamerId;
     }
 
@@ -115,7 +115,7 @@ final class FinalClass {
 
     // NO NEED OF WRITING FINAL HERE, CLASS IS ITSELF FINAL
 
-    public final function sayJumaPrayer() {
+    final public function sayJumaPrayer() {
         return "saying juma prayer in masjid ";
     }
 
@@ -127,11 +127,11 @@ final class FinalClass {
         ];
     }
 
-    public function whatToDo() {
+    public function whatToDo(): void {
         echo "you cannot extend this class";
     }
 
-    private final function getEverything() {
+    final private function getEverything() {
         return "here is everything chana chaat \n";
     }
 
