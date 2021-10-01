@@ -6,7 +6,7 @@ class A {
     public $testField__A = "A<br>";
     protected $protected_data_A = "A<br>";
 
-    private $private_data_A = "A<br>";
+    // private $private_data_A = "A<br>";
 
     public static function method__A() {
         echo "A() method <br>";

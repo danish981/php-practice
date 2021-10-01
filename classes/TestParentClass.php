@@ -11,7 +11,7 @@ class TestParentClass {
 
     public function countryNames() : array {
         return [
-            'pakistan', 'russia', 'afghanistan', 'iran', 'china'
+            'pakistan', 'russia', 'afghanistan', 'iran', 'china', "afghanistan", "turky", "azarbaijan"
         ];
     }
 
