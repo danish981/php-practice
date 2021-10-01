@@ -14,7 +14,11 @@ class D extends C {
     // protected fields overriden public here
     public $protected_data_C = "protected C overriden in class D<br>";
     protected $protected_data_D = "D<br>";
-    private $private_data_D = "\n";
+    private $private_data_D = "stringValue__D() class\n";
+
+    public function getPrivateData__D() : string {
+        return $this->private_data_D;
+    }
 
     public function public_method_D() : string {
         return "i am public method D()";
