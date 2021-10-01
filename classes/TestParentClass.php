@@ -9,6 +9,14 @@ class TestParentClass {
         return "I am a " . __METHOD__ . "\b";
     }
 
+    public function countryNames() : array {
+        return [
+            'pakistan', 'russia', 'afghanistan', 'iran', 'china'
+        ];
+    }
+
+
+
 
 
 }

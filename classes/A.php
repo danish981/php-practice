@@ -8,15 +8,15 @@ class A {
 
     private $private_data_A = "A<br>";
 
-    function method__A() {
+    public static function method__A() {
         echo "A() method <br>";
     }
 
-    function public_method_A() {
+    public static function public_method_A() {
         echo "i am public method A()<br>";
     }
 
-    protected function protected_method_A() {
+    static protected function protected_method_A() {
         echo "I am protected method of class A<br>";
     }
 
