@@ -20,4 +20,16 @@ class A {
         echo "I am protected method of class A<br>";
     }
 
+    public function getPhoneNumber() : string {
+        return "03" . random_int(10, 99) . "\t" . random_int(1000000, 9999999);
+    }
+
+    public function getphpIntMax() : int {
+        return PHP_INT_MAX;
+    }
+
+
+
+
+
 }
