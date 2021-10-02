@@ -5,7 +5,7 @@ final class FinalClass {
     // PUBLIC FIELDS
     private static $youngAge = 20;
     private static $length = 6.11;
-    
+
     public $endOfLine = "\r\n";
     protected $id;
     protected $usernaeme;
@@ -48,7 +48,7 @@ final class FinalClass {
         }
     }
 
-    function printStatement() : void {
+    function printStatement(): void {
         echo "jackdaws love my big sphinx of quartz $this->nextLine";
         echo "jackdaws love my big sphinx of quartz $this->nextLine";
         echo "jackdaws love my big sphinx of quartz $this->nextLine";
@@ -60,7 +60,7 @@ final class FinalClass {
         echo "jackdaws love my big sphinx of quartz $this->nextLine";
     }
 
-    public function printSentence() : void {
+    public function printSentence(): void {
         echo "a quick brown fox jumps over the lazy dog \r\n";
         echo "a quick brown fox jumps over the lazy dog \r\n";
         echo "a quick brown fox jumps over the lazy dog \r\n";

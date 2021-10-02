@@ -147,7 +147,6 @@ class binaryGap {
     /**
      * static function to calculate binary gap of an integer, <br>
      * integer is first coverted to binary , and then returned the the gap <br>
-     * if @param given number is invalid, then detault number 529 will be used
      * @param int $number of which binary gap has to be calculated, the detault is 529
      * @return int the binary of given number, if number is invalid, returns -1
      */
