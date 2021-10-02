@@ -390,5 +390,14 @@ class Functions {
         return $masterString;
     }
 
+
+    public static function getDigitsRandom(int $stringLength = 10) : string {
+        $masterString = "";
+        for($i = 1; $i <= $stringLength; $i++){
+            $masterString .= self::$digits[random_int(0, 9)];
+        }
+        return $masterString;
+    }
+    
 }
 

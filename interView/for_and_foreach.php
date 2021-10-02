@@ -37,5 +37,3 @@ echo "second array data <br>";
 foreach ($arrayRandom_two as $value) {
     echo $value . "\t";
 }
-
-?>
