@@ -11,6 +11,12 @@ class GoodPerson {
     public function singlePerson(): string {
         return "the single person " . $this->personName;
     }
+
+    public function myName(string $myname) : string {
+        return $myname;
+    }
+
+
 }
 
 

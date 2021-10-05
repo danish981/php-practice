@@ -42,9 +42,10 @@ class Functions {
         return self::getPi() * abs($radius) * abs($radius);
     }
 
-    public static function getPi() {
+    public static function getPi() : float {
         return PI;
     }
+
 
     public static function getIslamicScholerNames(): array {
         return [
@@ -80,7 +81,7 @@ class Functions {
         return self::getMax($params);
     }
 
-    public static function getMax(array $array): int {
+    public static function getMax(array $array): ?int {
         if (empty($array) === false) {
             $tempMax = $array[0];
             foreach ($array as $value) {
@@ -94,7 +95,7 @@ class Functions {
     }
 
     public static function printTable(int $tableNum): void {
-        filter_var($tableNum, FILTER_SANITIZE_NUMBER_INT);      // 519
+
         self::checks($tableNum);
         if (is_int($tableNum)) {
             $tableLimit = 10;
@@ -166,9 +167,8 @@ class Functions {
      * @param int $tableNum
      * @return array the returned array filled the table values
      */
-    public static function getTableArray(int $tableNum): array {
+    public static function getTableArray(int $tableNum): ?array {
         if (is_numeric($tableNum)) {
-            abs($tableNum);
             $tableArray = [];
             for ($i = 0; $i <= 10; $i++) {
                 $tableArray[] = ($tableNum * ($i + 1));
@@ -274,8 +274,6 @@ class Functions {
      * @return array
      */
     public static function getRandomNumArray(int $lowerLimit, int $upperLimit): array {
-        filter_var($lowerLimit, FILTER_SANITIZE_NUMBER_INT);
-        filter_var($upperLimit, FILTER_SANITIZE_NUMBER_INT);
         self::varCheck($lowerLimit);
         self::varCheck($upperLimit);
         if ($lowerLimit > $upperLimit) {
@@ -299,7 +297,7 @@ class Functions {
      * @param $variable
      * @return int
      */
-    private static function varCheck(&$variable): int {
+    private static function varCheck(&$variable): ?int {
         if (is_numeric($variable)) {
             if ($variable < 1 || $variable > 1000) {
                 return $variable = 50;
@@ -324,10 +322,10 @@ class Functions {
      * @param int $lowerValue the lower limit
      * @param int $upperLimit the upper limit
      * @param int $arrayLength the size of the array
-     * @return array filled with random numbers
+     * @return array|null filled with random numbers
      * @throws Exception
      */
-    public static function getArrayRandom(int $lowerValue = 10, int $upperLimit = 99, int $arrayLength = 20): array {
+    public static function getArrayRandom(int $lowerValue = 10, int $upperLimit = 99, int $arrayLength = 20): ?array {
         $filledArray = [];
         if (is_numeric($lowerValue) && is_numeric($upperLimit) && is_numeric($arrayLength)) {
             for ($i = 0; $i < $arrayLength; $i++) {
