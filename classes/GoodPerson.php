@@ -1,6 +1,8 @@
 <?php
 
+
 class GoodPerson {
+
     protected $nextLine = "\r\n";
     private $personName = "danish mehmood";
 

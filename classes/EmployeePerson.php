@@ -1,8 +1,8 @@
 <?php
 
 class EmployeePerson extends GoodPerson {
-    public function myName(): void {
-        echo "burhan wani" . $this->nextLine;
+    public function myName() : string {
+        return "burhan wani" . $this->nextLine;
     }
 }
 
