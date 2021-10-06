@@ -396,6 +396,16 @@ class Functions {
         }
         return $masterString;
     }
-    
+
+    public function getAnothervalue(int $lowerLimit = 10) : int {
+        return random_int($lowerLimit, $lowerLimit + 100);
+    }
+
+
+
+
+
+
+
 }
 
