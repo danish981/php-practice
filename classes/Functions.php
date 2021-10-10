@@ -30,6 +30,18 @@ class Functions {
 
     private static $charsArray = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
+    public static function getPi(): float {
+        return self::$pi;
+    }
+
+    public static function getDayInYear(): int {
+        return self::$dayInYear;
+    }
+
+    public static function getSecondsInDay(): int {
+        return self::$secondsInDay;
+    }
+
     public static function getCircumferance(float $radius): float {
         return 2.0 * PI * $radius;
     }
@@ -41,11 +53,6 @@ class Functions {
     public static function getCircleArea(float $radius): float {
         return self::getPi() * abs($radius) * abs($radius);
     }
-
-    public static function getPi() : float {
-        return PI;
-    }
-
 
     public static function getIslamicScholerNames(): array {
         return [
@@ -388,20 +395,43 @@ class Functions {
         return $masterString;
     }
 
-
-    public static function getDigitsRandom(int $stringLength = 10) : string {
+    public static function getDigitsRandom(int $stringLength = 10): string {
         $masterString = "";
-        for($i = 1; $i <= $stringLength; $i++){
+        for ($i = 1; $i <= $stringLength; $i++) {
             $masterString .= self::$digits[random_int(0, 9)];
         }
         return $masterString;
     }
 
-    public function getAnothervalue(int $lowerLimit = 10) : int {
-        return random_int($lowerLimit, $lowerLimit + 100);
+    /**
+     * get random string from the given string, the characters could be repeating
+     * @param string $string
+     * @param int $outputStrLen
+     * @return string
+     * @throws Exception
+     */
+    public static function getRandomFromString(string $string, int $outputStrLen = 10): string {
+        if (!empty($string)) {
+            $masterString = "";
+            $stringLength = strlen($string);
+            for ($i = 1; $i <= $outputStrLen; $i++) {
+                $masterString .= $string[random_int(0, $stringLength)];
+            }
+            return $masterString;
+        }
+        return "";
     }
 
-
+    public static function getShuffledArrayStr(string $string, int $numArray = 5): ?array {
+        if (!empty($string)) {
+            $masterArray = [];
+            for($i = 1; $i <= $numArray ; $i++) {
+                $masterArray[] = shuffle($string[]);
+            }
+            return $masterArray;
+        }
+        return NULL;
+    }
 
 
 

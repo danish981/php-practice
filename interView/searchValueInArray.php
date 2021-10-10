@@ -14,5 +14,3 @@ if (in_array($searchNumber, $randomArray)) {
 
 // this is useful function to find element in the array
 //  in_array(needle, haystack)
-
-?>

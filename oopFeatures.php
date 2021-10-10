@@ -14,9 +14,11 @@
 
 <ul>
     <li>Abstraction</li>
-    <ul>
-        <li>Combining multiple smaller operations to single one so that they can be referred to by name</li>
-    </ul>
+    <li>
+        <ul>
+            <li>Combining multiple smaller operations to single one so that they can be referred to by name</li>
+        </ul>
+    </li>
     <li>Encapsulation (Information Hiding)</li>
     <ul>
         <li>Seperating implementation via interfaces</li>

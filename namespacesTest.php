@@ -29,13 +29,10 @@ $factoryPersonObject = new factoryPerson;
 $managerPersonObject = new managerPerson;
 $adminPersonObject = new adminPerson;
 
-echo "asdlfaksdflk<br>";
-echo "random string <span><span>bla bla bla</span><br>";
-echo "bla bla bla string \n";
-echo "stringggggggggggggggg <div>";
-echo "stringggggggggggggggg";
-
-
-
 ?>
+
+
+
+
+
 <link rel="stylesheet" href="style.css">

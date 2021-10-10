@@ -7,7 +7,7 @@ namespace Factory\Managers;
 
 class Person {
 
-    private string $nextLine = "<br>";
+    private $nextLine = "<br>";
 
     // static property cannot be called from non-static reference
     // when we access the class properties, fields with $this->, we won't write $ with the variable, unlike self::propertyName but $this->propertyName;

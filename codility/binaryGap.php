@@ -75,8 +75,6 @@ class binaryGap {
             $this->trimmedBinaryNum = trim($this->binaryString, '\0');
             $this->actualNubmer = abs($number);
             $this->calculate();
-        } else {
-            throw new Exception("Number $number mismatched. Should be an integer");
         }
     }
 

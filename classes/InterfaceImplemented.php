@@ -25,7 +25,7 @@ class InterfaceImplemented extends BookOne implements UserInterface, InterfaceTw
         return "collection removed from the id of $id $this->nextLine";
     }
 
-    public function deleteDate(int $id) : string {
+    public function deleteDate(int $id): string {
         return "data deleted successfully from the $id $this->nextLine";
     }
 
