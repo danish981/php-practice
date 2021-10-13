@@ -20,50 +20,30 @@ class Force {
         $this->forceAppliedOn = $forceAppliedOn;
     }
 
-    /**
-     * @return int
-     */
     public function getNewtonsForce(): int {
         return $this->newtonsForce;
     }
 
-    /**
-     * @param int $newtonsForce
-     */
     public function setNewtonsForce(int $newtonsForce) {
         $this->newtonsForce = $newtonsForce;
     }
 
-    /**
-     * @return string
-     */
     public function getForceAppliedFromDirection(): string {
         return $this->forceAppliedFromDirection;
     }
 
-    /**
-     * @param string $forceAppliedFromDirection
-     */
     public function setForceAppliedFromDirection(string $forceAppliedFromDirection) {
         $this->forceAppliedFromDirection = $forceAppliedFromDirection;
     }
 
-    /**
-     * @return string
-     */
     public function getForceAppliedOn(): string {
         return $this->forceAppliedOn;
     }
 
-    /**
-     * @param string $forceAppliedOn
-     */
     public function setForceAppliedOn(string $forceAppliedOn) {
         $this->forceAppliedOn = $forceAppliedOn;
     }
 
-    // this phpstorm version does not generating getters and setters
-    // we are doing it manually
     function __destruct() {
         // TODO: Implement __destruct() method.
     }

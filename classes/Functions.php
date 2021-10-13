@@ -7,6 +7,8 @@
 // building other mini projects and solutions
 // solution word is used for c# programmers, when they build their solution in visual studio, that is called solution
 
+declare(strict_types=1);
+
 namespace Utils;
 
 // this class has many utility methods that we need, a type of new concept for me
@@ -19,16 +21,16 @@ class Functions {
     // private static $nextLine = "\r\n";
     // PHP_EOL not working too
 
-    private static $nextLine = "<br>";
-    private static $lineBreak = "\n";       // this will work for only in command line
-    private static $pi = PI;
-    private static $dayInYear = 365;
-    private static $secondsInDay = 86400;
-    private static $lowerLetters = 'abcdefghiklmnopqrstuvwxyz';
-    private static $upperLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    private static $digits = '0123456789';
+    private static string $nextLine = "<br>";
+    private static string $lineBreak = "\n";       // this will work for only in command line
+    private static float $pi = PI;
+    private static int $dayInYear = 365;
+    private static int $secondsInDay = 86400;
+    private static string $lowerLetters = 'abcdefghiklmnopqrstuvwxyz';
+    private static string $upperLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    private static string $digits = '0123456789';
 
-    private static $charsArray = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    private static string $charsArray = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
     public static function getPi(): float {
         return self::$pi;
@@ -236,6 +238,7 @@ class Functions {
      * the awesome variadic functions, the parameters that are limitless, they are used and manipulated
      * @param array ...$arguments
      * @return string
+     * @throws \JsonException
      */
     public static function variadic_function(...$arguments): string {
         return json_encode($arguments, JSON_THROW_ON_ERROR);
@@ -425,17 +428,13 @@ class Functions {
     public static function getShuffledArrayStr(string $string, int $numArray = 5): ?array {
         if (!empty($string)) {
             $masterArray = [];
-            for($i = 1; $i <= $numArray ; $i++) {
+            for ($i = 1; $i <= $numArray; $i++) {
                 $masterArray[] = shuffle($string[]);
             }
             return $masterArray;
         }
         return NULL;
     }
-
-
-
-
 
 }
 

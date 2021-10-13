@@ -11,7 +11,10 @@ class Pdo {
 
     public function getPdoMethod() {
         return "this is pdo class object " . self::$nextLine;
-
     }
+
+
+
+
 
 }

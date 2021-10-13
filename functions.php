@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 // when we declare the namespace, it means we have to write the namespace too wherever we have
 // to include the file, otherwise phpstorm does autocompletes for all the php files present in 
 // the project, but thats not functional without including actual file in the index file
@@ -38,12 +40,15 @@ function printFormattedArray($array) {
     echo "</pre>";
 }
 
+// strict types is enabled
+
+function show(string $str, int $number, bool $isTrue): string {
+    return "the string _________ $str and $number __________ and and and $isTrue";
+}
 
 
-
-
-
-
+// when the strict types is enabled, the line show error, when is diabled, the error is shown at compile time
+//echo show(3423, "asdfasdf", 45);
 
 // NOTE : ONLY VARIABLES CAN BE PASSED BY REFENCE
 // NOTE : CONSTANTS CANNOT BE PASSED BY REFERENCE

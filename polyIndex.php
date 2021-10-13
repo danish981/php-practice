@@ -24,4 +24,3 @@ $anotherChildobject->whoAmI();
 
 
 
-
