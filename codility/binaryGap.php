@@ -70,6 +70,7 @@ class binaryGap {
     private $ones;
     private $binaryGap;
 
+
     public function __construct(int $number) {
         if (is_numeric($number)) {
             $this->trimmedBinaryNum = trim($this->binaryString, '\0');

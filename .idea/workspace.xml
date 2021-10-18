@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="added few lines of code">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/Functions.php" afterPath="$PROJECT_DIR$/classes/Functions.php" />
-    </list>
+    <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="added few lines of code" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,8 +77,8 @@
       <file leaf-file-name="binaryGap.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codility/binaryGap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-900">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="640">
+              <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -173,7 +171,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1296" />
@@ -316,7 +314,7 @@
       <workItem from="1634155934432" duration="1680000" />
       <workItem from="1634158160905" duration="2222000" />
       <workItem from="1634518128415" duration="261000" />
-      <workItem from="1634518408729" duration="755000" />
+      <workItem from="1634518408729" duration="797000" />
     </task>
     <task id="LOCAL-00001" summary="adding getters and setters to the class">
       <created>1633032592412</created>
@@ -420,7 +418,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6036000" />
+    <option name="totallyTimeSpent" value="6078000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -771,8 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codility/binaryGap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="640">
+          <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
           <folding />
         </state>
       </provider>
