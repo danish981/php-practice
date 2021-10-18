@@ -21,16 +21,16 @@ class Functions {
     // private static $nextLine = "\r\n";
     // PHP_EOL not working too
 
-    private static $nextLine = "<br>";
-    private static $lineBreak = "\n";       // this will work for only in command line
-    private static $pi = PI;
-    private static $dayInYear = 365;
-    private static $secondsInDay = 86400;
-    private static $lowerLetters = 'abcdefghiklmnopqrstuvwxyz';
-    private static $upperLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    private static $digits = '0123456789';
+    private static string $nextLine = "<br>";
+    private static string $lineBreak = "\n";       // this will work for only in command line
+    private static float $pi = PI;
+    private static int $dayInYear = 365;
+    private static int $secondsInDay = 86400;
+    private static string $lowerLetters = 'abcdefghiklmnopqrstuvwxyz';
+    private static string $upperLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    private static string $digits = '0123456789';
 
-    private static $charsArray = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    private static $mixChars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
     public static function getPi(): float {
         return self::$pi;
@@ -379,9 +379,9 @@ class Functions {
 
     public static function getRandomString(int $stringLength = 10): string {
         $masterString = "";
-        $charsLength = strlen(self::$charsArray);
+        $charsLength = strlen(self::$mixChars);
         for ($i = 1; $i <= $stringLength; $i++) {
-            $masterString .= self::$charsArray[random_int(0, $charsLength)];
+            $masterString .= self::$mixChars[random_int(0, $charsLength)];
         }
         return $masterString;
     }
@@ -437,13 +437,9 @@ class Functions {
     }
 
 
-    public static function getPhoneNumber() : string {
+    public static function getPhoneNumber(): string {
         return "03" . random_int(10, 99) . " " . random_int(1234567, 9999999);
     }
-
-
-
-
 
 
 }
