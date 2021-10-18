@@ -190,7 +190,7 @@ class Functions {
     /**
      * multiply all the given paramters and return the product
      * the demo of awesome variadic functions, thanks php for awesome functions
-     * @param int ...$args
+     * @param int|\int[] ...$args
      * @return int
      */
     public static function getProduct(int ...$args): int {
@@ -222,7 +222,7 @@ class Functions {
     /**
      * the practice of awesome variadic functions for practicing,
      *
-     * @param int ...$numbers
+     * @param int|\int[] ...$numbers
      * @return int average of numbers given
      */
     public static function getAverage(int ...$numbers): int {
@@ -435,6 +435,12 @@ class Functions {
         }
         return NULL;
     }
+
+
+    public static function getPhoneNumber() : string {
+        return "03" . random_int(10, 99) . " " . random_int(1234567, 9999999);
+    }
+
 
 
 
