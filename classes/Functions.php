@@ -21,16 +21,16 @@ class Functions {
     // private static $nextLine = "\r\n";
     // PHP_EOL not working too
 
-    private static string $nextLine = "<br>";
-    private static string $lineBreak = "\n";       // this will work for only in command line
-    private static float $pi = PI;
-    private static int $dayInYear = 365;
-    private static int $secondsInDay = 86400;
-    private static string $lowerLetters = 'abcdefghiklmnopqrstuvwxyz';
-    private static string $upperLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    private static string $digits = '0123456789';
+    private static $nextLine = "<br>";
+    private static $lineBreak = "\n";       // this will work for only in command line
+    private static $pi = PI;
+    private static $dayInYear = 365;
+    private static $secondsInDay = 86400;
+    private static $lowerLetters = 'abcdefghiklmnopqrstuvwxyz';
+    private static $upperLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    private static $digits = '0123456789';
 
-    private static string $charsArray = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    private static $charsArray = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
     public static function getPi(): float {
         return self::$pi;
@@ -435,6 +435,10 @@ class Functions {
         }
         return NULL;
     }
+
+
+
+
 
 }
 
