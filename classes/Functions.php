@@ -316,6 +316,26 @@ class Functions {
         return null;
     }
 
+
+    /**
+     * get random user details in array
+     * @return array the array having details
+     * @throws Exception
+     */
+    public function getUserDetails(): array {
+        return [
+            'id' => random_int(0, 100),
+            'name' => 'burhan ali',
+            'username' => 'burhanAli' . random_int(0, 100),
+            'email' => 'burhanAli32423@yahoo.com',
+            'country' => 'pakistan',
+            'povince' => 'punjab',
+            'city' => 'gujranwala',
+            'zipCode' => 52250
+        ];
+    }
+
+
     /**
      * swap two values, the method get values by passed by referene
      * @param $firstValue
@@ -377,6 +397,12 @@ class Functions {
         return $masterString;
     }
 
+    /**
+     * generate and returns the random string of given length, default is 10 chars
+     * @param int $stringLength length of string
+     * @return string random string
+     * @throws Exception
+     */
     public static function getRandomString(int $stringLength = 10): string {
         $masterString = "";
         $charsLength = strlen(self::$mixChars);
