@@ -4,9 +4,9 @@ namespace newton\lawForces;
 
 class Force {
 
-    public $newtonsForce = 50;
-    public $forceAppliedFromDirection = "South 230";
-    public $forceAppliedOn = "a chair";
+    public int $newtonsForce = 50;
+    public string $forceAppliedFromDirection = "South 230";
+    public string $forceAppliedOn = "a chair";
 
     /**
      * Force constructor.

@@ -30,7 +30,7 @@ class Functions {
     private static string $upperLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     private static string $digits = '0123456789';
 
-    private static $mixChars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    private static string $mixChars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
     public static function getPi(): float {
         return self::$pi;
@@ -222,7 +222,7 @@ class Functions {
     /**
      * the practice of awesome variadic functions for practicing,
      *
-     * @param int|\int[] ...$numbers
+     * @param int ...$numbers
      * @return int average of numbers given
      */
     public static function getAverage(int ...$numbers): int {
@@ -238,7 +238,6 @@ class Functions {
      * the awesome variadic functions, the parameters that are limitless, they are used and manipulated
      * @param array ...$arguments
      * @return string
-     * @throws \JsonException
      */
     public static function variadic_function(...$arguments): string {
         return json_encode($arguments, JSON_THROW_ON_ERROR);
@@ -269,10 +268,7 @@ class Functions {
         }
         $array = [];
         for ($i = 1; $i <= $arrayLength; $i++) {
-            try {
-                $array[$i] = random_int($lowerLimit, $upperLimit);
-            } catch (Exception $e) {
-            }
+            $array[$i] = random_int($lowerLimit, $upperLimit);
         }
         return $array;
     }
@@ -282,6 +278,7 @@ class Functions {
      * @param int $lowerLimit
      * @param int $upperLimit
      * @return array
+     * @throws Exception
      */
     public static function getRandomNumArray(int $lowerLimit, int $upperLimit): array {
         self::varCheck($lowerLimit);
@@ -294,10 +291,7 @@ class Functions {
         $arrayLength = 100;
         $array = [];        // arrays are dynamic in php, they can't be pre-sized to a certain limit
         for ($i = 0; $i <= $arrayLength; $i++) {
-            try {
-                $array[$i] = random_int($lowerLimit, $upperLimit);
-            } catch (Exception $e) {
-            }        // we dont need to swap the values, it does automatically
+            $array[$i] = random_int($lowerLimit, $upperLimit);
         }
         return $array;
     }
@@ -316,7 +310,6 @@ class Functions {
         return null;
     }
 
-
     /**
      * get random user details in array
      * @return array the array having details
@@ -334,7 +327,6 @@ class Functions {
             'zipCode' => 52250
         ];
     }
-
 
     /**
      * swap two values, the method get values by passed by referene
@@ -462,11 +454,9 @@ class Functions {
         return NULL;
     }
 
-
     public static function getPhoneNumber(): string {
         return "03" . random_int(10, 99) . " " . random_int(1234567, 9999999);
     }
-
 
 }
 

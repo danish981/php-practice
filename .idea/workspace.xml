@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="added few lines of code">
+    <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="adding few lines of code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myClasses/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/myClasses/Person.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myClasses/Force.php" beforeDir="false" afterPath="$PROJECT_DIR$/myClasses/Force.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +93,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
@@ -109,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -144,7 +146,7 @@
       <workItem from="1634518408729" duration="797000" />
       <workItem from="1634556608003" duration="2340000" />
       <workItem from="1634604270244" duration="284000" />
-      <workItem from="1634606191444" duration="163000" />
+      <workItem from="1634606191444" duration="527000" />
     </task>
     <task id="LOCAL-00001" summary="adding getters and setters to the class">
       <created>1633032592412</created>
@@ -265,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634558854470</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="adding few lines of code">
+      <created>1634606380107</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1634606380107</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -319,7 +328,8 @@
     <MESSAGE value="changed few lines" />
     <MESSAGE value="added few lines" />
     <MESSAGE value="added few lines of code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added few lines of code" />
+    <MESSAGE value="adding few lines of code" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding few lines of code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="146" key="#CLI_Interpreters" timestamp="1633869105030">
@@ -338,21 +348,29 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="104" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1634604532564" />
+    <state x="324" y="85" key="CommitChangelistDialog2" timestamp="1634606378974">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="324" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1634606378974" />
     <state x="475" y="415" key="NewPhpFileDialog" timestamp="1634125261634">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="475" y="415" key="NewPhpFileDialog/0.0.1280.984@0.0.1280.984" timestamp="1634125261634" />
-    <state x="141" y="136" key="SettingsEditor" timestamp="1634606353584">
+    <state x="141" y="136" key="SettingsEditor" timestamp="1634606717743">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="141" y="136" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1634606353584" />
+    <state x="141" y="136" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1634606717743" />
     <state x="347" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1634604370593">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="347" y="318" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1634604370593" />
-    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1633898108142">
+    <state x="296" y="226" key="run.anything.popup" timestamp="1634606392825">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1633898108142" />
+    <state x="296" y="226" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1634606392825" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1634606652471">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1634606652471" />
   </component>
 </project>
