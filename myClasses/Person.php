@@ -17,10 +17,6 @@ class Person {
 
     public function myMethod() {
         echo "i am a method " . __METHOD__ . $this->nextLine;
-
     }
-
-
-
 
 }
