@@ -78,7 +78,7 @@ class Functions {
             "Allama Ajmal qadri rahwali"
         ];
     }
-
+    
     public static function pushElementsIntoArray(array $array, ...$elements): void {
         foreach ($elements as $values) {
             $array[] = $values;
@@ -161,7 +161,11 @@ class Functions {
         }
     }
 
-    // return the table array, if passed 5, then the array will be [5, 10, 15 ..... 50] int
+    /**
+     * gets the sum of all the numbers of integer type variables passed
+     * @param int ...$numbers the numbers, or array of numbers
+     * @return int the sum of all the numbers
+     */
     public static function getSum(int ...$numbers): int {
         // we are getting the ... $numbers as an array, REMEMBERS
         $sum = 0;
@@ -190,7 +194,7 @@ class Functions {
     /**
      * multiply all the given paramters and return the product
      * the demo of awesome variadic functions, thanks php for awesome functions
-     * @param int|\int[] ...$args
+     * @param int ...$args
      * @return int
      */
     public static function getProduct(int ...$args): int {
@@ -221,7 +225,6 @@ class Functions {
 
     /**
      * the practice of awesome variadic functions for practicing,
-     *
      * @param int ...$numbers
      * @return int average of numbers given
      */
@@ -243,6 +246,11 @@ class Functions {
         return json_encode($arguments, JSON_THROW_ON_ERROR);
     }
 
+    /**
+     * prints the table of given number to the certain limit
+     * @param int $tableNum the table number
+     * @param int $limit the ending limit of the table
+     */
     public static function printTableToLimit(int $tableNum, int $limit): void {
         filter_var($tableNum, FILTER_SANITIZE_NUMBER_INT);
         filter_var($limit, FILTER_SANITIZE_NUMBER_INT);
@@ -261,6 +269,7 @@ class Functions {
      * @param int $lowerLimit
      * @param int $upperLimit
      * @return array filleld with random numbers
+     * @throws Exception
      */
     public static function getRandomArrayOfSize(int $arrayLength, int $lowerLimit, int $upperLimit): array {
         if ($arrayLength < 1 || $arrayLength > 999) {
@@ -324,7 +333,8 @@ class Functions {
             'country' => 'pakistan',
             'povince' => 'punjab',
             'city' => 'gujranwala',
-            'zipCode' => 52250
+            'zipCode' => 52250,
+            'phone' => self::getPhoneNumber()
         ];
     }
 
@@ -404,10 +414,22 @@ class Functions {
         return $masterString;
     }
 
+    /**
+     * generates and returns truly random characters string of given length
+     * @param int $stringLength the length of the array
+     * @return string
+     * @throws Exception
+     */
     public static function getUltimateRandomString(int $stringLength = 10): string {
         return substr(md5(self::getRandomString($stringLength)), 0, $stringLength);
     }
 
+    /**
+     * get random characters string of upper characters of given length and returns it
+     * @param int $stringLength the length of the array
+     * @return string the generated array
+     * @throws Exception random number
+     */
     public static function getUpperRandomString(int $stringLength = 10): string {
         $masterString = "";
         for ($i = 1; $i <= $stringLength; $i++) {
@@ -416,7 +438,13 @@ class Functions {
         return $masterString;
     }
 
-    public static function getDigitsRandom(int $stringLength = 10): string {
+    /**
+     * gets the string of given length filled with random numbers
+     * @param int $stringLength the length of string, and cannot be 0
+     * @return string the generated string with random digits
+     * @throws Exception
+     */
+    public static function getStrRandomDigits(int $stringLength = 10): string {
         $masterString = "";
         for ($i = 1; $i <= $stringLength; $i++) {
             $masterString .= self::$digits[random_int(0, 9)];
@@ -443,10 +471,17 @@ class Functions {
         return "";
     }
 
-    public static function getShuffledArrayStr(string $string, int $numArray = 5): ?array {
+    /**
+     * generates an array of given length and fills all the position with random shuffled string characters,
+     * for example the string is "king", the array would be ['ingk', kgin', 'gink'] etc
+     * @param string $string the string, meaningful or not
+     * @param int $arrayLength the length of the array
+     * @return array|null if the array is filled then array will be returned, and NULL otherwisw
+     */
+    public static function getShuffledArrayStr(string $string, int $arrayLength = 5): ?array {
         if (!empty($string)) {
             $masterArray = [];
-            for ($i = 1; $i <= $numArray; $i++) {
+            for ($i = 1; $i <= $arrayLength; $i++) {
                 $masterArray[] = shuffle($string[]);
             }
             return $masterArray;
@@ -454,6 +489,11 @@ class Functions {
         return NULL;
     }
 
+    /**
+     * generates phone number like 03xx xxxxxxx and returns
+     * @return string the phone number string
+     * @throws Exception ranom_int throws exception
+     */
     public static function getPhoneNumber(): string {
         return "03" . random_int(10, 99) . " " . random_int(1234567, 9999999);
     }

@@ -70,6 +70,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         background-color: rgb(235, 241, 228);
         box-shadow: 0 0 3px 3px rgb(243, 253, 243);
     }
-
 </style>
-
