@@ -78,7 +78,7 @@ class Functions {
             "Allama Ajmal qadri rahwali"
         ];
     }
-    
+
     public static function pushElementsIntoArray(array $array, ...$elements): void {
         foreach ($elements as $values) {
             $array[] = $values;
@@ -163,7 +163,7 @@ class Functions {
 
     /**
      * gets the sum of all the numbers of integer type variables passed
-     * @param int ...$numbers the numbers, or array of numbers
+     * @param int ...$numbers
      * @return int the sum of all the numbers
      */
     public static function getSum(int ...$numbers): int {

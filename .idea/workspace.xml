@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="adding few lines of code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myClasses/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/myClasses/Person.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +93,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
@@ -149,6 +151,9 @@
       <workItem from="1634612700469" duration="601000" />
       <workItem from="1634669414762" duration="47000" />
       <workItem from="1634673474915" duration="795000" />
+      <workItem from="1634759592302" duration="292000" />
+      <workItem from="1634849254320" duration="220000" />
+      <workItem from="1634955286478" duration="1171000" />
     </task>
     <task id="LOCAL-00001" summary="adding getters and setters to the class">
       <created>1633032592412</created>
@@ -365,10 +370,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="475" y="415" key="NewPhpFileDialog/0.0.1280.984@0.0.1280.984" timestamp="1634125261634" />
-    <state x="141" y="136" key="SettingsEditor" timestamp="1634673649666">
+    <state x="141" y="136" key="SettingsEditor" timestamp="1634955852361">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="141" y="136" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1634673649666" />
+    <state x="141" y="136" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1634955852361" />
     <state x="347" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1634604370593">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
