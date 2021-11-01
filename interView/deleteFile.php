@@ -24,10 +24,3 @@ if (unlink("fileDelete.txt")) {
     echo "file " . $filename . " is not deleted\n";
 }
 
-
-
-
-
-
-
-

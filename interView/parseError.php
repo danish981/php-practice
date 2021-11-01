@@ -11,6 +11,10 @@ echo "white";
 echo "red";
 
 // note, semicolor is missing
-echo "orange"
+//echo "orange";
+echo 'orange';      // when semicolon is missing
 
-?>
+
+
+
+

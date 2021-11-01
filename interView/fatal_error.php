@@ -10,11 +10,9 @@ function singleFunction() {
 // a function that does not exist
 anotherFunction();
 
-
 // calling a function that exists
 singleFunction();
 
-
 // calling an undefined function
-unknownFUnction(45,"something");
+unknownFUnction(45, "something");
 
