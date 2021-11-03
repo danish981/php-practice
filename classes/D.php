@@ -16,11 +16,11 @@ class D extends C {
     protected $protected_data_D = "D<br>";
     private $private_data_D = "stringValue__D() class\n";
 
-    public function getPrivateData__D() : string {
+    public function getPrivateData__D(): string {
         return $this->private_data_D;
     }
 
-    public function public_method_D() : string {
+    public function public_method_D(): string {
         return "i am public method D()";
     }
 
@@ -65,7 +65,7 @@ class D extends C {
         $this->method__B();
     }
 
-    function accessPropertyUsingThis() : void {
+    function accessPropertyUsingThis(): void {
         $this->access__A();
         $this->access__B();
         $this->protected_data_A;

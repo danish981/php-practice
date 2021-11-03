@@ -19,13 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+    <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="added girl names and boy names">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/codility/binaryGap.php" afterPath="$PROJECT_DIR$/codility/binaryGap.php" />
-      <change beforePath="$PROJECT_DIR$/interView/deleteFile.php" afterPath="$PROJECT_DIR$/interView/deleteFile.php" />
-      <change beforePath="$PROJECT_DIR$/interView/fatal_error.php" afterPath="$PROJECT_DIR$/interView/fatal_error.php" />
-      <change beforePath="$PROJECT_DIR$/interView/parseError.php" afterPath="$PROJECT_DIR$/interView/parseError.php" />
+      <change beforePath="$PROJECT_DIR$/classes/D.php" afterPath="$PROJECT_DIR$/classes/D.php" />
+      <change beforePath="$PROJECT_DIR$/classes/Functions.php" afterPath="$PROJECT_DIR$/classes/Functions.php" />
+      <change beforePath="$PROJECT_DIR$/interView/fileHandling.php" afterPath="$PROJECT_DIR$/interView/fileHandling.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,6 +44,10 @@
     <expand />
     <select />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="pract" />
   </component>
@@ -61,14 +63,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parseError.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interView/parseError.php">
+      <file leaf-file-name="AbstractClass.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/AbstractClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-              <folding>
-                <element signature="e#7#56#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractClassOne.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/AbstractClassOne.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/Functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,20 +96,58 @@
       <file leaf-file-name="binaryGap.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codility/binaryGap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#7#1277#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deleteFile.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deleteFile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interView/deleteFile.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileHandling.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interView/fileHandling.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookOne.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/BookOne.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="14" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="D.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/D.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodPerson.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/GoodPerson.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,6 +173,10 @@
         <option value="$PROJECT_DIR$/codility/binaryGap.php" />
         <option value="$PROJECT_DIR$/interView/parseError.php" />
         <option value="$PROJECT_DIR$/interView/deleteFile.php" />
+        <option value="$PROJECT_DIR$/classes/D.php" />
+        <option value="$PROJECT_DIR$/interView/fileHandling.php" />
+        <option value="$PROJECT_DIR$/classes/BookOne.php" />
+        <option value="$PROJECT_DIR$/classes/Functions.php" />
       </list>
     </option>
   </component>
@@ -186,14 +248,14 @@
             <path>
               <item name="pract" type="b2602c69:ProjectViewProjectNode" />
               <item name="pract" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="interView" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -204,7 +266,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Fun&#9;null&#9;null&#10;Fu&#9;null&#9;null&#10;Functions&#9;FILE&#9;file://C:/xampp/htdocs/pract/functions.php&#10;functions&#9;FILE&#9;file://C:/xampp/htdocs/pract/functions.php" />
+    <property name="SearchEverywhereHistoryKey" value="Functions&#9;FILE&#9;file://C:/xampp/htdocs/pract/classes/Functions.php&#10;functions&#9;null&#9;null&#10;Fun&#9;null&#9;null&#10;Fu&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -294,7 +356,9 @@
       <workItem from="1635254755461" duration="193000" />
       <workItem from="1635310347532" duration="243000" />
       <workItem from="1635776623387" duration="480000" />
-      <workItem from="1635777118651" duration="313000" />
+      <workItem from="1635777118651" duration="366000" />
+      <workItem from="1635777487395" duration="3000" />
+      <workItem from="1635936706471" duration="798000" />
     </task>
     <task id="LOCAL-00001" summary="adding getters and setters to the class">
       <created>1633032592412</created>
@@ -450,11 +514,18 @@
       <option name="project" value="LOCAL" />
       <updated>1635777190895</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="the commit alsdfkjasldfkjasdf;kl">
+      <created>1635777441146</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1635777441146</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="793000" />
+    <option name="totallyTimeSpent" value="1647000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -469,11 +540,11 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -486,6 +557,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -529,49 +601,31 @@
     <MESSAGE value="adding few lines of code" />
     <MESSAGE value="commit everything" />
     <MESSAGE value="the comment file" />
-    <option name="LAST_COMMIT_MESSAGE" value="the comment file" />
+    <MESSAGE value="the commit alsdfkjasldfkjasdf;kl" />
+    <MESSAGE value="added girl names and boy names" />
+    <option name="LAST_COMMIT_MESSAGE" value="added girl names and boy names" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="220" y="146" key="#CLI_Interpreters" timestamp="1633869105030">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="220" y="146" key="#CLI_Interpreters/0.0.1280.984@0.0.1280.984" timestamp="1633869105030" />
-    <state x="266" y="170" key="#Inspections" timestamp="1633897767810">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="266" y="170" key="#Inspections/0.0.1280.984@0.0.1280.984" timestamp="1633897767810" />
-    <state x="347" y="134" key="#PHP" timestamp="1633869107621">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="347" y="134" key="#PHP/0.0.1280.984@0.0.1280.984" timestamp="1633869107621" />
-    <state x="104" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1634604532564">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="104" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1634604532564" />
-    <state x="190" y="70" width="877" height="813" key="CommitChangelistDialog2" timestamp="1634606779156">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="190" y="70" width="877" height="813" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1634606779156" />
-    <state x="475" y="415" key="NewPhpFileDialog" timestamp="1634125261634">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="475" y="415" key="NewPhpFileDialog/0.0.1280.984@0.0.1280.984" timestamp="1634125261634" />
-    <state x="140" y="125" key="SettingsEditor" timestamp="1635254946553">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="140" y="125" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1635254946553" />
-    <state x="347" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1635310582229">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="347" y="318" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1635310582229" />
-    <state x="296" y="226" key="run.anything.popup" timestamp="1634606392825">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="296" y="226" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1634606392825" />
-    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1634606652471">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1634606652471" />
+    <state x="220" y="146" key="#CLI_Interpreters" />
+    <state x="220" y="146" key="#CLI_Interpreters/0.0.1280.984@0.0.1280.984" />
+    <state x="266" y="170" key="#Inspections" />
+    <state x="266" y="170" key="#Inspections/0.0.1280.984@0.0.1280.984" />
+    <state x="347" y="134" key="#PHP" />
+    <state x="347" y="134" key="#PHP/0.0.1280.984@0.0.1280.984" />
+    <state x="104" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="104" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" />
+    <state x="190" y="70" width="877" height="813" key="CommitChangelistDialog2" />
+    <state x="190" y="70" width="877" height="813" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" />
+    <state x="475" y="415" key="NewPhpFileDialog" />
+    <state x="475" y="415" key="NewPhpFileDialog/0.0.1280.984@0.0.1280.984" />
+    <state x="140" y="125" key="SettingsEditor" />
+    <state x="140" y="125" key="SettingsEditor/0.0.1280.984@0.0.1280.984" />
+    <state x="347" y="318" key="com.intellij.ide.util.TipDialog" />
+    <state x="347" y="318" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" />
+    <state x="296" y="226" key="run.anything.popup" />
+    <state x="296" y="226" key="run.anything.popup/0.0.1280.984@0.0.1280.984" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -580,20 +634,59 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/abstractIndex.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interView/parseError.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#7#56#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codility/binaryGap.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Helper.vue" />
-    <entry file="file://$PROJECT_DIR$/interView/parseError.php">
+    <entry file="file://$PROJECT_DIR$/interView/deleteFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="e#7#56#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="468">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interView/fileHandling.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/D.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/GoodPerson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -605,13 +698,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/interView/parseError.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#7#56#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/codility/binaryGap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#1277#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -619,6 +720,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interView/fileHandling.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/D.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/GoodPerson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractIndex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helper.vue" />
+    <entry file="file://$PROJECT_DIR$/interView/parseError.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#7#56#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/D.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/GoodPerson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interView/deleteFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interView/fileHandling.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/BookOne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codility/binaryGap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractIndex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/AbstractClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/AbstractClassOne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
           <folding />
         </state>
       </provider>
