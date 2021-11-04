@@ -1,7 +1,6 @@
 <?php
 
 // static functions inside the classes, these functions are used to test the code and prepare for git repo
-
 // this is the actuall class where we have defined the static utility methods for our ease
 // in coding the soluitions, i did the same in java and created many classes that are helpful while
 // building other mini projects and solutions
@@ -12,6 +11,7 @@ declare(strict_types=1);
 namespace Utils;
 
 // this class has many utility methods that we need, a type of new concept for me
+
 
 use Exception;
 
@@ -41,6 +41,14 @@ class Functions {
         'ayesha', 'tehmina', 'amina', 'bushra', 'tahira', 'saira', 'alia', 'azra', 'maria', 'shazia', 'hania',
         'haani', 'bakhtawar', 'naseem', 'akhtar', 'zareena', 'zulekha', 'gul'
     ];
+
+    public static function getBoyName(): string {
+        return self::$muslimBoyNames[random_int(0, count(self::$muslimBoyNames) - 1)];
+    }
+
+    public static function getGirlName(): string {
+        return self::$muslimGirlNames[random_int(0, count(self::$muslimGirlNames) - 1)];
+    }
 
     public static function getPi(): float {
         return self::$pi;

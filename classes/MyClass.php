@@ -11,7 +11,7 @@ class MyClass extends AbstractClassOne {
     }
 
     public function getValueSomeHow() {
-
+        return "value : " . md5(random_int(0, 10));
     }
 
     public function getFoo($param) {
@@ -23,7 +23,7 @@ class MyClass extends AbstractClassOne {
     }
 
     public function myCityName(): string {
-        return "random string<br>\n";
+        return "random string\n";
     }
 
     public function myRollNumber(): int {
@@ -31,7 +31,7 @@ class MyClass extends AbstractClassOne {
     }
 
     public function myCountryName(): string {
-        return "pakistan<br>";
+        return "pakistan";
     }
 
     protected function getRandomNumber(int $lowerLimit, int $upperLimit): int {
@@ -48,7 +48,7 @@ class MyClass extends AbstractClassOne {
         } else if ($country == "bangladesh") {
             return "dhaka";
         }
-        return "capital of country $country<br>";
+        return "capital of country $country";
     }
 }
 
