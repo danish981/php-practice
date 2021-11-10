@@ -12,7 +12,6 @@ namespace Utils;
 
 // this class has many utility methods that we need, a type of new concept for me
 
-
 use Exception;
 
 class Functions {
@@ -34,7 +33,7 @@ class Functions {
     private static array $muslimBoyNames = [
         'burhan', 'yameen', 'ali', 'yaseen', 'ahmad', 'kashif', 'shamas', 'tabraiz', 'khizar', 'hanbal', 'shafii', 'saif',
         'hamza', 'babar', 'farhan', 'danish', 'suleman', 'salman', 'hasnain', 'hassan', 'binyameen', 'ashraf', 'umar',
-        'abubakar', 'siddeeq', 'nazar', 'sufi'
+        'abubakar', 'siddeeq', 'nazar', 'sufi', 'haroon', 'ahmad', 'waleed', 'haider', 'hanbal', 'khizar', 'burqan'
     ];
 
     private static array $muslimGirlNames = [
@@ -71,7 +70,7 @@ class Functions {
     }
 
     public static function getCircleArea(float $radius): float {
-        return self::$PI * abs($radius) * abs($radius);
+        return self::$pi * abs($radius) * abs($radius);
     }
 
     public static function getIslamicScholerNames(): array {
@@ -122,7 +121,6 @@ class Functions {
     }
 
     public static function printTable(int $tableNum): void {
-
         self::checks($tableNum);
         if (is_int($tableNum)) {
             $tableLimit = 10;

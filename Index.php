@@ -10,24 +10,9 @@ $nextLine = "<br>";
 
 echo "current line <br>";
 
-
 include('init.php');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ?>
 <link rel="stylesheet" href="style.css">
 <h5>learning can only be done in sublime text 3</h5>
-<h5>learning php and pdo in vscode  <?= date('Y-m-d H:i:s') ?> </h5>
+<h5>learning php and pdo in vscode <?= date('Y-m-d H:i:s') ?> </h5>

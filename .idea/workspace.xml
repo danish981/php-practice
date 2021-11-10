@@ -19,12 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="little changed made">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstractIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/abstractIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkIndex.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoPolymorphism.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoPolymorphism.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/One.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/One.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namespacesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/namespacesTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminalIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/terminalIndex.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -183,7 +186,10 @@
       <workItem from="1635777487395" duration="3000" />
       <workItem from="1635936706471" duration="1465000" />
       <workItem from="1636011768386" duration="1630000" />
-      <workItem from="1636207760402" duration="1487000" />
+      <workItem from="1636207760402" duration="2707000" />
+      <workItem from="1636108018772" duration="279000" />
+      <workItem from="1636092681380" duration="61000" />
+      <workItem from="1636531095574" duration="841000" />
     </task>
     <task id="LOCAL-00001" summary="adding getters and setters to the class">
       <created>1633032592412</created>
@@ -353,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635937513816</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="little changed made">
+      <created>1636211952599</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1636211952599</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -398,7 +411,8 @@
     <MESSAGE value="the comment file" />
     <MESSAGE value="the commit alsdfkjasldfkjasdf;kl" />
     <MESSAGE value="added girl names and boy names" />
-    <option name="LAST_COMMIT_MESSAGE" value="added girl names and boy names" />
+    <MESSAGE value="little changed made" />
+    <option name="LAST_COMMIT_MESSAGE" value="little changed made" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="146" key="#CLI_Interpreters" timestamp="1636207829169" />
@@ -411,21 +425,25 @@
     <state x="347" y="134" key="#PHP/0.0.1280.984@0.0.1280.984" timestamp="1636208794265" />
     <state x="104" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636207829170" />
     <state x="104" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1636207829170" />
-    <state x="190" y="70" width="877" height="813" key="CommitChangelistDialog2" timestamp="1636207829170" />
-    <state x="190" y="70" width="877" height="813" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1636207829170" />
+    <state x="190" y="70" width="877" height="813" key="CommitChangelistDialog2" timestamp="1636211951903">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="190" y="70" width="877" height="813" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1636211951903" />
     <state x="475" y="415" key="NewPhpFileDialog" timestamp="1636207829841">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="475" y="415" key="NewPhpFileDialog/0.0.1280.984@0.0.1280.984" timestamp="1636207829841" />
-    <state x="140" y="125" key="SettingsEditor" timestamp="1636207829170" />
-    <state x="140" y="125" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1636207829170" />
+    <state x="166" y="189" key="SettingsEditor" timestamp="1636531324537">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="166" y="189" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1636531324537" />
     <state x="347" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1636207829170" />
     <state x="347" y="318" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1636207829170" />
     <state x="296" y="226" key="run.anything.popup" timestamp="1636207829170" />
     <state x="296" y="226" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1636207829170" />
-    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1636208775581">
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1636531732486">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1636208775581" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1636531732486" />
   </component>
 </project>

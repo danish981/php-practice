@@ -32,7 +32,4 @@ $adminPersonObject = new adminPerson;
 ?>
 
 
-
-
-
 <link rel="stylesheet" href="style.css">

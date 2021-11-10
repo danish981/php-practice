@@ -20,6 +20,10 @@ class One {
         echo "Hi from function one() of class One \n" . PHP_EOL;
     }
 
+    public function anotherFunction(): string {
+        return "Hi, i am another function \n" . __METHOD__ . PHP_EOL;
+    }
+
 }
 
 
