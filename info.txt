@@ -3,4 +3,4 @@
 
 test project for practice
 
-todo :add more in the project, features, datatabase connectivity etc
+todo :add more in the project, features, database connectivity etc

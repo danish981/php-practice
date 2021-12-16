@@ -1,8 +1,8 @@
 <?php
 
 // static functions inside the classes, these functions are used to test the code and prepare for git repo
-// this is the actuall class where we have defined the static utility methods for our ease
-// in coding the soluitions, i did the same in java and created many classes that are helpful while
+// this is the actually class where we have defined the static utility methods for our ease
+// in coding the solutions, i did the same in java and created many classes that are helpful while
 // building other mini projects and solutions
 // solution word is used for c# programmers, when they build their solution in visual studio, that is called solution
 
@@ -15,7 +15,8 @@ namespace Utils;
 use Exception;
 use JsonException;
 
-class Functions {
+class Functions
+{
 
     // this is not working
     // private static $nextLine = "\r\n";
@@ -41,39 +42,48 @@ class Functions {
         'haani', 'bakhtawar', 'naseem', 'akhtar', 'zareena', 'zulekha', 'gul'
     ];
 
-    public static function getBoyName(): string {
+    public static function getBoyName(): string
+    {
         return self::$muslimBoyNames[random_int(0, count(self::$muslimBoyNames) - 1)];
     }
 
-    public static function getGirlName(): string {
+    public static function getGirlName(): string
+    {
         return self::$muslimGirlNames[random_int(0, count(self::$muslimGirlNames) - 1)];
     }
 
-    public static function getPi(): float {
+    public static function getPi(): float
+    {
         return self::$pi;
     }
 
-    public static function getDayInYear(): int {
+    public static function getDayInYear(): int
+    {
         return self::$dayInYear;
     }
 
-    public static function getSecondsInDay(): int {
+    public static function getSecondsInDay(): int
+    {
         return self::$secondsInDay;
     }
 
-    public static function getCircumferance(float $radius): float {
+    public static function getCircumferance(float $radius): float
+    {
         return 2.0 * PI * $radius;
     }
 
-    public static function getSquare(float $length): float {
+    public static function getSquare(float $length): float
+    {
         return $length * $length;
     }
 
-    public static function getCircleArea(float $radius): float {
+    public static function getCircleArea(float $radius): float
+    {
         return self::$pi * abs($radius) * abs($radius);
     }
 
-    public static function getIslamicScholerNames(): array {
+    public static function getIslamicScholerNames(): array
+    {
         return [
             "Allama Khadim Hussain",
             "Allama Raza Saqib Mustafai",
@@ -96,18 +106,21 @@ class Functions {
         ];
     }
 
-    public static function pushElementsIntoArray(array $array, ...$elements): void {
+    public static function pushElementsIntoArray(array &$array, ...$elements): void
+    {
         foreach ($elements as $values) {
             $array[] = $values;
         }
     }
 
     // these are the demo methods for variadic functions, read "php notes for professionals"
-    public static function getMaxFromParams(int ...$params): int {
+    public static function getMaxFromParams(int ...$params): int
+    {
         return self::getMax($params);
     }
 
-    public static function getMax(array $array): ?int {
+    public static function getMax(array $array): ?int
+    {
         if (empty($array) === false) {
             $tempMax = $array[0];
             foreach ($array as $value) {
@@ -120,7 +133,8 @@ class Functions {
         return NULL;
     }
 
-    public static function printTable(int $tableNum): void {
+    public static function printTable(int $tableNum): void
+    {
         self::checks($tableNum);
         if (is_int($tableNum)) {
             $tableLimit = 10;
@@ -131,13 +145,15 @@ class Functions {
         }
     }
 
-    private static function checks(&$variable): void {
+    private static function checks(&$variable): void
+    {
         if ($variable < 1 || $variable > 999) {
             $variable = 16;
         }
     }
 
-    public static function countOccurences(int $target, array $array): int {
+    public static function countOccurences(int $target, array $array): int
+    {
         if (empty($array) === false) {
             $counter = 0;
             foreach ($array as $value) {
@@ -150,23 +166,26 @@ class Functions {
         return -1;
     }
 
-    public static function printArray(...$arguments): void {
+    public static function printArray(...$arguments): void
+    {
         self::printFormattedArray($arguments);
     }
 
 
-    // & can be used before the ... and after the type (int string float etc) if any
-    // look, we can use the & with the variadic paramters too, just after the type, if there is not type, write &...$args
+    // & can be used before the ... and after the type (int string float etc.) if any
+    // look, we can use the & with the variadic parameters too, just after the type, if there is not type, write &...$args
     // objects are always passed by reference , we don't need to write  &..$numbers
 
-    public static function printFormattedArray(array $array): void {
+    public static function printFormattedArray(array $array): void
+    {
         echo self::$nextLine . "<pre>";
         print_r($array);
         echo "</pre>" . self::$nextLine;
     }
 
-    public static function assignRandomValues(int ...$numbers): void {
-        // we are picking up each values, and then assigning them the random numbers
+    public static function assignRandomValues(int ...$numbers): void
+    {
+        // we are picking up each value, and then assigning them the random numbers
         foreach ($numbers as &$value) {     // see the & here and in the method signature
             try {
                 $value = random_int(20, 99);
@@ -182,7 +201,8 @@ class Functions {
      * @param int ...$numbers
      * @return int the sum of all the numbers
      */
-    public static function getSum(int ...$numbers): int {
+    public static function getSum(int ...$numbers): int
+    {
         // we are getting the ... $numbers as an array, REMEMBERS
         $sum = 0;
         foreach ($numbers as $value) {
@@ -192,28 +212,29 @@ class Functions {
     }
 
     /**
-     * gets the table of the given number, if given 2, then 2 4 6 8 ..... 20 will be returned as array of ints
+     * gets the table of the given number, if given 2, then 2 4 6 8 ..... 20 will be returned as array of integers
      * @param int $tableNum
      * @return array the returned array filled the table values
      */
-    public static function getTableArray(int $tableNum): ?array {
-        if (is_numeric($tableNum)) {
-            $tableArray = [];
-            for ($i = 0; $i <= 10; $i++) {
-                $tableArray[] = ($tableNum * ($i + 1));
-            }
-            return $tableArray;
+    public static function getTableArray(int $tableNum): array
+    {
+        $tableArray = [];
+        for ($i = 0; $i <= 10; $i++) {
+            $tableArray[] = ($tableNum * ($i + 1));
         }
-        return null;
+        return $tableArray;
     }
 
+
     /**
-     * multiply all the given paramters and return the product
+     * multiply all the given parameters and return the product
      * the demo of awesome variadic functions, thanks php for awesome functions
      * @param int ...$args
      * @return int
      */
-    public static function getProduct(int ...$args): int {
+    public
+    static function getProduct(int ...$args): int
+    {
         $product = 1;
         foreach ($args as $value) {
             $product *= $value;
@@ -226,8 +247,10 @@ class Functions {
      * @param int $length of the number to
      * @return int the random number
      */
-    public static function getRanomNumLen(int $length): int {
-        if (!empty($length) && is_int($length)) {
+    public
+    static function getRandomNumber(int $length): int
+    {
+        if (!empty($length)) {
             $min = 10 ** ($length - 1);
             $max = 10 ** $length;
             try {
@@ -244,13 +267,15 @@ class Functions {
      * @param int ...$numbers
      * @return int average of numbers given
      */
-    public static function getAverage(int ...$numbers): int {
-        $argumentLengh = count($numbers);
+    public
+    static function getAverage(int ...$numbers): int
+    {
+        $argumentLength = count($numbers);
         $sum = 0;
         foreach ($numbers as $value) {
             $sum += $value;
         }
-        return $sum / $argumentLengh;
+        return $sum / $argumentLength;
     }
 
     /**
@@ -259,7 +284,9 @@ class Functions {
      * @return string
      * @throws JsonException
      */
-    public static function variadic_function(...$arguments): string {
+    public
+    static function variadic_function(...$arguments): string
+    {
         return json_encode($arguments, JSON_THROW_ON_ERROR);
     }
 
@@ -268,9 +295,9 @@ class Functions {
      * @param int $tableNum the table number
      * @param int $limit the ending limit of the table
      */
-    public static function printTableToLimit(int $tableNum, int $limit): void {
-        filter_var($tableNum, FILTER_SANITIZE_NUMBER_INT);
-        filter_var($limit, FILTER_SANITIZE_NUMBER_INT);
+    public
+    static function printTableToLimit(int $tableNum, int $limit): void
+    {
         self::checks($tableNum);
         self::checks($limit);
         if (is_int($tableNum) && is_int($limit)) {
@@ -285,10 +312,12 @@ class Functions {
      * @param int $arrayLength
      * @param int $lowerLimit
      * @param int $upperLimit
-     * @return array filleld with random numbers
+     * @return array filled with random numbers
      * @throws Exception
      */
-    public static function getRandomArrayOfSize(int $arrayLength, int $lowerLimit, int $upperLimit): array {
+    public
+    static function getRandomArrayOfSize(int $arrayLength, int $lowerLimit, int $upperLimit): array
+    {
         if ($arrayLength < 1 || $arrayLength > 999) {
             $arrayLength = 50;
         }
@@ -306,7 +335,9 @@ class Functions {
      * @return array
      * @throws Exception
      */
-    public static function getRandomNumArray(int $lowerLimit, int $upperLimit): array {
+    public
+    static function getRandomNumArray(int $lowerLimit, int $upperLimit): array
+    {
         self::varCheck($lowerLimit);
         self::varCheck($upperLimit);
         if ($lowerLimit > $upperLimit) {
@@ -327,7 +358,9 @@ class Functions {
      * @param $variable
      * @return int
      */
-    private static function varCheck(&$variable): ?int {
+    private
+    static function varCheck(&$variable): ?int
+    {
         if (is_numeric($variable)) {
             if ($variable < 1 || $variable > 1000) {
                 return $variable = 50;
@@ -341,7 +374,9 @@ class Functions {
      * @return array the array having details
      * @throws Exception
      */
-    public function getUserDetails(): array {
+    public
+    function getUserDetails(): array
+    {
         return [
             'id' => random_int(0, 100),
             'name' => 'burhan ali',
@@ -360,7 +395,9 @@ class Functions {
      * @param $firstValue
      * @param $secondValue
      */
-    public static function swapValues(&$firstValue, &$secondValue): void {
+    public
+    static function swapValues(&$firstValue, &$secondValue): void
+    {
         $temp = $firstValue;
         $firstValue = $secondValue;
         $secondValue = $temp;
@@ -374,7 +411,9 @@ class Functions {
      * @return array|null filled with random numbers
      * @throws Exception
      */
-    public static function getArrayRandom(int $lowerValue = 10, int $upperLimit = 99, int $arrayLength = 20): ?array {
+    public
+    static function getArrayRandom(int $lowerValue = 10, int $upperLimit = 99, int $arrayLength = 20): ?array
+    {
         $filledArray = [];
         if (is_numeric($lowerValue) && is_numeric($upperLimit) && is_numeric($arrayLength)) {
             for ($i = 0; $i < $arrayLength; $i++) {
@@ -390,7 +429,9 @@ class Functions {
      * @param string $string
      * @param int $times
      */
-    public static function printTimes(string $string, int $times): void {
+    public
+    static function printTimes(string $string, int $times): void
+    {
         for ($i = 1; $i <= $times; $i++) {
             echo $string . self::$nextLine;
         }
@@ -400,7 +441,9 @@ class Functions {
      * makes the word plural "apple" to "apples"
      * @param string $word
      */
-    public static function pluralize(string &$word): void {
+    public
+    static function pluralize(string &$word): void
+    {
         if (substr($word, -1) === 'y') {
             $word = substr($word, 0, -1) . 'ies';
         } else {
@@ -408,7 +451,9 @@ class Functions {
         }
     }
 
-    public static function getLowerRandomString(int $stringLength = 10): string {
+    public
+    static function getLowerRandomString(int $stringLength = 10): string
+    {
         $masterString = "";
         for ($i = 1; $i <= $stringLength; $i++) {
             $masterString .= self::$lowerLetters[random_int(0, 26)];
@@ -422,7 +467,9 @@ class Functions {
      * @return string random string
      * @throws Exception
      */
-    public static function getRandomString(int $stringLength = 10): string {
+    public
+    static function getRandomString(int $stringLength = 10): string
+    {
         $masterString = "";
         $charsLength = strlen(self::$mixChars);
         for ($i = 1; $i <= $stringLength; $i++) {
@@ -437,7 +484,9 @@ class Functions {
      * @return string
      * @throws Exception
      */
-    public static function getUltimateRandomString(int $stringLength = 10): string {
+    public
+    static function getUltimateRandomString(int $stringLength = 10): string
+    {
         return substr(md5(self::getRandomString($stringLength)), 0, $stringLength);
     }
 
@@ -447,7 +496,9 @@ class Functions {
      * @return string the generated array
      * @throws Exception random number
      */
-    public static function getUpperRandomString(int $stringLength = 10): string {
+    public
+    static function getUpperRandomString(int $stringLength = 10): string
+    {
         $masterString = "";
         for ($i = 1; $i <= $stringLength; $i++) {
             $masterString .= self::$upperLetters[random_int(0, 26)];
@@ -461,7 +512,9 @@ class Functions {
      * @return string the generated string with random digits
      * @throws Exception
      */
-    public static function getStrRandomDigits(int $stringLength = 10): string {
+    public
+    static function getStrRandomDigits(int $stringLength = 10): string
+    {
         $masterString = "";
         for ($i = 1; $i <= $stringLength; $i++) {
             $masterString .= self::$digits[random_int(0, 9)];
@@ -476,7 +529,9 @@ class Functions {
      * @return string
      * @throws Exception
      */
-    public static function getRandomFromString(string $string, int $outputStrLen = 10): string {
+    public
+    static function getRandomFromString(string $string, int $outputStrLen = 10): string
+    {
         if (!empty($string)) {
             $masterString = "";
             $stringLength = strlen($string);
@@ -495,11 +550,13 @@ class Functions {
      * @param int $arrayLength the length of the array
      * @return array|null if the array is filled then array will be returned, and NULL otherwisw
      */
-    public static function getShuffledArrayStr(string $string, int $arrayLength = 5): ?array {
+    public
+    static function getShuffledArrayStr(string $string, int $arrayLength = 5): ?array
+    {
         if (!empty($string)) {
             $masterArray = [];
             for ($i = 1; $i <= $arrayLength; $i++) {
-                $masterArray[] = shuffle($string[]);
+                $masterArray[] = shuffle($array[]);
             }
             return $masterArray;
         }
@@ -509,9 +566,11 @@ class Functions {
     /**
      * generates phone number like 03xx xxxxxxx and returns
      * @return string the phone number string
-     * @throws Exception ranom_int throws exception
+     * @throws Exception random_int throws exception
      */
-    public static function getPhoneNumber(): string {
+    public
+    static function getPhoneNumber(): string
+    {
         return "03" . random_int(10, 99) . " " . random_int(1234567, 9999999);
     }
 }

@@ -7,7 +7,7 @@ function code_1() {
         $number = (int)readline();
         if ($number == 42)
             break;
-        if (is_numeric($number) && $number > 0 && $number <= 99) {
+        if ($number > 0 && $number <= 99) {
             $numberArray[] = $number;
         } else {
             break;
