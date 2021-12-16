@@ -2,19 +2,19 @@
 
 class MyClass extends AbstractClassOne {
 
-    public static function getPI() {
+    public static function getPI(): float {
         return PI;
     }
 
-    public function printCountryNames() {
+    public function printCountryNames(): void {
         print_r($this->getCountryNames());
     }
 
-    public function getValueSomeHow() {
+    public function getValueSomeHow(): string {
         return "value : " . md5(random_int(0, 10));
     }
 
-    public function getFoo($param) {
+    public function getFoo($param): string {
         return " i am " . $this->getValue() . " function getFoo(" . $param . "){}";
     }
 
@@ -41,11 +41,11 @@ class MyClass extends AbstractClassOne {
     protected function getMyCityName(string $country): string {
         if ($country == "pakistan") {
             return "islamabad";
-        } else if ($country == "indonesia") {
+        } else if ($country === "indonesia") {
             return "jakarta";
-        } else if ($country == "india") {
+        } else if ($country === "india") {
             return "delhi";
-        } else if ($country == "bangladesh") {
+        } else if ($country === "bangladesh") {
             return "dhaka";
         }
         return "capital of country $country";

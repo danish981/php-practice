@@ -7,9 +7,9 @@ abstract class AbstractChild extends AbstractClassOne {
         return $this->getRandomNumber(34, 100);
     }
 
-    public abstract function getMyName();
+    abstract public function getMyName();
 
-    protected abstract function getMyBelovedGame(): string;
+    abstract protected function getMyBelovedGame(): string;
 
 }
 

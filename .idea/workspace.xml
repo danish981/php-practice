@@ -20,14 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="little changed made">
+      <change afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParentClass.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/AbstractChild.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AbstractChild.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/One.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/One.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/MyClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/MyClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codility/binaryGap.php" beforeDir="false" afterPath="$PROJECT_DIR$/codility/binaryGap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learningPdo/PdoClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/learningPdo/PdoClass.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/namespacesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/namespacesTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terminalIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/terminalIndex.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +37,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -55,9 +55,6 @@
     <option name="autoscrollToSource" value="true" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="pract" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -68,7 +65,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0.13" />
   <component name="ProjectId" id="1z6SYXP6CA4kYTT3PoOxmCjkynR" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -114,23 +111,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
@@ -379,20 +364,19 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding getters and setters to the class" />
@@ -415,35 +399,41 @@
     <option name="LAST_COMMIT_MESSAGE" value="little changed made" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="220" y="146" key="#CLI_Interpreters" timestamp="1636207829169" />
-    <state x="220" y="146" key="#CLI_Interpreters/0.0.1280.984@0.0.1280.984" timestamp="1636207829170" />
-    <state x="266" y="170" key="#Inspections" timestamp="1636207829170" />
-    <state x="266" y="170" key="#Inspections/0.0.1280.984@0.0.1280.984" timestamp="1636207829170" />
-    <state x="347" y="134" key="#PHP" timestamp="1636208794265">
+    <state x="220" y="146" key="#CLI_Interpreters" timestamp="1639636677320">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="347" y="134" key="#PHP/0.0.1280.984@0.0.1280.984" timestamp="1636208794265" />
+    <state x="220" y="146" key="#CLI_Interpreters/0.0.1280.984@0.0.1280.984" timestamp="1639636677320" />
+    <state x="266" y="170" key="#Inspections" timestamp="1636207829170" />
+    <state x="266" y="170" key="#Inspections/0.0.1280.984@0.0.1280.984" timestamp="1636207829170" />
+    <state x="347" y="134" key="#PHP" timestamp="1639636679332">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="347" y="134" key="#PHP/0.0.1280.984@0.0.1280.984" timestamp="1639636679332" />
     <state x="104" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636207829170" />
     <state x="104" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1636207829170" />
     <state x="190" y="70" width="877" height="813" key="CommitChangelistDialog2" timestamp="1636211951903">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="190" y="70" width="877" height="813" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1636211951903" />
-    <state x="475" y="415" key="NewPhpFileDialog" timestamp="1636207829841">
+    <state x="475" y="415" key="NewPhpFileDialog" timestamp="1639637689556">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="475" y="415" key="NewPhpFileDialog/0.0.1280.984@0.0.1280.984" timestamp="1636207829841" />
-    <state x="166" y="189" key="SettingsEditor" timestamp="1636531324537">
+    <state x="475" y="415" key="NewPhpFileDialog/0.0.1280.984@0.0.1280.984" timestamp="1639637689556" />
+    <state x="91" y="169" key="SettingsEditor" timestamp="1639638059400">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="166" y="189" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1636531324537" />
+    <state x="91" y="169" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1639638059400" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1639638077048">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1639638077048" />
     <state x="347" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1636207829170" />
     <state x="347" y="318" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1636207829170" />
     <state x="296" y="226" key="run.anything.popup" timestamp="1636207829170" />
     <state x="296" y="226" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1636207829170" />
-    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1636531732486">
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1639638069732">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1636531732486" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1639638069732" />
   </component>
 </project>

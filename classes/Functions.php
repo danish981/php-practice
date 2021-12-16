@@ -13,6 +13,7 @@ namespace Utils;
 // this class has many utility methods that we need, a type of new concept for me
 
 use Exception;
+use JsonException;
 
 class Functions {
 
@@ -21,7 +22,6 @@ class Functions {
     // PHP_EOL not working too
 
     private static string $nextLine = "<br>";
-    private static string $lineBreak = "\n";       // this will work for only in command line
     private static float $pi = PI;
     private static int $dayInYear = 365;
     private static int $secondsInDay = 86400;
@@ -257,6 +257,7 @@ class Functions {
      * the awesome variadic functions, the parameters that are limitless, they are used and manipulated
      * @param array ...$arguments
      * @return string
+     * @throws JsonException
      */
     public static function variadic_function(...$arguments): string {
         return json_encode($arguments, JSON_THROW_ON_ERROR);
@@ -513,6 +514,5 @@ class Functions {
     public static function getPhoneNumber(): string {
         return "03" . random_int(10, 99) . " " . random_int(1234567, 9999999);
     }
-
 }
 

@@ -127,7 +127,7 @@ class binaryGap {
     public function getOnesIndexes(): array {
         $indexesArray = [];
         for ($i = 0; $i < $this->binaryStringLength; $i++) {
-            if ($this->binaryString[$i] == '1')
+            if ($this->binaryString[$i] === '1')
                 $indexesArray[] = $i;
         }
         return $indexesArray;
@@ -136,8 +136,9 @@ class binaryGap {
     public function getZerosIndexes(): array {
         $indexesArray = [];
         for ($i = 0; $i < $this->binaryStringLength; $i++) {
-            if ($this->binaryString[$i] == '0')
+            if ($this->binaryString[$i] === '0') {
                 $indexesArray[] = $i;
+            }
         }
         return $indexesArray;
     }
@@ -153,6 +154,7 @@ class binaryGap {
             $binNum = trim(decbin($number));
             // todo : write some code here
         }
+        return 0; // return something here
     }
 
     public function getBinaryInt(): int {
@@ -166,6 +168,9 @@ class binaryGap {
     // todo : add more methods to the class
 
 }
+
+
+
 
 $number = (int)readline("Enter your number : ");
 $binaryGapObject = new binaryGap($number);
