@@ -4,15 +4,15 @@ declare(strict_types=1);
 
 // when we declare the namespace, it means we have to write the namespace too wherever we have
 // to include the file, otherwise phpstorm does autocompletes for all the php files present in 
-// the project, but thats not functional without including actual file in the index file
-// or wherever we want to incldue the php file, remember the autoloader concept while using the namespaces and incldues
+// the project, but that's not functional without including actual file in the index file
+// or wherever we want to include the php file, remember the autoloader concept while using the namespaces and incldues
 
 // function to define pass by value and pass by reference
 function addValues(int $firstValue, int $secondValue): int {
     return $firstValue + $secondValue;
 }
 
-// this function paramter is used : call by reference
+// this function parameter is used : call by reference
 function incrementByTen(&$variable) {
     $variable += 10;
     return $variable;
@@ -21,7 +21,7 @@ function incrementByTen(&$variable) {
 // this function uses : call by reference too
 // will change the actual string variable
 function changeString(string &$string) {
-    $string = "___NOW THIS STIRNG IS THIS_______";
+    $string = "___NOW THIS STRING IS THIS_______";
     return $string;
 }
 

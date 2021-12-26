@@ -225,7 +225,6 @@ class Functions
         return $tableArray;
     }
 
-
     /**
      * multiply all the given parameters and return the product
      * the demo of awesome variadic functions, thanks php for awesome functions
@@ -556,7 +555,7 @@ class Functions
         if (!empty($string)) {
             $masterArray = [];
             for ($i = 1; $i <= $arrayLength; $i++) {
-                $masterArray[] = shuffle($array[]);
+                $masterArray[] = shuffle($array);
             }
             return $masterArray;
         }
