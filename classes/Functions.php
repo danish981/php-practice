@@ -10,17 +10,10 @@ declare(strict_types=1);
 
 namespace Utils;
 
-// this class has many utility methods that we need, a type of new concept for me
-
 use Exception;
-use JsonException;
 
 class Functions
 {
-
-    // this is not working
-    // private static $nextLine = "\r\n";
-    // PHP_EOL not working too
 
     private static string $nextLine = "<br>";
     private static float $pi = PI;
@@ -30,6 +23,7 @@ class Functions
     private static string $upperLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     private static string $digits = '0123456789';
     private static string $mixChars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    private static array $jazzCodes = ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '20', '21', '22', '23', '24'];
 
     private static array $muslimBoyNames = [
         'burhan', 'yameen', 'ali', 'yaseen', 'ahmad', 'kashif', 'shamas', 'tabraiz', 'khizar', 'hanbal', 'shafii', 'saif',
@@ -171,11 +165,6 @@ class Functions
         self::printFormattedArray($arguments);
     }
 
-
-    // & can be used before the ... and after the type (int string float etc.) if any
-    // look, we can use the & with the variadic parameters too, just after the type, if there is not type, write &...$args
-    // objects are always passed by reference , we don't need to write  &..$numbers
-
     public static function printFormattedArray(array $array): void
     {
         echo self::$nextLine . "<pre>";
@@ -281,7 +270,6 @@ class Functions
      * the awesome variadic functions, the parameters that are limitless, they are used and manipulated
      * @param array ...$arguments
      * @return string
-     * @throws JsonException
      */
     public
     static function variadic_function(...$arguments): string
@@ -450,6 +438,12 @@ class Functions
         }
     }
 
+    /**
+     * generates the string of random lowercase alphabeting characters of given length and returns
+     * @param int $stringLength the length of the string
+     * @return string the string of random characters of given length
+     * @throws Exception
+     */
     public
     static function getLowerRandomString(int $stringLength = 10): string
     {
@@ -572,5 +566,16 @@ class Functions
     {
         return "03" . random_int(10, 99) . " " . random_int(1234567, 9999999);
     }
+
+    /**
+     * generates random jazz pakistani phone number 0300-0309 and 0320-0324
+     * @return string string of phone number
+     * @throws Exception
+     */
+    public static function getJazzNumber(): string
+    {
+        return '03' . static::$jazzCodes[random_int(0, count(static::$jazzCodes))] . ' ' . random_int(1234567, 9999999);
+    }
+
 }
 

@@ -20,7 +20,3 @@ function code_1() {
     }
 }
 
-
-
-
-

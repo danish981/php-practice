@@ -1,23 +1,25 @@
 <?php
 
+class GoodPerson
+{
 
-class GoodPerson {
+    protected string $nextLine = "\r\n";
+    private string $personName = "danish mehmood";
 
-    protected $nextLine = "\r\n";
-    private $personName = "danish mehmood";
-
-    public function getMyName(): string {
+    public function getMyName(): string
+    {
         return "danish mehmood mughal " . $this->nextLine;
     }
 
-    public function singlePerson(): string {
+    public function singlePerson(): string
+    {
         return "the single person " . $this->personName;
     }
 
-    public function myName(string $myname) : string {
+    public function myName(string $myname): string
+    {
         return $myname;
     }
-
 
 }
 

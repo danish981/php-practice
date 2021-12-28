@@ -22,9 +22,15 @@
     <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="added changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/charIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/charIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkIndex.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/GoodPerson.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/GoodPerson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes.php" beforeDir="false" afterPath="$PROJECT_DIR$/codes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoPolymorphism.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoPolymorphism.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminalIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/terminalIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminalTest.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +104,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
@@ -179,7 +185,11 @@
       <workItem from="1639668404936" duration="245000" />
       <workItem from="1640520361152" duration="664000" />
       <workItem from="1640527500647" duration="1687000" />
-      <workItem from="1640538621801" duration="593000" />
+      <workItem from="1640538621801" duration="1989000" />
+      <workItem from="1640540666250" duration="1694000" />
+      <workItem from="1640615532900" duration="635000" />
+      <workItem from="1640678112049" duration="1072000" />
+      <workItem from="1640679701097" duration="785000" />
     </task>
     <task id="LOCAL-00001" summary="adding getters and setters to the class">
       <created>1633032592412</created>
@@ -435,17 +445,45 @@
     <option name="LAST_COMMIT_MESSAGE" value="added changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="145" y="130" key="SettingsEditor" timestamp="1640529976183">
+    <state x="220" y="145" key="#CLI_Interpreters" timestamp="1640539529978">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="145" y="130" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1640529976183" />
-    <state x="341" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1640527506961">
+    <state x="220" y="145" key="#CLI_Interpreters/0.0.1280.984@0.0.1280.984" timestamp="1640539529978" />
+    <state x="232" y="149" key="#Inspections" timestamp="1640679992765">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="341" y="314" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1640527506961" />
-    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1640529198973">
+    <state x="232" y="149" key="#Inspections/0.0.1280.984@0.0.1280.984" timestamp="1640679992765" />
+    <state x="347" y="81" key="#PHP" timestamp="1640539532226">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1640529198973" />
+    <state x="347" y="81" key="#PHP/0.0.1280.984@0.0.1280.984" timestamp="1640539532226" />
+    <state x="232" y="149" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640541089141">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="232" y="149" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1640541089141" />
+    <state width="254" height="338" key="DatabaseViewActions_Filter" timestamp="1640541101643">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="254" height="338" key="DatabaseViewActions_Filter/0.0.1280.984@0.0.1280.984" timestamp="1640541101643" />
+    <state x="75" y="124" key="SettingsEditor" timestamp="1640679329442">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="75" y="124" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1640679329442" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1640539352629">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1640539352629" />
+    <state x="341" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1640678855675">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="341" y="314" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1640678855675" />
+    <state width="616" height="248" key="javadoc.popup.new" timestamp="1640541989845">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="616" height="248" key="javadoc.popup.new/0.0.1280.984@0.0.1280.984" timestamp="1640541989845" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1640680109871">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1640680109871" />
   </component>
 </project>

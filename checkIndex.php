@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Danish
- * Date: 3/6/2021
- * Time: 10:38 PM
- */
 
 include("classes/One.php");
 include("classes/Two.php");
