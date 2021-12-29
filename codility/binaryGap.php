@@ -61,19 +61,17 @@ N is an integer within the range [1..2,147,483,647].
 
 class binaryGap {
 
-    private $actualNubmer;
-    private $trimmedBinaryNum;
-    private $binaryString;
-    private $binaryInt;
+    private $actualNumber;
+    private string $trimmedBinaryNum;
+    private string $binaryString;
+    private int $binaryInt;
     private $binaryStringLength;
-    private $zeroes;
-    private $ones;
     private $binaryGap;
 
     public function __construct(int $number) {
         if (is_numeric($number)) {
             $this->trimmedBinaryNum = trim($this->binaryString, '\0');
-            $this->actualNubmer = abs($number);
+            $this->actualNumber = abs($number);
             $this->calculate();
         }
     }
@@ -95,11 +93,11 @@ class binaryGap {
         $this->calcBinaryString();
         $this->calcBinaryInt();
         $this->countBoth();
-        $this->binaryStringLength = strlen($this->actualNubmer);
+        $this->binaryStringLength = strlen($this->actualNumber);
     }
 
     private function calcBinaryString() {
-        $this->binaryString = decbin($this->actualNubmer);
+        $this->binaryString = decbin($this->actualNumber);
     }
 
     private function calcBinaryInt() {
@@ -115,12 +113,12 @@ class binaryGap {
      * and then assign both the class fields $ones and $zeroes, these two variables are assigned with 0's and 1's
      */
     private function countBoth() {
-        $this->zeroes = $this->ones = 0;
+        $zeroes = $ones = 0;
         for ($i = 0; $i < $this->binaryStringLength; $i++) {
             if ($this->binaryString[0] == '0')
-                $this->zeroes++;
+                $zeroes++;
             else
-                $this->ones++;
+                $ones++;
         }
     }
 
@@ -145,7 +143,7 @@ class binaryGap {
 
     /**
      * static function to calculate binary gap of an integer, <br>
-     * integer is first coverted to binary , and then returned the the gap <br>
+     * integer is first converted to binary , and then returned the the gap <br>
      * @param int $number of which binary gap has to be calculated, the detault is 529
      * @return int the binary of given number, if number is invalid, returns -1
      */
@@ -158,7 +156,7 @@ class binaryGap {
     }
 
     public function getBinaryInt(): int {
-        return (int)(decbin($this->actualNubmer));
+        return (int)(decbin($this->actualNumber));
     }
 
     public function getTrimmedBinaryNum(): int {
@@ -168,8 +166,6 @@ class binaryGap {
     // todo : add more methods to the class
 
 }
-
-
 
 
 $number = (int)readline("Enter your number : ");

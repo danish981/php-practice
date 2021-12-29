@@ -14,7 +14,7 @@ function addValues(int $firstValue, int $secondValue): int
 }
 
 // this function parameter is used : call by reference
-function incrementByTen(&$variable)
+function incrementByTen(&$variable): int
 {
     $variable += 10;
     return $variable;
@@ -22,13 +22,13 @@ function incrementByTen(&$variable)
 
 // this function uses : call by reference too
 // will change the actual string variable
-function changeString(string &$string)
+function changeString(string &$string): string
 {
     $string = "___NOW THIS STRING IS THIS_______";
     return $string;
 }
 
-function incrementByHundred(int &$variable)
+function incrementByHundred(int &$variable): int
 {
     // if we do like this, this wont increment by 100
     // return $variable + 100;
@@ -53,10 +53,10 @@ function show(string $str, int $number, bool $isTrue): string
 }
 
 
-// when the strict types is enabled, the line show error, when is diabled, the error is shown at compile time
-//echo show(3423, "asdfasdf", 45);
+// when the strict types is enabled, the line show error, when is disabled, the error is shown at compile time
+//echo show(3423, "steadfast", 45);
 
-// NOTE : ONLY VARIABLES CAN BE PASSED BY REFENCE
+// NOTE : ONLY VARIABLES CAN BE PASSED BY REFERENCE
 // NOTE : CONSTANTS CANNOT BE PASSED BY REFERENCE
 
 

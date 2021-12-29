@@ -2,7 +2,6 @@
 
 class GoodPerson
 {
-
     protected string $nextLine = "\r\n";
     private string $personName = "danish mehmood";
 
@@ -16,9 +15,9 @@ class GoodPerson
         return "the single person " . $this->personName;
     }
 
-    public function myName(string $myname): string
+    public function myName(string $myName): string
     {
-        return $myname;
+        return $myName;
     }
 
 }

@@ -1,12 +1,15 @@
 <?php
 
-class TestChildClass extends TestParentClass {
-    function whoAmI(): string {
+class TestChildClass extends TestParentClass
+{
+    function whoAmI(): string
+    {
         return "i am danish mehmood";
     }
 
-    function sameNameMethod() {
-        echo "i am " . __METHOD__ ;
+    function sameNameMethod()
+    {
+        echo "i am " . __METHOD__;
     }
 
 }

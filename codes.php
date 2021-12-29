@@ -18,5 +18,6 @@ function code_1() {
     foreach ($numberArray as $value) {
         echo $value . "\n";
     }
+
 }
 

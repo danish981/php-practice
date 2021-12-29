@@ -14,7 +14,6 @@ use Exception;
 
 class Functions
 {
-
     private static string $nextLine = "<br>";
     private static float $pi = PI;
     private static int $dayInYear = 365;
@@ -24,6 +23,9 @@ class Functions
     private static string $digits = '0123456789';
     private static string $mixChars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
     private static array $jazzCodes = ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '20', '21', '22', '23', '24'];
+    private static array $uFoneCodes = ['31', '32', '33', '34', '35', '36', '37'];
+    private static array $telenorCodes = ['40', '41', '42', '43', '44', '45', '46', '47', '48', '49'];
+    private static array $zongCodes = ['10', '11', '12', '13', '14', '15', '16', '17'];
 
     private static array $muslimBoyNames = [
         'burhan', 'yameen', 'ali', 'yaseen', 'ahmad', 'kashif', 'shamas', 'tabraiz', 'khizar', 'hanbal', 'shafii', 'saif',
@@ -172,16 +174,15 @@ class Functions
         echo "</pre>" . self::$nextLine;
     }
 
+    /**
+     * assign the random values to each of the numbers, or array of numbers
+     * @param int ...$numbers
+     * @throws Exception
+     */
     public static function assignRandomValues(int ...$numbers): void
     {
-        // we are picking up each value, and then assigning them the random numbers
-        foreach ($numbers as &$value) {     // see the & here and in the method signature
-            try {
-                $value = random_int(20, 99);
-            } catch (Exception $e) {
-                // maybe this line is wrong
-                echo $e->getMessage() . (int)($e->getCode());
-            }
+        foreach ($numbers as &$value) {
+            $value = random_int(20, 99);
         }
     }
 
@@ -270,6 +271,7 @@ class Functions
      * the awesome variadic functions, the parameters that are limitless, they are used and manipulated
      * @param array ...$arguments
      * @return string
+     * @throws \JsonException
      */
     public
     static function variadic_function(...$arguments): string
@@ -333,7 +335,7 @@ class Functions
             $upperLimit += 50;
         }
         $arrayLength = 100;
-        $array = [];        // arrays are dynamic in php, they can't be pre-sized to a certain limit
+        $array = [];
         for ($i = 0; $i <= $arrayLength; $i++) {
             $array[$i] = random_int($lowerLimit, $upperLimit);
         }
@@ -370,15 +372,15 @@ class Functions
             'username' => 'burhanAli' . random_int(0, 100),
             'email' => 'burhanAli32423@yahoo.com',
             'country' => 'pakistan',
-            'povince' => 'punjab',
+            'province' => 'punjab',
             'city' => 'gujranwala',
             'zipCode' => 52250,
-            'phone' => self::getPhoneNumber()
+            'phone' => self::getRandomPhoneNumber()
         ];
     }
 
     /**
-     * swap two values, the method get values by passed by referene
+     * swap two values, the method get values by passed by reference
      * @param $firstValue
      * @param $secondValue
      */
@@ -562,7 +564,7 @@ class Functions
      * @throws Exception random_int throws exception
      */
     public
-    static function getPhoneNumber(): string
+    static function getRandomPhoneNumber(): string
     {
         return "03" . random_int(10, 99) . " " . random_int(1234567, 9999999);
     }
@@ -572,10 +574,42 @@ class Functions
      * @return string string of phone number
      * @throws Exception
      */
-    public static function getJazzNumber(): string
+    public static function getRandomJazzNumber(): string
     {
         return '03' . static::$jazzCodes[random_int(0, count(static::$jazzCodes))] . ' ' . random_int(1234567, 9999999);
     }
+
+
+    /**
+     * generate ufone number and returns it
+     * @return string ufone number randomly
+     * @throws Exception
+     */
+    public static function getRandomUfoneNumber(): string
+    {
+        return '03' . static::$uFoneCodes[random_int(0, count(static::$uFoneCodes))] . ' ' . random_int(1234567, 9999999);
+    }
+
+    /**
+     * generates telenor random phone number and returns it
+     * @return string random telenor number
+     * @throws Exception
+     */
+    public static function getRandomTelenorNumber(): string
+    {
+        return '03' . static::$telenorCodes[random_int(0, count(static::$telenorCodes))] . ' ' . random_int(1234567, 9999999);
+    }
+
+    /**
+     * generates zong random number and returns it
+     * @return string
+     * @throws Exception
+     */
+    public static function getRandomZongNumber(): string
+    {
+        return '03' . static::$zongCodes[random_int(0, count(static::$zongCodes))] . ' ' . random_int(1234567, 9999999);
+    }
+
 
 }
 

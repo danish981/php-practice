@@ -7,5 +7,3 @@ $goodPersonObject = new GoodPerson();
 echo $goodPersonObject->myName('danishmehmood981');
 
 $employeeObject = new EmployeePerson();
-$employeeObject->myName();
-

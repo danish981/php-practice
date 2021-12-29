@@ -1,14 +1,15 @@
 <?php
 
-abstract class AbstractClassOne {
-
+abstract class AbstractClassOne
+{
     abstract public function myCityName(): string;
 
     abstract public function myRollNumber(): int;
 
     abstract public function myCountryName(): string;
 
-    public function useRandomValue() {
+    public function useRandomValue()
+    {
         return $this->getRandomValue(20, 100);
     }
 
@@ -17,18 +18,21 @@ abstract class AbstractClassOne {
     // it is good practice to declare abstract methods are protected
     // it is good practice to declare abstract methods are protected
 
-    private function getRandomValue(int $lowerBound, int $upperBound): int {
+    private function getRandomValue(int $lowerBound, int $upperBound): int
+    {
         return random_int($lowerBound, $upperBound);
     }
 
-    public function printValue() {
+    public function printValue()
+    {
         $this->getValue();
     }
 
     abstract protected function getValue();
 
-    // private function can only be access here insdie the class
-    public function callotherAbstracMethod() {
+    // private function can only be access here inside the class
+    public function callotherAbstracMethod()
+    {
         $this->getRandomNumber(45, 100);
     }
 
@@ -40,7 +44,8 @@ abstract class AbstractClassOne {
 
     abstract protected function getMyCityName(string $country): string;
 
-    protected function getCountryNames() {
+    protected function getCountryNames(): array
+    {
         return [
             "pakistan",
             "bangladesh",
@@ -48,7 +53,7 @@ abstract class AbstractClassOne {
             "afghanistan",
             "turkey",
             "palastine",
-            "azarbaijan",
+            "Azerbaijan",
             "barma",
             "morocco",
             "iraq",

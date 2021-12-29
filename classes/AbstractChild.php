@@ -1,9 +1,11 @@
 <?php
 
-abstract class AbstractChild extends AbstractClassOne {
+abstract class AbstractChild extends AbstractClassOne
+{
 
     // redefining the method here, overriding the method here
-    public function callotherAbstracMethod() {
+    public function callotherAbstracMethod()
+    {
         return $this->getRandomNumber(34, 100);
     }
 

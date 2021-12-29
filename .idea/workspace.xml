@@ -16,21 +16,71 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="added changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/charIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/charIndex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/A.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/A.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/AbstractChild.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AbstractChild.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/AbstractClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AbstractClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/AbstractClassOne.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AbstractClassOne.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/AccessFunctions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AccessFunctions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/AnotherChildClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AnotherChildClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/AnotherFinal.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AnotherFinal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/B.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/B.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/BookOne.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/BookOne.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/C.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/C.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/ChildClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/ChildClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/ConstClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/ConstClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/D.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/D.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Employee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/EmployeePerson.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/EmployeePerson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/FinalClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/FinalClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Four.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Four.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/GoodPerson.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/GoodPerson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/HelloPoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/HelloPoint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/InterfaceImplemented.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/InterfaceImplemented.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/InterfaceOne.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/InterfaceOne.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/InterfaceThree.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/InterfaceThree.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/InterfaceTwo.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/InterfaceTwo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/MyClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/MyClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/One.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/One.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Pdo.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Pdo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Person.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/PersonParent.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/PersonParent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Point.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Point.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/PolyClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/PolyClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Quality.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Quality.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/StaticMember.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/StaticMember.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/StaticPoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/StaticPoint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/TestChildClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/TestChildClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/TestParentClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/TestParentClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/TestPoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/TestPoint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Three.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Three.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Two.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Two.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/UltimatePhp.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/UltimatePhp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/UseThis.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/UseThis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/UserInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/UserInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Yahoo.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Yahoo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/YahooImpi.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/YahooImpi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/anotherFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/anotherFile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes.php" beforeDir="false" afterPath="$PROJECT_DIR$/codes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codility/binaryGap.php" beforeDir="false" afterPath="$PROJECT_DIR$/codility/binaryGap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demoPolymorphism.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoPolymorphism.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terminalIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/terminalIndex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terminalTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/namespacesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/namespacesTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oopFeatures.php" beforeDir="false" afterPath="$PROJECT_DIR$/oopFeatures.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +88,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
+    <execution />
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="autoscrollToSource" value="true" />
@@ -86,7 +120,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0.13" />
   <component name="ProjectId" id="1z6SYXP6CA4kYTT3PoOxmCjkynR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -94,6 +127,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -104,25 +138,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -189,7 +211,10 @@
       <workItem from="1640540666250" duration="1694000" />
       <workItem from="1640615532900" duration="635000" />
       <workItem from="1640678112049" duration="1072000" />
-      <workItem from="1640679701097" duration="785000" />
+      <workItem from="1640679701097" duration="1075000" />
+      <workItem from="1640764008050" duration="2191000" />
+      <workItem from="1640792016481" duration="461000" />
+      <workItem from="1640797859217" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="adding getters and setters to the class">
       <created>1633032592412</created>
@@ -393,16 +418,14 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -421,6 +444,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding getters and setters to the class" />
@@ -443,47 +467,5 @@
     <MESSAGE value="types updated" />
     <MESSAGE value="added changes" />
     <option name="LAST_COMMIT_MESSAGE" value="added changes" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="220" y="145" key="#CLI_Interpreters" timestamp="1640539529978">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="220" y="145" key="#CLI_Interpreters/0.0.1280.984@0.0.1280.984" timestamp="1640539529978" />
-    <state x="232" y="149" key="#Inspections" timestamp="1640679992765">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="232" y="149" key="#Inspections/0.0.1280.984@0.0.1280.984" timestamp="1640679992765" />
-    <state x="347" y="81" key="#PHP" timestamp="1640539532226">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="347" y="81" key="#PHP/0.0.1280.984@0.0.1280.984" timestamp="1640539532226" />
-    <state x="232" y="149" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640541089141">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="232" y="149" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1640541089141" />
-    <state width="254" height="338" key="DatabaseViewActions_Filter" timestamp="1640541101643">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state width="254" height="338" key="DatabaseViewActions_Filter/0.0.1280.984@0.0.1280.984" timestamp="1640541101643" />
-    <state x="75" y="124" key="SettingsEditor" timestamp="1640679329442">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="75" y="124" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1640679329442" />
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1640539352629">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1640539352629" />
-    <state x="341" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1640678855675">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="341" y="314" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1640678855675" />
-    <state width="616" height="248" key="javadoc.popup.new" timestamp="1640541989845">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state width="616" height="248" key="javadoc.popup.new/0.0.1280.984@0.0.1280.984" timestamp="1640541989845" />
-    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1640680109871">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1640680109871" />
   </component>
 </project>

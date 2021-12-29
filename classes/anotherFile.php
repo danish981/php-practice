@@ -8,11 +8,13 @@
  */
 
 
-class anotherFile {
+class anotherFile
+{
     public static $testValue;
     public static $anotherTestValue;
 
-    public function __construct(int $testValue, int $anotherTestValue) {
+    public function __construct(int $testValue, int $anotherTestValue)
+    {
         self::$testValue = $testValue;
         self::$anotherTestValue = $anotherTestValue;
     }

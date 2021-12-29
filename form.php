@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <div class="form-container">
 
-    <h2>enter your cheracter here</h2>
+    <h2>enter your character here</h2>
 
     <form action="" method="post" autocomplete="off">
         <input type="text" placeholder="enter the letter here" name="letter" minlength="1" maxlength="1" required>

@@ -1,6 +1,7 @@
 <?php
 
-class BookOne {
+class BookOne
+{
 
     private $chapterNumber;
     private $currentChapterStudied;
@@ -24,23 +25,26 @@ class BookOne {
         $bookId,
         $bookTitle,
         $bookAuthor,
-        $bookPrice) {
-            $this->bookAuthor = $bookAuthor;
-            $this->bookTitle = $bookTitle;
-            $this->bookId = $bookId;
-            $this->bookIsbn = $bookIsbn;
-            $this->currentChapterPages = $currentChapterPages;
-            $this->totalBookPages = $totalBookPages;
-            $this->currentChapterStudied = $currentChapterStudied;
-            $this->chapterNumber = $chapterNumber;
-            $this->bookPrice = $bookPrice;
+        $bookPrice)
+    {
+        $this->bookAuthor = $bookAuthor;
+        $this->bookTitle = $bookTitle;
+        $this->bookId = $bookId;
+        $this->bookIsbn = $bookIsbn;
+        $this->currentChapterPages = $currentChapterPages;
+        $this->totalBookPages = $totalBookPages;
+        $this->currentChapterStudied = $currentChapterStudied;
+        $this->chapterNumber = $chapterNumber;
+        $this->bookPrice = $bookPrice;
     }
 
-    function getBookId() {
+    function getBookId()
+    {
         return $this->bookId;
     }
 
-    function getBookDetails(): array {
+    function getBookDetails(): array
+    {
         return [
             "Book Title " => $this->bookTitle,
             "Book Author " => $this->bookAuthor,
@@ -49,7 +53,8 @@ class BookOne {
     }
 
     // this phpstorm version does not support php variable types
-    function getBookPrice(): float {
+    function getBookPrice(): float
+    {
         return $this->bookPrice;
     }
 

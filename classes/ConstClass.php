@@ -10,7 +10,8 @@ const ONE = 1;
 const USER_LOGGED_IN_NAME = "BURHAN WANI";
 const CURRENT_TIME_ZONE = "ASIA | PAKISTAN | ISLAMABAD ";
 
-class ConstClass {
+class ConstClass
+{
 
     // constants inside of the class
     const PI = 3.1415;
@@ -19,11 +20,13 @@ class ConstClass {
     const YEAR = 2021;
     const MONTH_NUMBER = 3;
 
-    public function getYear(): int {
+    public function getYear(): int
+    {
         return constant("YEAR");
     }
 
-    public function getMonth() {
+    public function getMonth()
+    {
         // by using define() , we can define constant outside of the class
         // or we can define inside the function
         // but we cannot define class variables / fields / data members with define()

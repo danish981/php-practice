@@ -16,7 +16,8 @@
 // ABSTRACT CLASS CANNOT BE INSTANTIATED
 // ABSTRACT CLASS CANNOT BE INSTANTIATED
 
-abstract class AbstractClass {
+abstract class AbstractClass
+{
     public $username;
     public $email;
     public $samuraiJack;
@@ -30,7 +31,8 @@ abstract class AbstractClass {
     abstract function getMyName(): void;
 
     // method without abstract, can have the body too in abstract class
-    public function getRandomMaxValue() {
+    public function getRandomMaxValue()
+    {
         return getrandmax();
     }
 

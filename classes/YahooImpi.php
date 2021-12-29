@@ -3,36 +3,43 @@
 include("InterfaceOne.php");
 include("InterfaceTwo.php");
 
-class YahooImpi implements InterfaceOne, InterfaceTwo {
+class YahooImpi implements InterfaceOne, InterfaceTwo
+{
 
     private $nextLine = "\r\n";
     private $currentId;
     private $userEmail;
     private $userName;
 
-    function __construct($userName, $userEmail) {
+    function __construct($userName, $userEmail)
+    {
         $this->userName = $userName;
         $this->userEmail = $userEmail;
         $this->currentId = random_int(30, 300);
     }
 
-    static function getPi(): float {
+    static function getPi(): float
+    {
         return PI;
     }
 
-    function addNumbers(int $a, int $b, int $c): int {
+    function addNumbers(int $a, int $b, int $c): int
+    {
         return $a + $b + $c;
     }
 
-    function multiplyNumbers(float $a, float $b): float {
+    function multiplyNumbers(float $a, float $b): float
+    {
         return $a * $b;
     }
 
-    function divideNumbers(float $a, float $b): float {
+    function divideNumbers(float $a, float $b): float
+    {
         return ($a / $b);
     }
 
-    function getRamainder(int $firstNumber, int $secondNumber): int {
+    function getRamainder(int $firstNumber, int $secondNumber): int
+    {
         if ($secondNumber === $firstNumber) {
             return -1;
         }
@@ -42,45 +49,55 @@ class YahooImpi implements InterfaceOne, InterfaceTwo {
         return $firstNumber % $secondNumber;
     }
 
-    private function swapValues(&$a, &$b) {
+    private function swapValues(&$a, &$b)
+    {
         $temp = $a;
         $b = $temp;
         $a = $b;
     }
 
-    public function saveDate(string $data) {
+    public function saveDate(string $data)
+    {
         return "data $data is saved $this->nextLine";
     }
 
-    public function updateDate(int $id, string $data) {
+    public function updateDate(int $id, string $data)
+    {
         return "data $data is updated in id = $id $this->nextLine";
     }
 
-    public function deleteRecord(int $id) {
+    public function deleteRecord(int $id)
+    {
         return "record deleted successfully on id = $id $this->nextLine";
     }
 
-    public function getNextLine(): string {
+    public function getNextLine(): string
+    {
         return $this->nextLine;
     }
 
-    public function setNextLine(string $nextLine): void {
+    public function setNextLine(string $nextLine): void
+    {
         $this->nextLine = $nextLine;
     }
 
-    public function getUserEmail() {
+    public function getUserEmail()
+    {
         return $this->userEmail;
     }
 
-    public function setUserEmail($userEmail): void {
+    public function setUserEmail($userEmail): void
+    {
         $this->userEmail = $userEmail;
     }
 
-    public function getUserName() {
+    public function getUserName()
+    {
         return $this->userName;
     }
 
-    public function setUserName($userName): void {
+    public function setUserName($userName): void
+    {
         $this->userName = $userName;
     }
 

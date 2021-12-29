@@ -6,6 +6,6 @@ test project for practice
 todo :add more in the project, features, database connectivity etc
 
 
-    // & can be used before the ... and after the type (int string float etc.) if any
-    // look, we can use the & with the variadic parameters too, just after the type, if there is not type, write &...$args
-    // objects are always passed by reference , we don't need to write  &..$numbers
+// & can be used before the ... and after the type (int string float etc.) if any
+// look, we can use the & with the variadic parameters too, just after the type, if there is not type, write &...$args
+// objects are always passed by reference , we don't need to write  &..$numbers

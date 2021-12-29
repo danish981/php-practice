@@ -21,9 +21,9 @@
     </li>
     <li>Encapsulation (Information Hiding)</li>
     <ul>
-        <li>Seperating implementation via interfaces</li>
+        <li>Separating implementation via interfaces</li>
     </ul>
-    <li>Inhertitence</li>
+    <li>Inheritance</li>
     <ul>
         <li>Defining object data types as extensions and for restrictions from other object types</li>
     </ul>

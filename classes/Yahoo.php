@@ -2,10 +2,12 @@
 
 namespace pakistan;
 
-class Yahoo {
+class Yahoo
+{
     private $nextLIne = "<br>";
 
-    function yahooMethod() {
+    function yahooMethod()
+    {
         echo "i am yahoo method $$this->nextLIne";
     }
 }

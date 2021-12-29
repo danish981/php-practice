@@ -6,21 +6,25 @@
  * Date: 3/6/2021
  * Time: 8:30 AM
  */
-class TestPoint {
+class TestPoint
+{
     private $name;
     private $age;
 
-    public function __construct(string $name, int $age) {
+    public function __construct(string $name, int $age)
+    {
         $this->name = $name;
         $this->age = $age;
     }
 
-    public function showFunction() {
+    public function showFunction()
+    {
         echo "<br>name : " . $this->name;
         echo "<br>age  : " . $this->age;
     }
 
-    public function __destruct() {
+    public function __destruct()
+    {
         echo "<br>destructor called";
         echo "<br>GOOD BY CLASS";
     }
@@ -28,7 +32,8 @@ class TestPoint {
     // when the class finished its work, then this is called
     // it is not so oftenly used as compared to contructors
 
-    private function show() {
+    private function show()
+    {
         echo "name : " . $this->name;
         echo "<br>age : " . $this->age;
     }

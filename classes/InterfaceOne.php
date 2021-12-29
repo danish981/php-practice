@@ -1,6 +1,7 @@
 <?php
 
-interface InterfaceOne {
+interface InterfaceOne
+{
 
     public function getPersonName();
 

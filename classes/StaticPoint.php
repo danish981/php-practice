@@ -7,7 +7,8 @@
  * Time: 8:51 AM
  */
 
-class StaticPoint {
+class StaticPoint
+{
 
     // private static fields
     private static $cityName = "gujranwala";
@@ -18,7 +19,8 @@ class StaticPoint {
     private $name = "danish mehmood mughal";
     private $age = 24;
 
-    public static function getDetails() {
+    public static function getDetails()
+    {
         // trying to access the non static property $name
         // trying to access the non static property $age
         // CANNOT ACCESS THE NON-STATIC PROPERTY FROM STATIC CONTEXT
@@ -29,7 +31,8 @@ class StaticPoint {
         echo "<br>____blank static function";
     }
 
-    public static function youFrom() {
+    public static function youFrom()
+    {
         // REMEBER WE USER USING DOLLER SIGN $ WITH THE VARIABLES
         echo "<br>city name : " . StaticPoint::$cityName;
         echo "<br>province name : " . StaticPoint::$provinceName;
