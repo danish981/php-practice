@@ -27,54 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="added changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/A.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/A.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/AbstractChild.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AbstractChild.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/AbstractClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AbstractClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/AbstractClassOne.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AbstractClassOne.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/AccessFunctions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AccessFunctions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/AnotherChildClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AnotherChildClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/AnotherFinal.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AnotherFinal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/B.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/B.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/BookOne.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/BookOne.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/C.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/C.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/ChildClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/ChildClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/ConstClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/ConstClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/D.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/D.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Employee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/EmployeePerson.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/EmployeePerson.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/FinalClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/FinalClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Four.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Four.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/GoodPerson.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/GoodPerson.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/HelloPoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/HelloPoint.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/InterfaceImplemented.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/InterfaceImplemented.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/InterfaceOne.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/InterfaceOne.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/InterfaceThree.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/InterfaceThree.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/InterfaceTwo.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/InterfaceTwo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/MyClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/MyClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/One.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/One.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Pdo.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Pdo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Person.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/PersonParent.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/PersonParent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Point.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Point.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/PolyClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/PolyClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Quality.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Quality.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/StaticMember.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/StaticMember.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/StaticPoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/StaticPoint.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/TestChildClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/TestChildClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/TestParentClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/TestParentClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/TestPoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/TestPoint.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Three.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Three.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Two.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Two.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/UltimatePhp.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/UltimatePhp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/UseThis.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/UseThis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/UserInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/UserInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Yahoo.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Yahoo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/YahooImpi.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/YahooImpi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/anotherFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/anotherFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abstractIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/abstractIndex.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demoPolymorphism.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoPolymorphism.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myClasses/Quality.php" beforeDir="false" afterPath="$PROJECT_DIR$/myClasses/Quality.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +86,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
