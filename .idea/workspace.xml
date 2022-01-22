@@ -72,15 +72,9 @@
       <change beforePath="$PROJECT_DIR$/classes/Yahoo.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Yahoo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/YahooImpi.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/YahooImpi.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/anotherFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/anotherFile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes.php" beforeDir="false" afterPath="$PROJECT_DIR$/codes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codility/binaryGap.php" beforeDir="false" afterPath="$PROJECT_DIR$/codility/binaryGap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demoPolymorphism.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoPolymorphism.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/namespacesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/namespacesTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oopFeatures.php" beforeDir="false" afterPath="$PROJECT_DIR$/oopFeatures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myClasses/Quality.php" beforeDir="false" afterPath="$PROJECT_DIR$/myClasses/Quality.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +132,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">

@@ -16,13 +16,12 @@
 // ABSTRACT CLASS CANNOT BE INSTANTIATED
 // ABSTRACT CLASS CANNOT BE INSTANTIATED
 
-abstract class AbstractClass
-{
-    public $username;
-    public $email;
+abstract class AbstractClass {
+    public string $username;
+    public string $email;
     public $samuraiJack;
 
-    // fields  cannot be declared as abstract
+    // fields cannot be declared as abstract
 
     // method signature only , will be defined in child classes
     abstract function getRandomValue(int $lowerValue, int $upperValue): int;
@@ -31,9 +30,8 @@ abstract class AbstractClass
     abstract function getMyName(): void;
 
     // method without abstract, can have the body too in abstract class
-    public function getRandomMaxValue()
-    {
-        return getrandmax();
+    public function getRandomMaxValue() {
+        return mt_getrandmax();
     }
 
     // class with at least one abstract method, will be abstract

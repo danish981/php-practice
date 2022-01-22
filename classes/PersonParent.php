@@ -6,17 +6,14 @@
  * Date: 3/6/2021
  * Time: 9:54 PM
  */
-class PersonParent
-{
+class PersonParent {
     private $name;
 
-    function getName()
-    {
+    function getName() {
         return $this->name;
     }
 
-    function setName(string $name)
-    {
+    function setName(string $name) {
         $this->name = $name;
     }
 

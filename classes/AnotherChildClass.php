@@ -1,16 +1,12 @@
 <?php
 
+class AnotherChildClass extends TestParentClass {
 
-class AnotherChildClass extends TestParentClass
-{
-
-    function sameNameMethod()
-    {
+    function sameNameMethod() {
         echo "I am method " . __METHOD__ . "<br>";
     }
 
-    function whoAmI(): void
-    {
+    function whoAmI(): void {
         echo "another child ";
     }
 }

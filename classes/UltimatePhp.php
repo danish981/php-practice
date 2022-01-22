@@ -2,19 +2,17 @@
 
 namespace isotopes\rangeela\bombi;
 
-class UltimatePhp
-{
+class UltimatePhp {
 
     private static $nextline = "<br>";
 
-    function ultimateMethod()
-    {
+    function ultimateMethod() {
         echo "i am an ultimate method of php class ultimatePhp " . self::$nextline;
     }
 
-    public function getMyName(string $name): string
-    {
+    public function getMyName(string $name): string {
         return $name . self::$nextline;
+
     }
 
 }

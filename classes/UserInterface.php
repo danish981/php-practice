@@ -1,7 +1,6 @@
 <?php
 
-interface UserInterface
-{
+interface UserInterface {
 
     public function createData(string $username);
 

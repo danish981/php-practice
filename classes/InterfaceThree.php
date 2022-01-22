@@ -1,7 +1,6 @@
 <?php
 
-interface InterfaceThree
-{
+interface InterfaceThree {
     public function getHouseNumber();
 
     public function getHouseAddress();

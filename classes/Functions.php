@@ -12,8 +12,7 @@ namespace Utils;
 
 use Exception;
 
-class Functions
-{
+class Functions {
     private static string $nextLine = "<br>";
     private static float $pi = PI;
     private static int $dayInYear = 365;
@@ -38,50 +37,43 @@ class Functions
         'haani', 'bakhtawar', 'naseem', 'akhtar', 'zareena', 'zulekha', 'gul'
     ];
 
-    public static function getBoyName(): string
-    {
+    public static function getBoyName(): string {
         return self::$muslimBoyNames[random_int(0, count(self::$muslimBoyNames) - 1)];
     }
 
-    public static function getGirlName(): string
-    {
+    public static function getGirlName(): string {
         return self::$muslimGirlNames[random_int(0, count(self::$muslimGirlNames) - 1)];
     }
 
-    public static function getPi(): float
-    {
+    public static function getPi(): float {
         return self::$pi;
     }
 
-    public static function getDayInYear(): int
-    {
+    public static function getDayInYear(): int {
         return self::$dayInYear;
     }
 
-    public static function getSecondsInDay(): int
-    {
+    public static function getSecondsInDay(): int {
         return self::$secondsInDay;
     }
 
-    public static function getCircumferance(float $radius): float
-    {
+
+    public static function getCircumferance(float $radius): float {
         return 2.0 * PI * $radius;
     }
 
-    public static function getSquare(float $length): float
-    {
+    public static function getSquare(float $length): float {
         return $length * $length;
     }
 
-    public static function getCircleArea(float $radius): float
-    {
+    public static function getCircleArea(float $radius): float {
         return self::$pi * abs($radius) * abs($radius);
     }
 
-    public static function getIslamicScholerNames(): array
-    {
+
+    public static function getIslamicScholerNames(): array {
         return [
-            "Allama Khadim Hussain",
+            "Allama Khadim Hussain Rizvi",
             "Allama Raza Saqib Mustafai",
             "Allama Saqib shami",
             "Allama Ilyas Qadri",
@@ -97,26 +89,23 @@ class Functions
             "Allama Shafeeq Ameeni",
             "Allama Ahmad Shah Bukhari",
             "Allama Saad Hussain Rizvi",
-            "Allama aasim rizvi jehlum",
+            "Allama Aasim Ashfaq rizvi jehlum",
             "Allama Ajmal qadri rahwali"
         ];
     }
 
-    public static function pushElementsIntoArray(array &$array, ...$elements): void
-    {
+    public static function pushElementsIntoArray(array &$array, ...$elements): void {
         foreach ($elements as $values) {
             $array[] = $values;
         }
     }
 
     // these are the demo methods for variadic functions, read "php notes for professionals"
-    public static function getMaxFromParams(int ...$params): int
-    {
+    public static function getMaxFromParams(int ...$params): int {
         return self::getMax($params);
     }
 
-    public static function getMax(array $array): ?int
-    {
+    public static function getMax(array $array): ?int {
         if (empty($array) === false) {
             $tempMax = $array[0];
             foreach ($array as $value) {
@@ -129,8 +118,7 @@ class Functions
         return NULL;
     }
 
-    public static function printTable(int $tableNum): void
-    {
+    public static function printTable(int $tableNum): void {
         self::checks($tableNum);
         if (is_int($tableNum)) {
             $tableLimit = 10;
@@ -141,15 +129,13 @@ class Functions
         }
     }
 
-    private static function checks(&$variable): void
-    {
+    private static function checks(&$variable): void {
         if ($variable < 1 || $variable > 999) {
             $variable = 16;
         }
     }
 
-    public static function countOccurences(int $target, array $array): int
-    {
+    public static function countOccurences(int $target, array $array): int {
         if (empty($array) === false) {
             $counter = 0;
             foreach ($array as $value) {
@@ -162,13 +148,11 @@ class Functions
         return -1;
     }
 
-    public static function printArray(...$arguments): void
-    {
+    public static function printArray(...$arguments): void {
         self::printFormattedArray($arguments);
     }
 
-    public static function printFormattedArray(array $array): void
-    {
+    public static function printFormattedArray(array $array): void {
         echo self::$nextLine . "<pre>";
         print_r($array);
         echo "</pre>" . self::$nextLine;
@@ -179,8 +163,7 @@ class Functions
      * @param int ...$numbers
      * @throws Exception
      */
-    public static function assignRandomValues(int ...$numbers): void
-    {
+    public static function assignRandomValues(int ...$numbers): void {
         foreach ($numbers as &$value) {
             $value = random_int(20, 99);
         }
@@ -191,8 +174,7 @@ class Functions
      * @param int ...$numbers
      * @return int the sum of all the numbers
      */
-    public static function getSum(int ...$numbers): int
-    {
+    public static function getSum(int ...$numbers): int {
         // we are getting the ... $numbers as an array, REMEMBERS
         $sum = 0;
         foreach ($numbers as $value) {
@@ -206,8 +188,7 @@ class Functions
      * @param int $tableNum
      * @return array the returned array filled the table values
      */
-    public static function getTableArray(int $tableNum): array
-    {
+    public static function getTableArray(int $tableNum): array {
         $tableArray = [];
         for ($i = 0; $i <= 10; $i++) {
             $tableArray[] = ($tableNum * ($i + 1));
@@ -222,8 +203,7 @@ class Functions
      * @return int
      */
     public
-    static function getProduct(int ...$args): int
-    {
+    static function getProduct(int ...$args): int {
         $product = 1;
         foreach ($args as $value) {
             $product *= $value;
@@ -237,8 +217,7 @@ class Functions
      * @return int the random number
      */
     public
-    static function getRandomNumber(int $length): int
-    {
+    static function getRandomNumber(int $length): int {
         if (!empty($length)) {
             $min = 10 ** ($length - 1);
             $max = 10 ** $length;
@@ -257,8 +236,7 @@ class Functions
      * @return int average of numbers given
      */
     public
-    static function getAverage(int ...$numbers): int
-    {
+    static function getAverage(int ...$numbers): int {
         $argumentLength = count($numbers);
         $sum = 0;
         foreach ($numbers as $value) {
@@ -274,8 +252,7 @@ class Functions
      * @throws \JsonException
      */
     public
-    static function variadic_function(...$arguments): string
-    {
+    static function variadic_function(...$arguments): string {
         return json_encode($arguments, JSON_THROW_ON_ERROR);
     }
 
@@ -285,8 +262,7 @@ class Functions
      * @param int $limit the ending limit of the table
      */
     public
-    static function printTableToLimit(int $tableNum, int $limit): void
-    {
+    static function printTableToLimit(int $tableNum, int $limit): void {
         self::checks($tableNum);
         self::checks($limit);
         if (is_int($tableNum) && is_int($limit)) {
@@ -305,8 +281,7 @@ class Functions
      * @throws Exception
      */
     public
-    static function getRandomArrayOfSize(int $arrayLength, int $lowerLimit, int $upperLimit): array
-    {
+    static function getRandomArrayOfSize(int $arrayLength, int $lowerLimit, int $upperLimit): array {
         if ($arrayLength < 1 || $arrayLength > 999) {
             $arrayLength = 50;
         }
@@ -325,8 +300,7 @@ class Functions
      * @throws Exception
      */
     public
-    static function getRandomNumArray(int $lowerLimit, int $upperLimit): array
-    {
+    static function getRandomNumArray(int $lowerLimit, int $upperLimit): array {
         self::varCheck($lowerLimit);
         self::varCheck($upperLimit);
         if ($lowerLimit > $upperLimit) {
@@ -348,8 +322,7 @@ class Functions
      * @return int
      */
     private
-    static function varCheck(&$variable): ?int
-    {
+    static function varCheck(&$variable): ?int {
         if (is_numeric($variable)) {
             if ($variable < 1 || $variable > 1000) {
                 return $variable = 50;
@@ -364,8 +337,7 @@ class Functions
      * @throws Exception
      */
     public
-    function getUserDetails(): array
-    {
+    function getUserDetails(): array {
         return [
             'id' => random_int(0, 100),
             'name' => 'burhan ali',
@@ -385,8 +357,7 @@ class Functions
      * @param $secondValue
      */
     public
-    static function swapValues(&$firstValue, &$secondValue): void
-    {
+    static function swapValues(&$firstValue, &$secondValue): void {
         $temp = $firstValue;
         $firstValue = $secondValue;
         $secondValue = $temp;
@@ -401,8 +372,7 @@ class Functions
      * @throws Exception
      */
     public
-    static function getArrayRandom(int $lowerValue = 10, int $upperLimit = 99, int $arrayLength = 20): ?array
-    {
+    static function getArrayRandom(int $lowerValue = 10, int $upperLimit = 99, int $arrayLength = 20): ?array {
         $filledArray = [];
         if (is_numeric($lowerValue) && is_numeric($upperLimit) && is_numeric($arrayLength)) {
             for ($i = 0; $i < $arrayLength; $i++) {
@@ -419,8 +389,7 @@ class Functions
      * @param int $times
      */
     public
-    static function printTimes(string $string, int $times): void
-    {
+    static function printTimes(string $string, int $times): void {
         for ($i = 1; $i <= $times; $i++) {
             echo $string . self::$nextLine;
         }
@@ -431,14 +400,14 @@ class Functions
      * @param string $word
      */
     public
-    static function pluralize(string &$word): void
-    {
+    static function pluralize(string &$word): void {
         if (substr($word, -1) === 'y') {
             $word = substr($word, 0, -1) . 'ies';
         } else {
             $word .= 's';
         }
     }
+
 
     /**
      * generates the string of random lowercase alphabeting characters of given length and returns
@@ -447,8 +416,7 @@ class Functions
      * @throws Exception
      */
     public
-    static function getLowerRandomString(int $stringLength = 10): string
-    {
+    static function getLowerRandomString(int $stringLength = 10): string {
         $masterString = "";
         for ($i = 1; $i <= $stringLength; $i++) {
             $masterString .= self::$lowerLetters[random_int(0, 26)];
@@ -463,8 +431,7 @@ class Functions
      * @throws Exception
      */
     public
-    static function getRandomString(int $stringLength = 10): string
-    {
+    static function getRandomString(int $stringLength = 10): string {
         $masterString = "";
         $charsLength = strlen(self::$mixChars);
         for ($i = 1; $i <= $stringLength; $i++) {
@@ -480,8 +447,7 @@ class Functions
      * @throws Exception
      */
     public
-    static function getUltimateRandomString(int $stringLength = 10): string
-    {
+    static function getUltimateRandomString(int $stringLength = 10): string {
         return substr(md5(self::getRandomString($stringLength)), 0, $stringLength);
     }
 
@@ -492,8 +458,7 @@ class Functions
      * @throws Exception random number
      */
     public
-    static function getUpperRandomString(int $stringLength = 10): string
-    {
+    static function getUpperRandomString(int $stringLength = 10): string {
         $masterString = "";
         for ($i = 1; $i <= $stringLength; $i++) {
             $masterString .= self::$upperLetters[random_int(0, 26)];
@@ -508,8 +473,7 @@ class Functions
      * @throws Exception
      */
     public
-    static function getStrRandomDigits(int $stringLength = 10): string
-    {
+    static function getStrRandomDigits(int $stringLength = 10): string {
         $masterString = "";
         for ($i = 1; $i <= $stringLength; $i++) {
             $masterString .= self::$digits[random_int(0, 9)];
@@ -525,8 +489,7 @@ class Functions
      * @throws Exception
      */
     public
-    static function getRandomFromString(string $string, int $outputStrLen = 10): string
-    {
+    static function getRandomFromString(string $string, int $outputStrLen = 10): string {
         if (!empty($string)) {
             $masterString = "";
             $stringLength = strlen($string);
@@ -546,8 +509,7 @@ class Functions
      * @return array|null if the array is filled then array will be returned, and NULL otherwisw
      */
     public
-    static function getShuffledArrayStr(string $string, int $arrayLength = 5): ?array
-    {
+    static function getShuffledArrayStr(string $string, int $arrayLength = 5): ?array {
         if (!empty($string)) {
             $masterArray = [];
             for ($i = 1; $i <= $arrayLength; $i++) {
@@ -564,8 +526,7 @@ class Functions
      * @throws Exception random_int throws exception
      */
     public
-    static function getRandomPhoneNumber(): string
-    {
+    static function getRandomPhoneNumber(): string {
         return "03" . random_int(10, 99) . " " . random_int(1234567, 9999999);
     }
 
@@ -574,8 +535,7 @@ class Functions
      * @return string string of phone number
      * @throws Exception
      */
-    public static function getRandomJazzNumber(): string
-    {
+    public static function getRandomJazzNumber(): string {
         return '03' . static::$jazzCodes[random_int(0, count(static::$jazzCodes))] . ' ' . random_int(1234567, 9999999);
     }
 
@@ -585,8 +545,7 @@ class Functions
      * @return string ufone number randomly
      * @throws Exception
      */
-    public static function getRandomUfoneNumber(): string
-    {
+    public static function getRandomUfoneNumber(): string {
         return '03' . static::$uFoneCodes[random_int(0, count(static::$uFoneCodes))] . ' ' . random_int(1234567, 9999999);
     }
 
@@ -595,8 +554,7 @@ class Functions
      * @return string random telenor number
      * @throws Exception
      */
-    public static function getRandomTelenorNumber(): string
-    {
+    public static function getRandomTelenorNumber(): string {
         return '03' . static::$telenorCodes[random_int(0, count(static::$telenorCodes))] . ' ' . random_int(1234567, 9999999);
     }
 
@@ -605,11 +563,57 @@ class Functions
      * @return string
      * @throws Exception
      */
-    public static function getRandomZongNumber(): string
-    {
+    public static function getRandomZongNumber(): string {
         return '03' . static::$zongCodes[random_int(0, count(static::$zongCodes))] . ' ' . random_int(1234567, 9999999);
     }
 
+    public static function convertNumber($num = false) {
+        $num = str_replace(array(',', ''), '', trim($num));
+        if (!$num) {
+            return false;
+        }
+        $num = (int)$num;
+        $words = array();
+        $list1 = array('', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven',
+            'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'
+        );
+        $list2 = array('', 'ten', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety', 'hundred');
+        $list3 = array('', 'thousand', 'million', 'billion', 'trillion', 'quadrillion', 'quintillion', 'sextillion', 'septillion',
+            'octillion', 'nonillion', 'decillion', 'undecillion', 'duodecillion', 'tredecillion', 'quattuordecillion',
+            'quindecillion', 'sexdecillion', 'septendecillion', 'octodecillion', 'novemdecillion', 'vigintillion'
+        );
+
+        $num_length = strlen((string)$num);
+        $levels = (int)(($num_length + 2) / 3);
+        $max_length = $levels * 3;
+        $num = substr('00' . $num, -$max_length);
+        $num_levels = str_split($num, 3);
+        foreach ($num_levels as $iValue) {
+            $levels--;
+            $hundreds = (int)($iValue / 100);
+            $hundreds = ($hundreds ? ' ' . $list1[$hundreds] . ' hundred' . ($hundreds == 1 ? '' : '') . ' ' : '');
+            $tens = (int)($iValue % 100);
+            $singles = '';
+            if ($tens < 20) {
+                $tens = ($tens ? ' and ' . $list1[$tens] . ' ' : '');
+            } elseif ($tens >= 20) {
+                $tens = (int)($tens / 10);
+                $tens = ' and ' . $list2[$tens] . ' ';
+                $singles = (int)($iValue % 10);
+                $singles = ' ' . $list1[$singles] . ' ';
+            }
+            $words[] = $hundreds . $tens . $singles . (($levels && ( int )($iValue)) ? ' ' . $list3[$levels] . ' ' : '');
+        } //end for loop
+        $commas = count($words);
+        if ($commas > 1) {
+            --$commas;
+        }
+        $words = implode(' ', $words);
+        $words = preg_replace('/^\s\b(and)/', '', $words);
+        $words = trim($words);
+        $words = ucfirst($words);
+        $words .= ".";
+        return $words;
+    }
 
 }
-

@@ -1,25 +1,20 @@
 <?php
 
-class AccessFunctions extends AbstractChild
-{
+class AccessFunctions extends AbstractChild {
 
-    public function getMyName(): string
-    {
+    public function getMyName(): string {
         return "danish mehmood mughal <br>";
     }
 
-    public function getMyBelovedGame(): string
-    {
+    public function getMyBelovedGame(): string {
         return "pubg pc";
     }
 
-    public function myCityName(): string
-    {
+    public function myCityName(): string {
         return "gujranwala<br>";
     }
 
-    public function myRollNumber(): int
-    {
+    public function myRollNumber(): int {
         return rand(45, 100);
     }
 
@@ -27,30 +22,25 @@ class AccessFunctions extends AbstractChild
     // this method was public in parent class, when we declare in protected, it gives error
     // this method was public in parent class, when we declare in protected, it gives error
 
-    public function myCountryName(): string
-    {
+    public function myCountryName(): string {
         return "pakistan <br>";
     }
 
     // this method was protected in base class, we can override it as public
 
-    protected function getValue(): string
-    {
+    protected function getValue(): string {
         return "value <br>";
     }
 
-    protected function getFoo($param): string
-    {
+    protected function getFoo($param): string {
         return $param . "<br>";
     }
 
-    protected function getRandomNumber(int $lowerLimit, int $upperLimit): int
-    {
+    protected function getRandomNumber(int $lowerLimit, int $upperLimit): int {
         return random_int($lowerLimit, $upperLimit);
     }
 
-    protected function getMyCityName(string $country): string
-    {
+    protected function getMyCityName(string $country): string {
         switch ($country) {
             case  "pakistan":
                 return "gujranwala<br>";

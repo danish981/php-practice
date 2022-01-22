@@ -7,8 +7,7 @@
  * Time: 10:11 AM
  */
 
-class UseThis
-{
+class UseThis {
 
     public static $name = "danish";
     public static $age = 24;
@@ -17,25 +16,21 @@ class UseThis
 
     public $cousinName = "burhan";
 
-    public static function getStaticName()
-    {
+    public static function getStaticName() {
         return UseThis::$name;
     }
 
-    public static function getStaticAge()
-    {
+    public static function getStaticAge() {
         return self::$age;
     }
 
-    public static function getStaticAddress()
-    {
+    public static function getStaticAddress() {
         // INVALID | using $this-> to access static property
         // return $this->address;
         echo self::$nextLine . "TRYING TO ACCESS STATIC PROPERTY USING $\THIS->";
     }
 
-    public function staticRule()
-    {
+    public function staticRule() {
         $rule = "static property or method cannot be accessed from a non-static context/method";
         $rule .= "\tstatic propety or method cannot be accessed from a non-static method";
         $rule .= "\tstatic property or method can be called using classname with :: and property or method name";

@@ -6,20 +6,16 @@
  * Date: 3/6/2021
  * Time: 10:33 PM
  */
-class Two extends One
-{
-    function test()
-    {
+class Two extends One {
+    function test() {
         echo "function test() is called from Two <br>" . PHP_EOL;
     }
 
-    function accessParent()
-    {
+    function accessParent() {
         parent::test();
     }
 
-    function accessParentFunc()
-    {
+    function accessParentFunc() {
         parent::oneFunction();
     }
 

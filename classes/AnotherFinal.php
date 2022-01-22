@@ -1,7 +1,6 @@
 <?php
 
-final class AnotherFinal
-{
+final class AnotherFinal {
 
     private const nextLine = "\r\n";
     public $fieldOne;
@@ -13,25 +12,21 @@ final class AnotherFinal
     private $anotherPrivateField;
     private $nextLine = "\r\n";
 
-    function printSomething(string $something, int $times)
-    {
+    function printSomething(string $something, int $times) {
         for ($i = 1; $i <= abs($times); $i++) {
             echo $something . $this->nextLine;
         }
     }
 
-    public function getFieldOne()
-    {
+    public function getFieldOne() {
         return $this->fieldOne;
     }
 
-    function setFieldOne($fieldOne)
-    {
+    function setFieldOne($fieldOne) {
         $this->fieldOne = $fieldOne;
     }
 
-    public function printSentence()
-    {
+    public function printSentence() {
         echo "a quick brown fox jumps over the lazy dog " . self::nextLine;
         echo "a quick brown fox jumps over the lazy dog $this->nextLine";
         echo "a quick brown fox jumps over the lazy dog $this->nextLine";
@@ -39,73 +34,59 @@ final class AnotherFinal
         echo "a quick brown fox jumps over the lazy dog $this->nextLine";
     }
 
-    public function setFieldTwo($fieldTwo): void
-    {
+    public function setFieldTwo($fieldTwo): void {
         $this->fieldTwo = $fieldTwo;
     }
 
-    public function getFieldTwo()
-    {
+    public function getFieldTwo() {
         return $this->fieldTwo;
     }
 
-    public function getSevereFever()
-    {
+    public function getSevereFever() {
         return $this->severeFever;
     }
 
-    public function setSevereFever($severeFever): void
-    {
+    public function setSevereFever($severeFever): void {
         $this->severeFever = $severeFever;
     }
 
-    public function getAgliLine(): string
-    {
+    public function getAgliLine(): string {
         return $this->agliLine;
     }
 
-    public function setAgliLine(string $agliLine): void
-    {
+    public function setAgliLine(string $agliLine): void {
         $this->agliLine = $agliLine;
     }
 
-    public function getFieldThree()
-    {
+    public function getFieldThree() {
         return $this->fieldThree;
     }
 
-    public function setFieldThree($fieldThree): void
-    {
+    public function setFieldThree($fieldThree): void {
         $this->fieldThree = $fieldThree;
     }
 
-    public function getTestField()
-    {
+    public function getTestField() {
         return $this->testField;
     }
 
-    public function setTestField($testField): void
-    {
+    public function setTestField($testField): void {
         $this->testField = $testField;
     }
 
-    public function getAnotherPrivateField()
-    {
+    public function getAnotherPrivateField() {
         return $this->anotherPrivateField;
     }
 
-    public function setAnotherPrivateField($anotherPrivateField): void
-    {
+    public function setAnotherPrivateField($anotherPrivateField): void {
         $this->anotherPrivateField = $anotherPrivateField;
     }
 
-    public function getNextLine(): string
-    {
+    public function getNextLine(): string {
         return $this->nextLine;
     }
 
-    public function setNextLine(string $nextLine): void
-    {
+    public function setNextLine(string $nextLine): void {
         $this->nextLine = $nextLine;
     }
 

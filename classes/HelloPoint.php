@@ -6,10 +6,8 @@
  * Time: 8:20 AM
  */
 
-class HelloPoint
-{
-    public function __construct()
-    {
+class HelloPoint {
+    public function __construct() {
         echo "hello Point";
     }
 }

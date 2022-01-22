@@ -3,14 +3,12 @@
 namespace myPdoClass;
 
 // this class is inside the myPdoClass
-class Pdo
-{
+class Pdo {
 
     private string $nextline = "<br>";
 
-    function pdo()
-    {
-        echo "pdo object method " . $this->nextline;
+    public function pdo() : string {
+        return "pdo object method " . $this->nextline;
     }
 
 }

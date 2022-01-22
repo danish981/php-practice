@@ -1,7 +1,6 @@
 <?php
 
-interface InterfaceTwo
-{
+interface InterfaceTwo {
 
     public function getCirclePerimter(float $radius): float;
 
