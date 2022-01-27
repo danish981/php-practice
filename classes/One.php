@@ -12,17 +12,18 @@ class One {
         echo "method test() is called of class One \n" . PHP_EOL;
     }
 
-    function func() {
+    public function func() {
         echo "function func() is called of class One\n" . PHP_EOL;
     }
 
-    function oneFunction() {
+    public function oneFunction() {
         echo "Hi from function one() of class One \n" . PHP_EOL;
     }
 
     public function anotherFunction(): string {
         return "Hi, i am another function \n" . __METHOD__ . PHP_EOL;
     }
+
 
 }
 

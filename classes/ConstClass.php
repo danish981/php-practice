@@ -12,7 +12,7 @@ const CURRENT_TIME_ZONE = "ASIA | PAKISTAN | ISLAMABAD ";
 class ConstClass {
 
     // constants inside of the class
-    const PI = 3.1415;
+    const  PI = 3.1415;
     const CURRENT_DAY = "Saturday";
     const MONTH = "March";
     const YEAR = 2021;

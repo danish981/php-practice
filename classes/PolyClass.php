@@ -5,29 +5,29 @@ include("InterfaceThree.php");
 
 class PolyClass implements InterfaceOne, InterfaceThree {
 
-    private $nextLine = "<br>";
+    private string $nextLine = "<br>";
 
-    public function getPersonName() {
+    public function getPersonName(): string {
         return "yahoo owner name " . $this->nextLine;
     }
 
-    public function getPersonAge() {
-        return rand(20, 70);
+    public function getPersonAge(): int {
+        return random_int(20, 70);
     }
 
-    public function getPersonSalary() {
+    public function getPersonSalary(): int {
         return 40000;
     }
 
-    public function getHouseNumber() {
+    public function getHouseNumber(): int {
         return 354;
     }
 
-    public function getHouseAddress() {
+    public function getHouseAddress(): string {
         return "Chamma Pan Shop Lohaianwala Gujranwala, punjab pakistan" . $this->nextLine;
     }
 
-    public function getHouseOwnerName() {
+    public function getHouseOwnerName(): string {
         return "Someone " . $this->nextLine;
     }
 

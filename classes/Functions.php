@@ -57,7 +57,6 @@ class Functions {
         return self::$secondsInDay;
     }
 
-
     public static function getCircumferance(float $radius): float {
         return 2.0 * PI * $radius;
     }
@@ -69,7 +68,6 @@ class Functions {
     public static function getCircleArea(float $radius): float {
         return self::$pi * abs($radius) * abs($radius);
     }
-
 
     public static function getIslamicScholerNames(): array {
         return [

@@ -16,6 +16,10 @@ class GoodPerson {
         return $myName;
     }
 
+    public function fianceeName(string $name): string {
+        return $name;
+    }
+
 }
 
 
