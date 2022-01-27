@@ -1,5 +1,7 @@
 <?php
 
+use JetBrains\PhpStorm\Pure;
+
 class MyClass extends AbstractClassOne {
 
     public static function getPI(): float {
@@ -14,11 +16,11 @@ class MyClass extends AbstractClassOne {
         return "value : " . md5(random_int(0, 10));
     }
 
-    public function getFoo($param): string {
+    #[Pure] public function getFoo($param): string {
         return " i am " . $this->getValue() . " function getFoo(" . $param . "){}";
     }
 
-    protected function getValue() {
+    protected function getValue(): string {
         return __CLASS__;       // gives current class name
     }
 
@@ -26,6 +28,9 @@ class MyClass extends AbstractClassOne {
         return "random string\n";
     }
 
+    /**
+     * @throws Exception
+     */
     public function myRollNumber(): int {
         return random_int(20, 30);
     }

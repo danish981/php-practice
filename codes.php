@@ -5,8 +5,9 @@ function code_1() {
     $number = 10;
     while ($number) {
         $number = (int)readline();
-        if ($number == 42)
+        if ($number === 42) {
             break;
+        }
         if ($number > 0 && $number <= 99) {
             $numberArray[] = $number;
         } else {

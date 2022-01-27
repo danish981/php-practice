@@ -7,7 +7,10 @@ abstract class AbstractClassOne {
 
     abstract public function myCountryName(): string;
 
-    public function useRandomValue() {
+    /**
+     * @throws Exception
+     */
+    public function useRandomValue(): int {
         return $this->getRandomValue(20, 100);
     }
 
