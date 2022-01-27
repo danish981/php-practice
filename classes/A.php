@@ -1,6 +1,6 @@
 <?php
 
-class A {
+class A extends AnotherChildClass{
 
     public $public_data_A = "A<br>";
     public $testField__A = "A<br>";

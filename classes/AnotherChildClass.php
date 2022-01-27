@@ -2,11 +2,11 @@
 
 class AnotherChildClass extends TestParentClass {
 
-    function sameNameMethod() {
-        echo "I am method " . __METHOD__ . "<br>";
+    public function sameNameMethod() : string {
+        return "I am method " . __METHOD__ . "<br>";
     }
 
-    function whoAmI(): void {
-        echo "another child ";
+    public function whoAmI(): string {
+        return "another child ";
     }
 }
