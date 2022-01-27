@@ -16,18 +16,24 @@ abstract class AbstractClassOne {
     // it is good practice to declare abstract methods are protected
     // it is good practice to declare abstract methods are protected
 
+    /**
+     * @param int $lowerBound
+     * @param int $upperBound
+     * @return int
+     * @throws Exception
+     */
     private function getRandomValue(int $lowerBound, int $upperBound): int {
         return random_int($lowerBound, $upperBound);
     }
 
     public function printValue() {
-        $this->getValue();
+        return $this->getValue();
     }
 
     abstract protected function getValue();
 
     // private function can only be access here inside the class
-    public function callotherAbstracMethod() {
+    public function callotherAbstracMethod(): void {
         $this->getRandomNumber(45, 100);
     }
 
