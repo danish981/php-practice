@@ -11,6 +11,8 @@ declare(strict_types=1);
 namespace Utils;
 
 use Exception;
+use JetBrains\PhpStorm\ArrayShape;
+use JetBrains\PhpStorm\Pure;
 
 class Functions {
     private static string $nextLine = "<br>";
@@ -99,7 +101,7 @@ class Functions {
     }
 
     // these are the demo methods for variadic functions, read "php notes for professionals"
-    public static function getMaxFromParams(int ...$params): int {
+    #[Pure] public static function getMaxFromParams(int ...$params): int {
         return self::getMax($params);
     }
 
@@ -317,7 +319,7 @@ class Functions {
     /**
      * checks the variables if in the proper limit and value
      * @param $variable
-     * @return int
+     * @return int|null
      */
     private
     static function varCheck(&$variable): ?int {
@@ -334,7 +336,7 @@ class Functions {
      * @return array the array having details
      * @throws Exception
      */
-    public
+    #[ArrayShape(['id' => "int", 'name' => "string", 'username' => "string", 'email' => "string", 'country' => "string", 'province' => "string", 'city' => "string", 'zipCode' => "int", 'phone' => "string"])] public
     function getUserDetails(): array {
         return [
             'id' => random_int(0, 100),

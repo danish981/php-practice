@@ -59,9 +59,11 @@ N is an integer within the range [1..2,147,483,647].
 //
 //echo "max binary gap is between $trimmedNumber is $maxBinGap";
 
+use JetBrains\PhpStorm\Pure;
+
 class binaryGap {
 
-    private $actualNumber;
+    private int|float $actualNumber;
     private string $trimmedBinaryNum;
     private string $binaryString;
     private int $binaryInt;
@@ -89,14 +91,14 @@ class binaryGap {
         return $maxBinGap;
     }
 
-    private function calculate() {
+    private function calculate(): void {
         $this->calcBinaryString();
         $this->calcBinaryInt();
         $this->countBoth();
         $this->binaryStringLength = strlen($this->actualNumber);
     }
 
-    private function calcBinaryString() {
+    private function calcBinaryString(): void {
         $this->binaryString = decbin($this->actualNumber);
     }
 
@@ -115,10 +117,12 @@ class binaryGap {
     private function countBoth() {
         $zeroes = $ones = 0;
         for ($i = 0; $i < $this->binaryStringLength; $i++) {
-            if ($this->binaryString[0] == '0')
+            if ($this->binaryString[0] === '0') {
                 $zeroes++;
-            else
+            }
+            else {
                 $ones++;
+            }
         }
     }
 
@@ -159,7 +163,7 @@ class binaryGap {
         return (int)(decbin($this->actualNumber));
     }
 
-    public function getTrimmedBinaryNum(): int {
+    #[Pure] public function getTrimmedBinaryNum(): int {
         return (int)trim($this->getBinaryString());
     }
 

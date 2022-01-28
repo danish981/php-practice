@@ -14,8 +14,11 @@ class AccessFunctions extends AbstractChild {
         return "gujranwala<br>";
     }
 
+    /**
+     * @throws Exception
+     */
     public function myRollNumber(): int {
-        return rand(45, 100);
+        return random_int(45, 100);
     }
 
     // this method was public in parent class, when we declare in protected, it gives error
@@ -36,25 +39,20 @@ class AccessFunctions extends AbstractChild {
         return $param . "<br>";
     }
 
+    /**
+     * @throws Exception
+     */
     protected function getRandomNumber(int $lowerLimit, int $upperLimit): int {
         return random_int($lowerLimit, $upperLimit);
     }
 
     protected function getMyCityName(string $country): string {
-        switch ($country) {
-            case  "pakistan":
-                return "gujranwala<br>";
-                break;
-            case "india":
-                return "delhi<br>";
-                break;
-            case "indonesia":
-                return "jakarta<br>";
-                break;
-            default:
-                return "lahore";
-                break;
-        }
+        return match ($country) {
+            "pakistan" => "gujranwala<br>",
+            "india" => "delhi<br>",
+            "indonesia" => "jakarta<br>",
+            default => "lahore",
+        };
     }
 }
 

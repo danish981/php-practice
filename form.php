@@ -1,10 +1,10 @@
 <?php
 
 $message = "";
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $ch = $_POST['letter'];
     if (ctype_alpha($ch)) {
-        if ($ch == 'a' || $ch == 'e' || $ch == 'i' || $ch == 'o' || $ch == 'u') {
+        if ($ch === 'a' || $ch === 'e' || $ch === 'i' || $ch === 'o' || $ch === 'u') {
             $message = "the letter is vowel";
         } else {
             $message = "the letter is consonant";

@@ -27,11 +27,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="added changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/AbstractClassOne.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AbstractClassOne.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/MyClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/MyClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes.php" beforeDir="false" afterPath="$PROJECT_DIR$/codes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/charIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/charIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/HelloPoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/HelloPoint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codility/binaryGap.php" beforeDir="false" afterPath="$PROJECT_DIR$/codility/binaryGap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demoPolymorphism.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoPolymorphism.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/mainIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myAutoLoad.php" beforeDir="false" afterPath="$PROJECT_DIR$/myAutoLoad.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
