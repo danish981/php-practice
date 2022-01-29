@@ -7,7 +7,7 @@ class AccessFunctions extends AbstractChild {
     }
 
     public function getMyBelovedGame(): string {
-        return "pubg pc";
+        return "Players Unknown Battleground - PC";
     }
 
     public function myCityName(): string {

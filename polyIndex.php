@@ -10,16 +10,16 @@ include("classes/TestChildClass.php");
 include("classes/AnotherChildClass.php");
 
 $parentObject = new TestParentClass();
-$parentObject->whoAmI();
+echo $parentObject->whoAmI();
 $parentObject->sameNameMethod();
 
 $childObject = new TestChildClass();
-$childObject->whoAmI();
+echo $childObject->whoAmI();
 $childObject->sameNameMethod();
 
 $anotherChildobject = new AnotherChildClass();
-$anotherChildobject->sameNameMethod();
-$anotherChildobject->whoAmI();
+echo $anotherChildobject->sameNameMethod();
+echo $anotherChildobject->whoAmI();
 
 
 

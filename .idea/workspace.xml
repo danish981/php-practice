@@ -29,7 +29,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="added changes">
-      <change beforePath="$PROJECT_DIR$/mainOne.php" beforeDir="false" afterPath="$PROJECT_DIR$/mainOne.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testClasses/NicePerson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/AccessFunctions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/AccessFunctions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/TestParentClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/TestParentClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polyIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/polyIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testClasses/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/testClasses/Person.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
