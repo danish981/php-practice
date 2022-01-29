@@ -21,7 +21,11 @@ echo $variable4 . "<br>";
 echo $variable5 . "<br>";
 echo $variable6 . "<br>";
 
-Functions::assignRandomValues($variable1, $variable2, $variable3, $variable4, $variable5, $variable6);
+try {
+    Functions::assignRandomValues($variable1, $variable2, $variable3, $variable4, $variable5, $variable6);
+} catch (Exception $e) {
+    echo $e->getCode();
+}
 
 echo $variable1 . "<br>";
 echo $variable2 . "<br>";
@@ -29,11 +33,6 @@ echo $variable3 . "<br>";
 echo $variable4 . "<br>";
 echo $variable5 . "<br>";
 echo $variable6 . "<br>";
-
-
-
-
-
 
 // calling variadic functions, working perfect
 //Functions::printArgs(65,34, "something", "bla bla bla", 56, 34, 65.654, Functions::getArrayRandom());

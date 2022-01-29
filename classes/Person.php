@@ -3,19 +3,21 @@
 namespace Factory\Administration;
 // now name of the class will be Factory\Administration\Person
 
+use JetBrains\PhpStorm\Pure;
+
 class Person {
-    private $__name;
-    private $nextLine = "<br>";
+    private string $__name;
+    private string $nextLine = "<br>";
 
     public function __construct() {
         echo "object of the " . __METHOD__ . " is created " . $this->nextLine;
     }
 
-    public function callTalkingMethod() {
+    #[Pure] public function callTalkingMethod() : string {
         return $this->talkingMethod();
     }
 
-    protected function talkingMethod() {
+    protected function talkingMethod() : string {
         return $this->__name . "\t" . "is talking\n";
     }
 
@@ -28,14 +30,14 @@ class Person {
         return $this->__name;
     }
 
-    public function setName(string $name) {
+    public function setName(string $name) : void {
         $this->__name = $name;
     }
 
     // we called the protected method inside the public method inside the class
     // by calling this public method, the protected method will be called too
 
-    protected function talk() {
+    protected function talk(): void {
         echo "is talking\n";
     }
 

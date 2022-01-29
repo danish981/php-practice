@@ -96,7 +96,9 @@ class Functions {
             "Allama Ahmad Shah Bukhari",
             "Allama Saad Hussain Rizvi",
             "Allama Aasim Ashfaq rizvi jehlum",
-            "Allama Ajmal qadri rahwali"
+            "Allama Ajmal Qadri Rahwali",
+            "Allama Sayyad Ahmad Shah Bukhari",
+            'Allama Zaheer-ul-Hassan Shah'
         ];
     }
 
@@ -297,6 +299,7 @@ class Functions {
         }
         return $array;
     }
+
 
     /**
      * test array for generating and returning the array of random numbers between the given limits
