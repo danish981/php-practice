@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -29,11 +32,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/charIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/charIndex.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/HelloPoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/HelloPoint.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codility/binaryGap.php" beforeDir="false" afterPath="$PROJECT_DIR$/codility/binaryGap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoPolymorphism.php" beforeDir="false" afterPath="$PROJECT_DIR$/demoPolymorphism.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myAutoLoad.php" beforeDir="false" afterPath="$PROJECT_DIR$/myAutoLoad.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/form1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoPolymorphism.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

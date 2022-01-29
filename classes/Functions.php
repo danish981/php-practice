@@ -39,10 +39,16 @@ class Functions {
         'haani', 'bakhtawar', 'naseem', 'akhtar', 'zareena', 'zulekha', 'gul'
     ];
 
+    /**
+     * @throws \Exception
+     */
     public static function getBoyName(): string {
         return self::$muslimBoyNames[random_int(0, count(self::$muslimBoyNames) - 1)];
     }
 
+    /**
+     * @throws \Exception
+     */
     public static function getGirlName(): string {
         return self::$muslimGirlNames[random_int(0, count(self::$muslimGirlNames) - 1)];
     }
