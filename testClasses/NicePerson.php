@@ -1,6 +1,7 @@
 <?php
 
-use Factory\Employees\Person;
+use Practice\TestClasses;
+use Practice\TestClasses\Person;
 
 class NicePerson extends Person {
     private string $userId;

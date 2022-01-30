@@ -577,12 +577,16 @@ class Functions {
     }
 
     public static function convertNumber($num = false) {
+        
         $num = str_replace(array(',', ''), '', trim($num));
+        
         if (!$num) {
             return false;
         }
+        
         $num = (int)$num;
         $words = array();
+        
         $list1 = array('', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven',
             'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'
         );
@@ -597,6 +601,7 @@ class Functions {
         $max_length = $levels * 3;
         $num = substr('00' . $num, -$max_length);
         $num_levels = str_split($num, 3);
+        
         foreach ($num_levels as $iValue) {
             $levels--;
             $hundreds = (int)($iValue / 100);
@@ -613,10 +618,13 @@ class Functions {
             }
             $words[] = $hundreds . $tens . $singles . (($levels && ( int )($iValue)) ? ' ' . $list3[$levels] . ' ' : '');
         } //end for loop
+        
         $commas = count($words);
+        
         if ($commas > 1) {
             --$commas;
         }
+
         $words = implode(' ', $words);
         $words = preg_replace('/^\s\b(and)/', '', $words);
         $words = trim($words);

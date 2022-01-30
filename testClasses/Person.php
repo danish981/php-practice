@@ -1,6 +1,6 @@
 <?php
 
-namespace Factory\Employees;
+namespace Practice\TestClasses;
 
 // the full namespace of becomes inlcuding classname will be
 // Factory\Employees\Person;			// no Person
