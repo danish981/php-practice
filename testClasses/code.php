@@ -1,7 +1,9 @@
-<?php
+﻿<?php
 
-use Practice\TestClasses\Fruit;
+use Practice\TestClasses\Strawberry;
 
 include('init.php');
 
-$apple = new Fruit('white', 'apple', 40);
+$object = new Strawberry("brown", 'srawbetrry', 20);
+
+echo $object->getColor();

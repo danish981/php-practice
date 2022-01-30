@@ -1,13 +1,14 @@
 <?php
 
-use Practice\TestClasses;
-use Practice\TestClasses\Person;
+namespace Practice\TestClasses;
 
 class NicePerson extends Person {
     private string $userId;
     private string $username;
     private string $userFatherName;
     private string $userEmail;
+    private string $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
+
 
     /**
      * NicePerson constructor.
