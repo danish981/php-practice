@@ -24,7 +24,7 @@ class Person {
         return $this->isSingle;
     }
 
-
+    
 }
 
 

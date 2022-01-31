@@ -3,6 +3,8 @@
 
 namespace Practice\TestClasses;
 
+use Practice\TestClasses\Fruit;
+
 class Strawberry extends Fruit {
 
     public function message(): void {

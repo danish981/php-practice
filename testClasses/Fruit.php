@@ -7,7 +7,7 @@ class Fruit {
     private string $color;
     private string $name;
     private int $weight;
-
+    
     public function __construct(string $color, string $name, int $weight) {
         $this->color = $color;
         $this->name = $name;
