@@ -24,7 +24,11 @@ class Person {
         return $this->isSingle;
     }
 
-    
+    public static function callMe() {
+        return "the method " . __METHOD__ . " is called"; 
+    }
+
+
 }
 
 

@@ -26,6 +26,26 @@ class NicePerson extends Person {
     }
 
     /**
+     * Returns the message uttered by the Person
+     *
+     * returns the message of particular length given to the method
+     *
+     * @param int $messageLength the length of message
+     * @return stirng
+     * @throws Exception
+     **/
+    public function message(int $messageLength = 10) : string {
+        $obString = "";
+        $charsLength = strlen($this->chars);
+        for($i=0; $i <= $messageLength; $i++) {
+            $obString .= $this->chars[random_int(0, $charsLength)];
+        }
+        return $obString;
+    }
+
+
+    /**
+     * get the user id
      * @return string
      */
     public function getUserId(): string {
@@ -33,6 +53,7 @@ class NicePerson extends Person {
     }
 
     /**
+     * set the user id
      * @param string $userId
      */
     public function setUserId(string $userId): void {
@@ -40,6 +61,7 @@ class NicePerson extends Person {
     }
 
     /**
+     * get the username
      * @return string
      */
     public function getUsername(): string {
@@ -47,6 +69,7 @@ class NicePerson extends Person {
     }
 
     /**
+     * set the username
      * @param string $username
      */
     public function setUsername(string $username): void {
@@ -54,6 +77,7 @@ class NicePerson extends Person {
     }
 
     /**
+     * get the father name of the user
      * @return string
      */
     public function getUserFatherName(): string {
@@ -61,6 +85,7 @@ class NicePerson extends Person {
     }
 
     /**
+     * set the father name of the user
      * @param string $userFatherName
      */
     public function setUserFatherName(string $userFatherName): void {
@@ -68,6 +93,7 @@ class NicePerson extends Person {
     }
 
     /**
+     * get the user email
      * @return string
      */
     public function getUserEmail(): string {
@@ -75,6 +101,7 @@ class NicePerson extends Person {
     }
 
     /**
+     * set the user email
      * @param string $userEmail
      */
     public function setUserEmail(string $userEmail): void {
@@ -82,6 +109,9 @@ class NicePerson extends Person {
     }
 
     /**
+     * you will go to the next line whenever you have to carriage return, pressing enter like
+     * this method is used when the input is long, and you want to jump to the next line
+     * and writing something on the next line, instead of "<br>" or "\n" you can use this method
      * @return string
      */
     public function getNextLine(): string {
@@ -89,6 +119,7 @@ class NicePerson extends Person {
     }
 
     /**
+     * this method is shit, do not use this method
      * @param string $nextLine
      */
     public function setNextLine(string $nextLine): void {
