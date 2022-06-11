@@ -6,8 +6,7 @@ spl_autoload_register(static function ($classname) {
     include("classes/$classname.php");
 });
 
-
-
+echo "new file created";
 
 
 
