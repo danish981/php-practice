@@ -49,6 +49,14 @@ class Fruit {
         return false;
     }
 
+    public function printLineTimes(int $times = 10) {
+        for($i=1; $i <= $times; $i++) {
+            echo 'a quick brown fox jumps over the lazy dog <br>';
+        }
+    }
+
+
+
 
     /**
      * will return the intro to all the fruits, whichever the details are assigned to this class
