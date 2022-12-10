@@ -28,7 +28,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="added changes" />
+    <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="added changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yahoo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Yahoo.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +70,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1z6SYXP6CA4kYTT3PoOxmCjkynR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -78,6 +80,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.laravel-idea.search-composer-json" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Fun&#9;FILE&#9;file://C:/xampp/htdocs/pract/classes/Functions.php&#10;Functions&#9;FILE&#9;file://C:/xampp/htdocs/pract/classes/Functions.php&#10;functions&#9;null&#9;null&#10;Fu&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -86,7 +89,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
