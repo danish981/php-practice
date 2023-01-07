@@ -2,19 +2,19 @@
 
 class D extends C {
 
-    public $public_data_D = "D<br>";
-    public $public_data_A = "public A overriden in class D<br>";
-    public $public_data_B = "public B overriden in class D<br>";
-    public $public_data_C = "public C overriden in class D<br>";
-    public $protected_data_A = "protected A overriden in class D<br>";
-    public $protected_data_B = "protected B overriden in class D<br>";
+    public string $public_data_D = "D<br>";
+    public string $public_data_A = "public A overriden in class D<br>";
+    public string $public_data_B = "public B overriden in class D<br>";
+    public string $public_data_C = "public C overriden in class D<br>";
+    public string $protected_data_A = "protected A overriden in class D<br>";
+    public string $protected_data_B = "protected B overriden in class D<br>";
 
     // protected fields overriden public here
     // protected fields overriden public here
     // protected fields overriden public here
-    public $protected_data_C = "protected C overriden in class D<br>";
-    protected $protected_data_D = "D<br>";
-    private $private_data_D = "stringValue__D() class\n";
+    public string $protected_data_C = "protected C overriden in class D<br>";
+    protected string $protected_data_D = "D<br>";
+    private string $private_data_D = "stringValue__D() class\n";
 
     public function getPrivateData__D(): string {
         return $this->private_data_D;
@@ -58,7 +58,6 @@ class D extends C {
     }
 
     function access__A() {
-        self::method__A();
     }
 
     function access__B() {
