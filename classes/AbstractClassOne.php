@@ -1,6 +1,7 @@
 <?php
 
 abstract class AbstractClassOne {
+
     abstract public function myCityName(): string;
 
     abstract public function myRollNumber(): int;

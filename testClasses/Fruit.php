@@ -15,25 +15,28 @@ class Fruit {
         $this->weight = $weight;
     }
 
-    public function setName(string $name): void {
-        $this->color = $name;
-    }
-
     public function getName(): string {
         return $this->name ?? 'not-named-fruit';
     }
 
-    public function setColor(string $colorName): void {
-        $this->color = $colorName;
+    public function setName(string $name): void {
+        $this->color = $name;
     }
 
     public function getColor(): string {
         return $this->color;
     }
 
-    
+    public function setColor(string $colorName): void {
+        $this->color = $colorName;
+    }
+
     public function getWeight(): int {
         return $this->weight;
+    }
+
+    protected function setWeight(int $weight): void {
+        $this->weight = $weight;
     }
 
     /**
@@ -41,8 +44,8 @@ class Fruit {
      * @return bool on the behalf of if the details are set or not
      * @throws conditon
      **/
-    public function detailsSet() : bool {
-        if(isset($this->name) && isset($this->color) && isset($this->weight)) {
+    public function detailsSet(): bool {
+        if (isset($this->name) && isset($this->color) && isset($this->weight)) {
             $this->isDetailsSet = true;
             return true;
         }
@@ -50,28 +53,20 @@ class Fruit {
     }
 
     public function printLineTimes(int $times = 10) {
-        for($i=1; $i <= $times; $i++) {
+        for ($i = 1; $i <= $times; $i++) {
             echo 'a quick brown fox jumps over the lazy dog <br>';
         }
     }
 
-
-
-
     /**
      * will return the intro to all the fruits, whichever the details are assigned to this class
-     * @return string the intro 
+     * @return string the intro
      **/
-    public function intro() : string {
+    public function intro(): string {
         $message = "the fruit is {$this->name} \n";
         $message .= "and the color name is {$this->color} \n";
         $message .= "and the fruit weight is {$this->weight} ";
         return $message;
-    }
-
-
-    protected function setWeight(int $weight): void {
-        $this->weight = $weight;
     }
 
     public function __destruct() {

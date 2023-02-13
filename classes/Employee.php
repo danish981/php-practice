@@ -5,6 +5,7 @@
 include("PersonParent.php");
 
 class Employee extends PersonParent {
+
     private $salary = 0;
 
     function __construct($name, $salary) {

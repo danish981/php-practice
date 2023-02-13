@@ -7,7 +7,7 @@ readfile("file.txt");
 // if the file is successfully read, or not error occurred, the TRUE is returned, otherwise false
 
 $file = "dictionary.txt";
-$myfile = fopen($file, "r") OR die("unable to open the file");
+$myfile = fopen($file, "r") or die("unable to open the file");
 
 
 

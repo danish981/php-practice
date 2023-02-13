@@ -7,6 +7,7 @@
  * Time: 8:03 AM
  */
 class Point {
+
     private $x;
     private $y;
 

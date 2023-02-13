@@ -39,10 +39,10 @@ echo "<br>this is a statement " . ($i = +1);
 ?>
 
 <style>
-    body {
-        background-color: wheat;
-        padding: 20px;
-        margin: 20px;
-        font-family: verdana;
-    }
+  body {
+    background-color: wheat;
+    padding: 20px;
+    margin: 20px;
+    font-family: verdana;
+  }
 </style>

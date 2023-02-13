@@ -78,19 +78,6 @@ class binaryGap {
         }
     }
 
-    public function binaryGap(): int {
-        $totalOnesIndexes = count($this->getOnesIndexes());
-        $expGap = $totalOnesIndexes - 1;
-        $maxBinGap = 0;
-        for ($i = 0; $i < $expGap; $i++) {
-            $gap = ($this->binaryString[$i + 1] - $this->binaryString[$i] - 1);
-            if ($gap > $maxBinGap) {
-                $maxBinGap = $gap;
-            }
-        }
-        return $maxBinGap;
-    }
-
     private function calculate(): void {
         $this->calcBinaryString();
         $this->calcBinaryInt();
@@ -106,10 +93,6 @@ class binaryGap {
         $this->binaryInt = (int)($this->binaryString);
     }
 
-    public function getBinaryString(): string {
-        return $this->binaryString;
-    }
-
     /**
      * private method to count both the zeroes and ones in converted number (binary to string)
      * and then assign both the class fields $ones and $zeroes, these two variables are assigned with 0's and 1's
@@ -119,11 +102,37 @@ class binaryGap {
         for ($i = 0; $i < $this->binaryStringLength; $i++) {
             if ($this->binaryString[0] === '0') {
                 $zeroes++;
-            }
-            else {
+            } else {
                 $ones++;
             }
         }
+    }
+
+    /**
+     * static function to calculate binary gap of an integer, <br>
+     * integer is first converted to binary , and then returned the the gap <br>
+     * @param int $number of which binary gap has to be calculated, the detault is 529
+     * @return int the binary of given number, if number is invalid, returns -1
+     */
+    public static function getBinaryGap(int $number = 529): int {
+        if (is_numeric($number)) {
+            $binNum = trim(decbin($number));
+            // todo : write some code here
+        }
+        return 0; // return something here
+    }
+
+    public function binaryGap(): int {
+        $totalOnesIndexes = count($this->getOnesIndexes());
+        $expGap = $totalOnesIndexes - 1;
+        $maxBinGap = 0;
+        for ($i = 0; $i < $expGap; $i++) {
+            $gap = ($this->binaryString[$i + 1] - $this->binaryString[$i] - 1);
+            if ($gap > $maxBinGap) {
+                $maxBinGap = $gap;
+            }
+        }
+        return $maxBinGap;
     }
 
     public function getOnesIndexes(): array {
@@ -145,20 +154,6 @@ class binaryGap {
         return $indexesArray;
     }
 
-    /**
-     * static function to calculate binary gap of an integer, <br>
-     * integer is first converted to binary , and then returned the the gap <br>
-     * @param int $number of which binary gap has to be calculated, the detault is 529
-     * @return int the binary of given number, if number is invalid, returns -1
-     */
-    public static function getBinaryGap(int $number = 529): int {
-        if (is_numeric($number)) {
-            $binNum = trim(decbin($number));
-            // todo : write some code here
-        }
-        return 0; // return something here
-    }
-
     public function getBinaryInt(): int {
         return (int)(decbin($this->actualNumber));
     }
@@ -167,10 +162,13 @@ class binaryGap {
         return (int)trim($this->getBinaryString());
     }
 
+    public function getBinaryString(): string {
+        return $this->binaryString;
+    }
+
     // todo : add more methods to the class
 
 }
-
 
 $number = (int)readline("Enter your number : ");
 $binaryGapObject = new binaryGap($number);

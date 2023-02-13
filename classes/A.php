@@ -31,5 +31,4 @@ class A extends AnotherChildClass {
         return PHP_INT_MAX;
     }
 
-
 }

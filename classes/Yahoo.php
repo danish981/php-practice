@@ -3,6 +3,7 @@
 namespace pakistan;
 
 class Yahoo {
+
     private $nextLIne = "<br>";
 
     function yahooMethod() {

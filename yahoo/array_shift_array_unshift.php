@@ -44,5 +44,4 @@ get_formatted_array($countries);
 
 ?>
 
-
 <link rel="stylesheet" href="style.css">

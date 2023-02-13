@@ -36,5 +36,4 @@ get_formatted_array($array_country);        //new element inserted into the arra
 
 ?>
 
-
 <link rel="stylesheet" href="style.css">

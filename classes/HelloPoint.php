@@ -7,6 +7,7 @@
  */
 
 class HelloPoint {
+
     public function __construct() {
         echo "hello Point";
     }

@@ -16,6 +16,10 @@ class Person {
         echo "object of the  " . __METHOD__ . " is created " . $this->nextLine;
     }
 
+    public static function callMe() {
+        return "the method " . __METHOD__ . " is called";
+    }
+
     public function getClassName(): string {
         return __CLASS__;
     }
@@ -23,11 +27,6 @@ class Person {
     public function isPersonSingle(): bool {
         return $this->isSingle;
     }
-
-    public static function callMe() {
-        return "the method " . __METHOD__ . " is called"; 
-    }
-
 
 }
 

@@ -1,9 +1,6 @@
 <?php
 
-
 namespace Practice\TestClasses;
-
-use Practice\TestClasses\Fruit;
 
 class Strawberry extends Fruit {
 
@@ -11,9 +8,8 @@ class Strawberry extends Fruit {
         echo "i am strawberry fruit, that is a fruit too \n";
     }
 
-    public function fileHandle(int $lowerLimit , int $upperLimit) : int {
+    public function fileHandle(int $lowerLimit, int $upperLimit): int {
         return random_int($lowerLimit, $upperLimit);
     }
-
 
 }

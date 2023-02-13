@@ -3,6 +3,7 @@
 namespace outside;
 
 class Pdo {
+
     private static $nextLine = "<br>";
 
     public function __construct() {
@@ -12,9 +13,5 @@ class Pdo {
     public function getPdoMethod() {
         return "this is pdo class object " . self::$nextLine;
     }
-
-
-
-
 
 }

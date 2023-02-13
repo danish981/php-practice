@@ -17,6 +17,7 @@
 // ABSTRACT CLASS CANNOT BE INSTANTIATED
 
 abstract class AbstractClass {
+
     public string $username;
     public string $email;
     public $samuraiJack;

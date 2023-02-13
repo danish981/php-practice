@@ -19,17 +19,12 @@ class Person {
         echo "i am a method " . __METHOD__ . $this->nextLine;
     }
 
-
-    public function whatImDoing(string $what = "backendcode") : string {
+    public function whatImDoing(string $what = "backendcode"): string {
         return "i'm writing the efficient backend code for programmers and websites\n";
     }
 
-    protected function whatsTheUse(string $use = "dynamic webs") : string {
+    protected function whatsTheUse(string $use = "dynamic webs"): string {
         return "because to make the website super dynamics and super amazing\n";
     }
-
-
-
-
 
 }

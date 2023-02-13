@@ -9,9 +9,8 @@ class PdoClass {
     // functions to get selected data, and tests
     public function isConnected(): bool {
         return true;
-    }  
+    }
 
     // add more functions into this class, like bla bla bla
-    
 
 }

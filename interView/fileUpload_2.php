@@ -18,16 +18,16 @@ if (isset($_POST["upload"])) {
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>upload file</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>upload file</title>
 </head>
 <body>
 
 <!-- upload file -->
 <form action="fileUpload_2.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="fileUpload" placeholder="upload file ..." required>
-    <input type="submit" name="upload" value="upload file">
+  <input type="file" name="fileUpload" placeholder="upload file ..." required>
+  <input type="submit" name="upload" value="upload file">
 </form>
 
 </body>

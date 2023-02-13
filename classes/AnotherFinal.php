@@ -34,12 +34,12 @@ final class AnotherFinal {
         echo "a quick brown fox jumps over the lazy dog $this->nextLine";
     }
 
-    public function setFieldTwo($fieldTwo): void {
-        $this->fieldTwo = $fieldTwo;
-    }
-
     public function getFieldTwo() {
         return $this->fieldTwo;
+    }
+
+    public function setFieldTwo($fieldTwo): void {
+        $this->fieldTwo = $fieldTwo;
     }
 
     public function getSevereFever() {

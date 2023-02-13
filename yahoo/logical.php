@@ -18,5 +18,4 @@ if ($variable || $value && $variable) {
 
 ?>
 
-
 <link rel="stylesheet" href="style.css">

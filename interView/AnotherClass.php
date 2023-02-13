@@ -3,6 +3,7 @@
 // test php code just for practice
 
 class AnotherClass {
+
     private $username;
     private $email;
     private $userId;

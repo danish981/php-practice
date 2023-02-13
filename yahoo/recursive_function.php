@@ -65,5 +65,4 @@ function calculate_sum(int $value) {
 
 ?>
 
-
 <link rel="stylesheet" href="style.css">

@@ -92,6 +92,5 @@ echo "<br>lets head towards the next tutorial";
 
 ?>
 
-
 <link rel="stylesheet" href="style.css">
 

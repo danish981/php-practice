@@ -9,6 +9,7 @@
 // NOTE : PROPERTIES AND METHODS DECLARED AS STATIC ARE ACCESSIBLE WITHOUT NEEDING AN OBJECT
 
 class StaticMember {
+
     public static $my_static_variable = "foo";
 }
 

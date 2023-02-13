@@ -7,7 +7,7 @@ class Pdo {
 
     private string $nextline = "<br>";
 
-    public function pdo() : string {
+    public function pdo(): string {
         return "pdo object method " . $this->nextline;
     }
 

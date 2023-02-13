@@ -11,12 +11,11 @@ if (isset($_COOKIE["user"])) {
 
 ?>
 
-
 <style>
-    body {
-        background-color: lightgray;
-        font-family: verdana;
-        padding: 20px;
-        margin: 20px;
-    }
+  body {
+    background-color: lightgray;
+    font-family: verdana;
+    padding: 20px;
+    margin: 20px;
+  }
 </style>

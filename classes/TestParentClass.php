@@ -1,6 +1,11 @@
 <?php
 
 class TestParentClass {
+
+    public static function getClassName(): string {
+        return __CLASS__;
+    }
+
     public function whoAmI(): string {
         return 'Channel Name => Perfect Web Solutions \n';
     }
@@ -13,10 +18,6 @@ class TestParentClass {
         return [
             'pakistan', 'russia', 'afghanistan', 'iran', 'china', "afghanistan", "turky", "azarbaijan"
         ];
-    }
-
-    public static function getClassName(): string {
-        return __CLASS__;
     }
 
 }

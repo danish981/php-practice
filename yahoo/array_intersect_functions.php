@@ -72,5 +72,4 @@ print_formatted_array($returning_array);
 
 ?>
 
-
 <link rel="stylesheet" href="style.css">

@@ -44,5 +44,4 @@ echo "</table>";
 
 ?>
 
-
 <link rel="stylesheet" href="style.css">

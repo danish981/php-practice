@@ -15,12 +15,11 @@ setcookie("user", "", time() - 86400, "/");
 
 ?>
 
-
 <style>
-    body {
-        background-color: lightgray;
-        padding: 20px;
-        margin: 20px;
-        font-family: verdana;
-    }
+  body {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px;
+    font-family: verdana;
+  }
 </style>

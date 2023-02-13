@@ -3,12 +3,12 @@
 namespace Practice\TestClasses;
 
 class NicePerson extends Person {
+
     private string $userId;
     private string $username;
     private string $userFatherName;
     private string $userEmail;
     private string $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
-
 
     /**
      * NicePerson constructor.
@@ -34,15 +34,14 @@ class NicePerson extends Person {
      * @return stirng
      * @throws Exception
      **/
-    public function message(int $messageLength = 10) : string {
+    public function message(int $messageLength = 10): string {
         $obString = "";
         $charsLength = strlen($this->chars);
-        for($i=0; $i <= $messageLength; $i++) {
+        for ($i = 0; $i <= $messageLength; $i++) {
             $obString .= $this->chars[random_int(0, $charsLength)];
         }
         return $obString;
     }
-
 
     /**
      * get the user id
@@ -125,7 +124,6 @@ class NicePerson extends Person {
     public function setNextLine(string $nextLine): void {
         $this->nextLine = $nextLine;
     }
-
 
 }
 

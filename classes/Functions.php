@@ -13,8 +13,10 @@ namespace Utils;
 use Exception;
 use JetBrains\PhpStorm\ArrayShape;
 use JetBrains\PhpStorm\Pure;
+use JsonException;
 
 class Functions {
+
     private static string $nextLine = "<br>";
     private static float $pi = PI;
     private static int $dayInYear = 365;
@@ -40,14 +42,14 @@ class Functions {
     ];
 
     /**
-     * @throws \Exception
+     * @throws Exception
      */
     public static function getBoyName(): string {
         return self::$muslimBoyNames[random_int(0, count(self::$muslimBoyNames) - 1)];
     }
 
     /**
-     * @throws \Exception
+     * @throws Exception
      */
     public static function getGirlName(): string {
         return self::$muslimGirlNames[random_int(0, count(self::$muslimGirlNames) - 1)];
@@ -257,7 +259,7 @@ class Functions {
      * the awesome variadic functions, the parameters that are limitless, they are used and manipulated
      * @param array ...$arguments
      * @return string
-     * @throws \JsonException
+     * @throws JsonException
      */
     public
     static function variadic_function(...$arguments): string {
@@ -300,7 +302,6 @@ class Functions {
         return $array;
     }
 
-
     /**
      * test array for generating and returning the array of random numbers between the given limits
      * @param int $lowerLimit
@@ -338,26 +339,6 @@ class Functions {
             }
         }
         return null;
-    }
-
-    /**
-     * get random user details in array
-     * @return array the array having details
-     * @throws Exception
-     */
-    #[ArrayShape(['id' => "int", 'name' => "string", 'username' => "string", 'email' => "string", 'country' => "string", 'province' => "string", 'city' => "string", 'zipCode' => "int", 'phone' => "string"])] public
-    function getUserDetails(): array {
-        return [
-            'id' => random_int(0, 100),
-            'name' => 'burhan ali',
-            'username' => 'burhanAli' . random_int(0, 100),
-            'email' => 'burhanAli32423@yahoo.com',
-            'country' => 'pakistan',
-            'province' => 'punjab',
-            'city' => 'gujranwala',
-            'zipCode' => 52250,
-            'phone' => self::getRandomPhoneNumber()
-        ];
     }
 
     /**
@@ -417,7 +398,6 @@ class Functions {
         }
     }
 
-
     /**
      * generates the string of random lowercase alphabeting characters of given length and returns
      * @param int $stringLength the length of the string
@@ -434,6 +414,17 @@ class Functions {
     }
 
     /**
+     * generates and returns truly random characters string of given length
+     * @param int $stringLength the length of the array
+     * @return string
+     * @throws Exception
+     */
+    public
+    static function getUltimateRandomString(int $stringLength = 10): string {
+        return substr(md5(self::getRandomString($stringLength)), 0, $stringLength);
+    }
+
+    /**
      * generate and returns the random string of given length, default is 10 chars
      * @param int $stringLength length of string
      * @return string random string
@@ -447,17 +438,6 @@ class Functions {
             $masterString .= self::$mixChars[random_int(0, $charsLength)];
         }
         return $masterString;
-    }
-
-    /**
-     * generates and returns truly random characters string of given length
-     * @param int $stringLength the length of the array
-     * @return string
-     * @throws Exception
-     */
-    public
-    static function getUltimateRandomString(int $stringLength = 10): string {
-        return substr(md5(self::getRandomString($stringLength)), 0, $stringLength);
     }
 
     /**
@@ -530,16 +510,6 @@ class Functions {
     }
 
     /**
-     * generates phone number like 03xx xxxxxxx and returns
-     * @return string the phone number string
-     * @throws Exception random_int throws exception
-     */
-    public
-    static function getRandomPhoneNumber(): string {
-        return "03" . random_int(10, 99) . " " . random_int(1234567, 9999999);
-    }
-
-    /**
      * generates random jazz pakistani phone number 0300-0309 and 0320-0324
      * @return string string of phone number
      * @throws Exception
@@ -547,7 +517,6 @@ class Functions {
     public static function getRandomJazzNumber(): string {
         return '03' . static::$jazzCodes[random_int(0, count(static::$jazzCodes))] . ' ' . random_int(1234567, 9999999);
     }
-
 
     /**
      * generate ufone number and returns it
@@ -577,16 +546,16 @@ class Functions {
     }
 
     public static function convertNumber($num = false) {
-        
+
         $num = str_replace(array(',', ''), '', trim($num));
-        
+
         if (!$num) {
             return false;
         }
-        
+
         $num = (int)$num;
         $words = array();
-        
+
         $list1 = array('', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven',
             'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'
         );
@@ -601,7 +570,7 @@ class Functions {
         $max_length = $levels * 3;
         $num = substr('00' . $num, -$max_length);
         $num_levels = str_split($num, 3);
-        
+
         foreach ($num_levels as $iValue) {
             $levels--;
             $hundreds = (int)($iValue / 100);
@@ -618,9 +587,9 @@ class Functions {
             }
             $words[] = $hundreds . $tens . $singles . (($levels && ( int )($iValue)) ? ' ' . $list3[$levels] . ' ' : '');
         } //end for loop
-        
+
         $commas = count($words);
-        
+
         if ($commas > 1) {
             --$commas;
         }
@@ -631,6 +600,36 @@ class Functions {
         $words = ucfirst($words);
         $words .= ".";
         return $words;
+    }
+
+    /**
+     * get random user details in array
+     * @return array the array having details
+     * @throws Exception
+     */
+    #[ArrayShape(['id' => "int", 'name' => "string", 'username' => "string", 'email' => "string", 'country' => "string", 'province' => "string", 'city' => "string", 'zipCode' => "int", 'phone' => "string"])] public
+    function getUserDetails(): array {
+        return [
+            'id' => random_int(0, 100),
+            'name' => 'burhan ali',
+            'username' => 'burhanAli' . random_int(0, 100),
+            'email' => 'burhanAli32423@yahoo.com',
+            'country' => 'pakistan',
+            'province' => 'punjab',
+            'city' => 'gujranwala',
+            'zipCode' => 52250,
+            'phone' => self::getRandomPhoneNumber()
+        ];
+    }
+
+    /**
+     * generates phone number like 03xx xxxxxxx and returns
+     * @return string the phone number string
+     * @throws Exception random_int throws exception
+     */
+    public
+    static function getRandomPhoneNumber(): string {
+        return "03" . random_int(10, 99) . " " . random_int(1234567, 9999999);
     }
 
 }

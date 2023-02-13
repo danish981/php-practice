@@ -7,6 +7,7 @@
  * Time: 9:54 PM
  */
 class PersonParent {
+
     private $name;
 
     function getName() {

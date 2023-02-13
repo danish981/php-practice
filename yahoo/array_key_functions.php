@@ -47,5 +47,4 @@ if (key_exists("friend", $countries)) {
 
 ?>
 
-
 <link rel="stylesheet" href="style.css">

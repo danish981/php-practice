@@ -1,9 +1,10 @@
-# Learning PHP 
-the repo is demo and is fully dedicated to learning
-php concepts from scratch. It has many solutions to the problems
-that are given after the books etc. 
+# Learning PHP
 
-### Sample Code Snippet 
+the repo is demo and is fully dedicated to learning php concepts from scratch. It has many solutions to the problems
+that are given after the books etc.
+
+### Sample Code Snippet
+
 ```php
 function getRandomNumArray(int $arrayLength = 10, int $lowerLimit = 10, int $upperLimit = 100) : array {
     $masterArray = [];

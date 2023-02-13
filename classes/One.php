@@ -24,7 +24,6 @@ class One {
         return "Hi, i am another function \n" . __METHOD__ . PHP_EOL;
     }
 
-
 }
 
 

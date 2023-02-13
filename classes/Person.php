@@ -6,6 +6,7 @@ namespace Factory\Administration;
 use JetBrains\PhpStorm\Pure;
 
 class Person {
+
     private string $__name;
     private string $nextLine = "<br>";
 
@@ -13,11 +14,11 @@ class Person {
         echo "object of the " . __METHOD__ . " is created " . $this->nextLine;
     }
 
-    #[Pure] public function callTalkingMethod() : string {
+    #[Pure] public function callTalkingMethod(): string {
         return $this->talkingMethod();
     }
 
-    protected function talkingMethod() : string {
+    protected function talkingMethod(): string {
         return $this->__name . "\t" . "is talking\n";
     }
 
@@ -30,7 +31,7 @@ class Person {
         return $this->__name;
     }
 
-    public function setName(string $name) : void {
+    public function setName(string $name): void {
         $this->__name = $name;
     }
 

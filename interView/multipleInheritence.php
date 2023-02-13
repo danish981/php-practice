@@ -4,15 +4,18 @@
 // but this feature can be achieved through interfaces
 
 interface isbn {
+
     public function setIsbn(string $isbn);
 }
 
 interface type {
+
     public function setType(string $type);
 }
 
 // implemented both the interfaces into a single class
 class test implements isbn, type {
+
     private $isbn;
     private $type;
 

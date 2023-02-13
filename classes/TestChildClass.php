@@ -1,6 +1,7 @@
 <?php
 
 class TestChildClass extends TestParentClass {
+
     public function whoAmI(): string {
         return "Hi!, I'm Danish Mehmood";
     }

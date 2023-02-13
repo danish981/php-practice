@@ -2,7 +2,7 @@
 
 class AnotherChildClass extends TestParentClass {
 
-    public function sameNameMethod() : string {
+    public function sameNameMethod(): string {
         return "I am method " . __METHOD__ . "<br>";
     }
 

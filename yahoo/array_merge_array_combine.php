@@ -123,7 +123,6 @@ get_formatted_array($resulting_array);
 
 ?>
 
-
 <link rel="stylesheet" href="style.css">
 
 

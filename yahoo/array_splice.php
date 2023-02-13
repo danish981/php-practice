@@ -53,7 +53,6 @@ print_formatted_array($colors_6);
 
 ?>
 
-
 <link rel="stylesheet" href="style.css">
 
 

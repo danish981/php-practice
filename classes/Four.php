@@ -20,7 +20,7 @@
 
 class Four extends Three {
 
-    public function anotherFunction() : string {
+    public function anotherFunction(): string {
         return $this->oneFunction();            // method of class one is called
     }
 

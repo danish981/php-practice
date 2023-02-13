@@ -9,6 +9,7 @@
 
 // ChildClass extends the AbstractClass
 class ChildClass extends AbstractClass {
+
     public $emailAddress;
     private $id;
 

@@ -14,10 +14,10 @@ echo "<br>phone number is " . $_POST["phone"];
 ?>
 
 <style>
-    body {
-        font-family: verdana;
-        padding: 20px;
-        margin: 20px;
-        background-color: lightgray;
-    }
+  body {
+    font-family: verdana;
+    padding: 20px;
+    margin: 20px;
+    background-color: lightgray;
+  }
 </style>

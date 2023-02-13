@@ -7,6 +7,7 @@
  * Time: 8:30 AM
  */
 class TestPoint {
+
     private $name;
     private $age;
 

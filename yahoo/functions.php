@@ -224,7 +224,6 @@ echo "<br>here is the random value " . get_random_value(20, 30);
 
 ?>
 
-
 <link rel="stylesheet" href="style.css">
 
 

@@ -86,15 +86,13 @@ echo "<p>i love php</p>";
 
 ?>
 
-
 <link rel="stylesheet" href="style.css">
-
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>one two</title>
+  <meta charset="UTF-8">
+  <title>one two</title>
 </head>
 <body>
 

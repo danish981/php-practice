@@ -20,6 +20,14 @@ class Force {
         $this->forceAppliedOn = $forceAppliedOn;
     }
 
+    public static function __callStatic($name, $arguments) {
+        // TODO: Implement __callStatic() method.
+    }
+
+    static function __set_state($an_array) {
+        // TODO: Implement __set_state() method.
+    }
+
     public function getNewtonsForce(): int {
         return $this->newtonsForce;
     }
@@ -28,32 +36,12 @@ class Force {
         $this->newtonsForce = $newtonsForce;
     }
 
-    public function getForceAppliedFromDirection(): string {
-        return $this->forceAppliedFromDirection;
-    }
-
-    public function setForceAppliedFromDirection(string $forceAppliedFromDirection) {
-        $this->forceAppliedFromDirection = $forceAppliedFromDirection;
-    }
-
-    public function getForceAppliedOn(): string {
-        return $this->forceAppliedOn;
-    }
-
-    public function setForceAppliedOn(string $forceAppliedOn) {
-        $this->forceAppliedOn = $forceAppliedOn;
-    }
-
     function __destruct() {
         // TODO: Implement __destruct() method.
     }
 
     function __call($name, $arguments) {
         // TODO: Implement __call() method.
-    }
-
-    public static function __callStatic($name, $arguments) {
-        // TODO: Implement __callStatic() method.
     }
 
     function __get($name) {
@@ -85,16 +73,28 @@ class Force {
         return $this->getForceAppliedFromDirection() . $this->getForceAppliedOn();
     }
 
+    public function getForceAppliedFromDirection(): string {
+        return $this->forceAppliedFromDirection;
+    }
+
+    public function setForceAppliedFromDirection(string $forceAppliedFromDirection) {
+        $this->forceAppliedFromDirection = $forceAppliedFromDirection;
+    }
+
+    public function getForceAppliedOn(): string {
+        return $this->forceAppliedOn;
+    }
+
+    public function setForceAppliedOn(string $forceAppliedOn) {
+        $this->forceAppliedOn = $forceAppliedOn;
+    }
+
     function __invoke() {
         // TODO: Implement __invoke() method.
     }
 
     function __debugInfo() {
         // TODO: Implement __debugInfo() method.
-    }
-
-    static function __set_state($an_array) {
-        // TODO: Implement __set_state() method.
     }
 
     function __clone() {

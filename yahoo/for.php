@@ -11,5 +11,4 @@ for ($i = 1; $i <= 40; $i++) {
 
 ?>
 
-
 <link rel="stylesheet" href="style.css">

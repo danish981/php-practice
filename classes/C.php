@@ -7,6 +7,7 @@
  * Time: 11:27 PM
  */
 class C extends B {
+
     public string $public_data_C = "C<br>";
     protected string $protected_data_C = "C<br>";
     private $private_data_C = "C<br>";

@@ -8,6 +8,7 @@
  */
 
 class anotherFile {
+
     public static $testValue;
     public static $anotherTestValue;
 

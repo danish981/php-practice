@@ -18,21 +18,20 @@ setcookie($cookie_name, $cookie_value, $deletion_time, "/");
 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cookies</title>
-    <style>
-        body {
-            background-color: lightgray;
-            padding: 20px;
-            margin: 20px;
-            font-family: verdana;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cookies</title>
+  <style>
+    body {
+      background-color: lightgray;
+      padding: 20px;
+      margin: 20px;
+      font-family: verdana;
+    }
+  </style>
 </head>
 <body>
 
@@ -50,7 +49,6 @@ if (isset($_COOKIE["user"])) {
 }
 
 ?>
-
 
 </body>
 </html>

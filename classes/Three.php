@@ -7,6 +7,7 @@
  * Time: 10:36 PM
  */
 class Three extends Two {
+
     function test() {
         echo "function test() is called of class Three <br>" . PHP_EOL;
     }

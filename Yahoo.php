@@ -3,6 +3,7 @@
 namespace wahari\baloschintan;
 
 class Yahoo {
+
     private $newLine = "<br>";
 
     function methodOne() {

@@ -29,8 +29,6 @@ $factoryPersonObject = new factoryPerson;
 $managerPersonObject = new managerPerson;
 $adminPersonObject = new adminPerson;
 
-
-
 ?>
 
 <link rel="stylesheet" href="style.css">

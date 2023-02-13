@@ -1,10 +1,10 @@
 body {
-    font-family: "fira mono", sans-serif;
-    background-color: wheat;
-    padding: 20px;
-    margin: 20px;
-    line-height: 1.4;
-    border: 1px solid lightgray;
-    box-shadow: 10px 10px 10px dodgerblue;
+  font-family: "fira mono", sans-serif;
+  background-color: wheat;
+  padding: 20px;
+  margin: 20px;
+  line-height: 1.4;
+  border: 1px solid lightgray;
+  box-shadow: 10px 10px 10px dodgerblue;
 }
 

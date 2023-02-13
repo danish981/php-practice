@@ -55,47 +55,45 @@ if (isset($_FILES["image"])) {
 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <style>
-        body {
-            background-color: lightgray;
-            padding: 20px;
-            margin: 20px;
-            font-family: verdana;
-        }
+  <style>
+    body {
+      background-color: lightgray;
+      padding: 20px;
+      margin: 20px;
+      font-family: verdana;
+    }
 
-        form {
-            background-color: wheat;
-            border: 1px solid dodgerblue;
-            box-shadow: 5px 10px 15px #000;
-            padding: 20px;
-            width: 500px;
-            margin: 20px auto;
-        }
+    form {
+      background-color: wheat;
+      border: 1px solid dodgerblue;
+      box-shadow: 5px 10px 15px #000;
+      padding: 20px;
+      width: 500px;
+      margin: 20px auto;
+    }
 
-        input {
-            padding: 5px 5px;
-            margin: 5px 5px;
-        }
+    input {
+      padding: 5px 5px;
+      margin: 5px 5px;
+    }
 
-    </style>
+  </style>
 
 </head>
 <body>
 
 <!-- upload image markup with one input + and input submit -->
 <form action="files.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="image"><br>
-    <input type="submit" name="submit">
+  <input type="file" name="image"><br>
+  <input type="submit" name="submit">
 </form>
-
 
 </body>
 </html>
