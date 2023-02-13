@@ -11,8 +11,7 @@ declare(strict_types=1);
 namespace Utils;
 
 use Exception;
-use JetBrains\PhpStorm\ArrayShape;
-use JetBrains\PhpStorm\Pure;
+use JetBrains\PhpStorm\{ArrayShape, Pure};
 use JsonException;
 
 class Functions {
