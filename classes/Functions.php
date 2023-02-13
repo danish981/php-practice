@@ -17,26 +17,26 @@ use JsonException;
 
 class Functions {
 
-    private static string $nextLine = "<br>";
-    private static float $pi = PI;
-    private static int $dayInYear = 365;
-    private static int $secondsInDay = 86400;
-    private static string $lowerLetters = 'abcdefghiklmnopqrstuvwxyz';
-    private static string $upperLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    private static string $digits = '0123456789';
-    private static string $mixChars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
-    private static array $jazzCodes = ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '20', '21', '22', '23', '24'];
-    private static array $uFoneCodes = ['31', '32', '33', '34', '35', '36', '37'];
-    private static array $telenorCodes = ['40', '41', '42', '43', '44', '45', '46', '47', '48', '49'];
-    private static array $zongCodes = ['10', '11', '12', '13', '14', '15', '16', '17'];
+    private const NEXT_LINE = "<br>";
+    private const PI = PI;
+    private const DAYS_IN_YEAR = 365;
+    private const SECONDS_IN_DAY = 86400;
+    private const LOWER_LETTERS = 'abcdefghiklmnopqrstuvwxyz';
+    private const UPPER_LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    private const ALL_DIGITS = '0123456789';
+    private const MIX_CHARS = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    private const JAZZ_CODES = ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '20', '21', '22', '23', '24'];
+    private const UPHONE_CODES = ['31', '32', '33', '34', '35', '36', '37'];
+    private const TELENOR_CODES = ['40', '41', '42', '43', '44', '45', '46', '47', '48', '49'];
+    private const ZONG_CODES = ['10', '11', '12', '13', '14', '15', '16', '17'];
 
-    private static array $muslimBoyNames = [
+    private const MUSLIM_BOY_NAMES = [
         'burhan', 'yameen', 'ali', 'yaseen', 'ahmad', 'kashif', 'shamas', 'tabraiz', 'khizar', 'hanbal', 'shafii', 'saif',
         'hamza', 'babar', 'farhan', 'danish', 'suleman', 'salman', 'hasnain', 'hassan', 'binyameen', 'ashraf', 'umar',
         'abubakar', 'siddeeq', 'nazar', 'sufi', 'haroon', 'ahmad', 'waleed', 'haider', 'hanbal', 'khizar', 'burqan'
     ];
 
-    private static array $muslimGirlNames = [
+    private const MUSLIM_GIRL_NAMES = [
         'ayesha', 'tehmina', 'amina', 'bushra', 'tahira', 'saira', 'alia', 'azra', 'maria', 'shazia', 'hania',
         'haani', 'bakhtawar', 'naseem', 'akhtar', 'zareena', 'zulekha', 'gul'
     ];
@@ -45,26 +45,26 @@ class Functions {
      * @throws Exception
      */
     public static function getBoyName(): string {
-        return self::$muslimBoyNames[random_int(0, count(self::$muslimBoyNames) - 1)];
+        return self::MUSLIM_BOY_NAMES[random_int(0, count(self::MUSLIM_BOY_NAMES) - 1)];
     }
 
     /**
      * @throws Exception
      */
     public static function getGirlName(): string {
-        return self::$muslimGirlNames[random_int(0, count(self::$muslimGirlNames) - 1)];
+        return self::MUSLIM_GIRL_NAMES[random_int(0, count(self::MUSLIM_GIRL_NAMES) - 1)];
     }
 
     public static function getPi(): float {
-        return self::$pi;
+        return self::PI;
     }
 
-    public static function getDayInYear(): int {
-        return self::$dayInYear;
+    public static function getDAYSINYEAR(): int {
+        return self::DAYS_IN_YEAR;
     }
 
-    public static function getSecondsInDay(): int {
-        return self::$secondsInDay;
+    public static function getSECONDSINDAY(): int {
+        return self::SECONDS_IN_DAY;
     }
 
     public static function getCircumferance(float $radius): float {
@@ -76,7 +76,7 @@ class Functions {
     }
 
     public static function getCircleArea(float $radius): float {
-        return self::$pi * abs($radius) * abs($radius);
+        return self::PI * abs($radius) * abs($radius);
     }
 
     public static function getIslamicScholerNames(): array {
@@ -133,9 +133,9 @@ class Functions {
         if (is_int($tableNum)) {
             $tableLimit = 10;
             for ($i = 1; $i <= $tableLimit; $i++) {
-                echo "$tableNum x $i = " . ($i * $tableNum) . self::$nextLine;
+                echo "$tableNum x $i = " . ($i * $tableNum) . self::NEXT_LINE;
             }
-            echo self::$nextLine . self::$nextLine;
+            echo self::NEXT_LINE . self::NEXT_LINE;
         }
     }
 
@@ -163,9 +163,9 @@ class Functions {
     }
 
     public static function printFormattedArray(array $array): void {
-        echo self::$nextLine . "<pre>";
+        echo self::NEXT_LINE . "<pre>";
         print_r($array);
-        echo "</pre>" . self::$nextLine;
+        echo "</pre>" . self::NEXT_LINE;
     }
 
     /**
@@ -277,7 +277,7 @@ class Functions {
         self::checks($limit);
         if (is_int($tableNum) && is_int($limit)) {
             for ($i = 1; $i <= $limit; $i++) {
-                echo "$tableNum x $i = " . ($tableNum * $i) . self::$nextLine;
+                echo "$tableNum x $i = " . ($tableNum * $i) . self::NEXT_LINE;
             }
         }
     }
@@ -381,7 +381,7 @@ class Functions {
     public
     static function printTimes(string $string, int $times): void {
         for ($i = 1; $i <= $times; $i++) {
-            echo $string . self::$nextLine;
+            echo $string . self::NEXT_LINE;
         }
     }
 
@@ -391,7 +391,7 @@ class Functions {
      */
     public
     static function pluralize(string &$word): void {
-        if (substr($word, -1) === 'y') {
+        if (str_ends_with($word, 'y')) {
             $word = substr($word, 0, -1) . 'ies';
         } else {
             $word .= 's';
@@ -408,7 +408,7 @@ class Functions {
     static function getLowerRandomString(int $stringLength = 10): string {
         $masterString = "";
         for ($i = 1; $i <= $stringLength; $i++) {
-            $masterString .= self::$lowerLetters[random_int(0, 26)];
+            $masterString .= self::LOWER_LETTERS[random_int(0, 26)];
         }
         return $masterString;
     }
@@ -433,9 +433,9 @@ class Functions {
     public
     static function getRandomString(int $stringLength = 10): string {
         $masterString = "";
-        $charsLength = strlen(self::$mixChars);
+        $charsLength = strlen(self::MIX_CHARS);
         for ($i = 1; $i <= $stringLength; $i++) {
-            $masterString .= self::$mixChars[random_int(0, $charsLength)];
+            $masterString .= self::MIX_CHARS[random_int(0, $charsLength)];
         }
         return $masterString;
     }
@@ -450,7 +450,7 @@ class Functions {
     static function getUpperRandomString(int $stringLength = 10): string {
         $masterString = "";
         for ($i = 1; $i <= $stringLength; $i++) {
-            $masterString .= self::$upperLetters[random_int(0, 26)];
+            $masterString .= self::UPPER_LETTERS[random_int(0, 26)];
         }
         return $masterString;
     }
@@ -465,7 +465,7 @@ class Functions {
     static function getStrRandomDigits(int $stringLength = 10): string {
         $masterString = "";
         for ($i = 1; $i <= $stringLength; $i++) {
-            $masterString .= self::$digits[random_int(0, 9)];
+            $masterString .= self::ALL_DIGITS[random_int(0, 9)];
         }
         return $masterString;
     }
@@ -515,7 +515,7 @@ class Functions {
      * @throws Exception
      */
     public static function getRandomJazzNumber(): string {
-        return '03' . static::$jazzCodes[random_int(0, count(static::$jazzCodes))] . ' ' . random_int(1234567, 9999999);
+        return '03' . static::JAZZ_CODES[random_int(0, count(static::JAZZ_CODES))] . ' ' . random_int(1234567, 9999999);
     }
 
     /**
@@ -524,7 +524,7 @@ class Functions {
      * @throws Exception
      */
     public static function getRandomUfoneNumber(): string {
-        return '03' . static::$uFoneCodes[random_int(0, count(static::$uFoneCodes))] . ' ' . random_int(1234567, 9999999);
+        return '03' . static::UPHONE_CODES[random_int(0, count(static::UPHONE_CODES))] . ' ' . random_int(1234567, 9999999);
     }
 
     /**
@@ -533,7 +533,7 @@ class Functions {
      * @throws Exception
      */
     public static function getRandomTelenorNumber(): string {
-        return '03' . static::$telenorCodes[random_int(0, count(static::$telenorCodes))] . ' ' . random_int(1234567, 9999999);
+        return '03' . static::TELENOR_CODES[random_int(0, count(static::TELENOR_CODES))] . ' ' . random_int(1234567, 9999999);
     }
 
     /**
@@ -542,7 +542,7 @@ class Functions {
      * @throws Exception
      */
     public static function getRandomZongNumber(): string {
-        return '03' . static::$zongCodes[random_int(0, count(static::$zongCodes))] . ' ' . random_int(1234567, 9999999);
+        return '03' . static::ZONG_CODES[random_int(0, count(static::ZONG_CODES))] . ' ' . random_int(1234567, 9999999);
     }
 
     public static function convertNumber($num = false) {
@@ -627,8 +627,7 @@ class Functions {
      * @return string the phone number string
      * @throws Exception random_int throws exception
      */
-    public
-    static function getRandomPhoneNumber(): string {
+    public static function getRandomPhoneNumber(): string {
         return "03" . random_int(10, 99) . " " . random_int(1234567, 9999999);
     }
 
