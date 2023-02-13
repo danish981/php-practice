@@ -225,8 +225,7 @@ class Functions {
      * @param int $length of the number to
      * @return int the random number
      */
-    public
-    static function getRandomNumber(int $length): int {
+    public static function getRandomNumber(int $length): int {
         if (!empty($length)) {
             $min = 10 ** ($length - 1);
             $max = 10 ** $length;
@@ -244,8 +243,7 @@ class Functions {
      * @param int ...$numbers
      * @return int average of numbers given
      */
-    public
-    static function getAverage(int ...$numbers): int {
+    public static function getAverage(int ...$numbers): int {
         $argumentLength = count($numbers);
         $sum = 0;
         foreach ($numbers as $value) {
@@ -260,8 +258,7 @@ class Functions {
      * @return string
      * @throws JsonException
      */
-    public
-    static function variadic_function(...$arguments): string {
+    public static function variadic_function(...$arguments): string {
         return json_encode($arguments, JSON_THROW_ON_ERROR);
     }
 
@@ -270,8 +267,7 @@ class Functions {
      * @param int $tableNum the table number
      * @param int $limit the ending limit of the table
      */
-    public
-    static function printTableToLimit(int $tableNum, int $limit): void {
+    public static function printTableToLimit(int $tableNum, int $limit): void {
         self::checks($tableNum);
         self::checks($limit);
         if (is_int($tableNum) && is_int($limit)) {
@@ -289,8 +285,7 @@ class Functions {
      * @return array filled with random numbers
      * @throws Exception
      */
-    public
-    static function getRandomArrayOfSize(int $arrayLength, int $lowerLimit, int $upperLimit): array {
+    public static function getRandomArrayOfSize(int $arrayLength, int $lowerLimit, int $upperLimit): array {
         if ($arrayLength < 1 || $arrayLength > 999) {
             $arrayLength = 50;
         }
@@ -308,8 +303,7 @@ class Functions {
      * @return array
      * @throws Exception
      */
-    public
-    static function getRandomNumArray(int $lowerLimit, int $upperLimit): array {
+    public static function getRandomNumArray(int $lowerLimit, int $upperLimit): array {
         self::varCheck($lowerLimit);
         self::varCheck($upperLimit);
         if ($lowerLimit > $upperLimit) {
@@ -330,8 +324,7 @@ class Functions {
      * @param $variable
      * @return int|null
      */
-    private
-    static function varCheck(&$variable): ?int {
+    private static function varCheck(&$variable): ?int {
         if (is_numeric($variable)) {
             if ($variable < 1 || $variable > 1000) {
                 return $variable = 50;
@@ -345,8 +338,7 @@ class Functions {
      * @param $firstValue
      * @param $secondValue
      */
-    public
-    static function swapValues(&$firstValue, &$secondValue): void {
+    public static function swapValues(&$firstValue, &$secondValue): void {
         $temp = $firstValue;
         $firstValue = $secondValue;
         $secondValue = $temp;
@@ -360,8 +352,7 @@ class Functions {
      * @return array|null filled with random numbers
      * @throws Exception
      */
-    public
-    static function getArrayRandom(int $lowerValue = 10, int $upperLimit = 99, int $arrayLength = 20): ?array {
+    public static function getArrayRandom(int $lowerValue = 10, int $upperLimit = 99, int $arrayLength = 20): ?array {
         $filledArray = [];
         if (is_numeric($lowerValue) && is_numeric($upperLimit) && is_numeric($arrayLength)) {
             for ($i = 0; $i < $arrayLength; $i++) {
@@ -377,8 +368,7 @@ class Functions {
      * @param string $string
      * @param int $times
      */
-    public
-    static function printTimes(string $string, int $times): void {
+    public static function printTimes(string $string, int $times): void {
         for ($i = 1; $i <= $times; $i++) {
             echo $string . self::NEXT_LINE;
         }
@@ -388,8 +378,7 @@ class Functions {
      * makes the word plural "apple" to "apples"
      * @param string $word
      */
-    public
-    static function pluralize(string &$word): void {
+    public static function pluralize(string &$word): void {
         if (str_ends_with($word, 'y')) {
             $word = substr($word, 0, -1) . 'ies';
         } else {
@@ -403,8 +392,7 @@ class Functions {
      * @return string the string of random characters of given length
      * @throws Exception
      */
-    public
-    static function getLowerRandomString(int $stringLength = 10): string {
+    public static function getLowerRandomString(int $stringLength = 10): string {
         $masterString = "";
         for ($i = 1; $i <= $stringLength; $i++) {
             $masterString .= self::LOWER_LETTERS[random_int(0, 26)];
@@ -418,8 +406,7 @@ class Functions {
      * @return string
      * @throws Exception
      */
-    public
-    static function getUltimateRandomString(int $stringLength = 10): string {
+    public static function getUltimateRandomString(int $stringLength = 10): string {
         return substr(md5(self::getRandomString($stringLength)), 0, $stringLength);
     }
 
@@ -445,8 +432,7 @@ class Functions {
      * @return string the generated array
      * @throws Exception random number
      */
-    public
-    static function getUpperRandomString(int $stringLength = 10): string {
+    public static function getUpperRandomString(int $stringLength = 10): string {
         $masterString = "";
         for ($i = 1; $i <= $stringLength; $i++) {
             $masterString .= self::UPPER_LETTERS[random_int(0, 26)];
@@ -460,8 +446,7 @@ class Functions {
      * @return string the generated string with random digits
      * @throws Exception
      */
-    public
-    static function getStrRandomDigits(int $stringLength = 10): string {
+    public static function getStrRandomDigits(int $stringLength = 10): string {
         $masterString = "";
         for ($i = 1; $i <= $stringLength; $i++) {
             $masterString .= self::ALL_DIGITS[random_int(0, 9)];
@@ -496,8 +481,7 @@ class Functions {
      * @param int $arrayLength the length of the array
      * @return array|null if the array is filled then array will be returned, and NULL otherwisw
      */
-    public
-    static function getShuffledArrayStr(string $string, int $arrayLength = 5): ?array {
+    public static function getShuffledArrayStr(string $string, int $arrayLength = 5): ?array {
         if (!empty($string)) {
             $masterArray = [];
             for ($i = 1; $i <= $arrayLength; $i++) {
