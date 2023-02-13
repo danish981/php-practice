@@ -9,8 +9,8 @@ $objectInterface = new InterfaceImplemented(
     459,
     "23423423-34",
     89823,
-    "the king james chootiya",
-    "chootiya khud",
+    "Roll and rock",
+    "Rolly and Dizzy",
     23.90
 );
 
