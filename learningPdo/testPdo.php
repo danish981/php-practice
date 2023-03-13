@@ -5,7 +5,7 @@ $username = 'root';
 $password = '';
 $dbName = 'practicephp';
 
-// $dbName = 'test';    // do not choose "test" database for your work, it is simplest dummy DB
+// $dbName = 'test';    // do not choose "test" database for your work, it is the simplest dummy DB
 $charset = 'utf8mb4';
 
 $dsn = 'mysql:host=' . $hostname . ';dbname=' . $dbName . ';charset=' . $charset;

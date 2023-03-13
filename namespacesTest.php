@@ -1,6 +1,6 @@
 <?php
 
-// before the include, we need to add the namespaces, so that their names are the same
+// before to include, we need to add the namespaces, so that their names are the same
 
 // so if the both classname have the same namespace, we can give them a name, as alias
 // this path as namespaces, is an imaginary, we can give any path
@@ -14,7 +14,7 @@ include("myClasses/Person.php");
 include("testClasses/Person.php");
 include("classes/Person.php");
 
-// this code will results this
+// this code will result this
 // Factory\Managers\Person::__construct
 // Factory\Employees\Person::__construct
 // now these classes will be named after the namespaces,

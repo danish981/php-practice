@@ -28,7 +28,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="added changes" />
+    <list default="true" id="1a2d7ee3-23fc-4fa1-99ce-77e5b59861bd" name="Default" comment="added changes">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-features-php/contructor-property-promotion.php" beforeDir="false" afterPath="$PROJECT_DIR$/new-features-php/ConstructorPropertyPromotion.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,22 +78,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="RunOnceActivity.laravel-idea.search-composer-json" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Fun&#9;FILE&#9;file://C:/xampp/htdocs/pract/classes/Functions.php&#10;Functions&#9;FILE&#9;file://C:/xampp/htdocs/pract/classes/Functions.php&#10;functions&#9;null&#9;null&#10;Fu&#9;null&#9;null" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.laravel-idea.search-composer-json": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="code.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/testClasses/code.php">
       <method v="2" />
@@ -171,6 +174,10 @@
       <workItem from="1640764008050" duration="2191000" />
       <workItem from="1640792016481" duration="461000" />
       <workItem from="1640797859217" duration="644000" />
+      <workItem from="1677349218227" duration="224000" />
+      <workItem from="1677349457881" duration="690000" />
+      <workItem from="1677369963370" duration="365000" />
+      <workItem from="1677405615596" duration="1587000" />
     </task>
     <task id="LOCAL-00001" summary="adding getters and setters to the class">
       <created>1633032592412</created>
@@ -400,7 +407,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding getters and setters to the class" />
@@ -423,5 +429,9 @@
     <MESSAGE value="types updated" />
     <MESSAGE value="added changes" />
     <option name="LAST_COMMIT_MESSAGE" value="added changes" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

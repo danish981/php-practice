@@ -9,11 +9,12 @@
 <h2>php errors and warning</h2>
 <p>there are 4 types of error and warnings in php</p>
 <ul>
-  <li>fatal error</li>
-  <li>parse error</li>
-  <li>warning error</li>
-  <li>notice error</li>
+    <li>fatal error</li>
+    <li>parse error</li>
+    <li>warning error</li>
+    <li>notice error</li>
 </ul>
 <p>we will define these errors one by one by examples</p>
 </body>
-</html>
+</html> 
+

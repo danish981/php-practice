@@ -1,16 +1,12 @@
-
 <?php
 
-
 // -------------------------- old way of initializing properties---------------------
-class ConstructorPropertyPromotion
-{
+class ConstructorPropertyPromotion {
     public int $a = 5;
     public int $b = 10;
     public int $c = 15;
 
-    public function __construct(int $a, int $b, int $c)
-    {
+    public function __construct(int $a, int $b, int $c) {
         $this . $a = $a;
         $this . $b = $b;
         $this . $c = $c;
@@ -19,8 +15,7 @@ class ConstructorPropertyPromotion
 
 // -------------- new way of initializing properties php 8.0 -----------------------------------------------------
 
-class AnotherTestClassForContructorPropertyPromotion
-{
+class AnotherTestClassForContructorPropertyPromotion {
     public function __construct(
         public int $a = 5,
         public int $b = 10,
@@ -29,12 +24,9 @@ class AnotherTestClassForContructorPropertyPromotion
     }
 }
 
-
 // -------------------- example for above --------------------------------
 
-class ExampleClass
-{
-    public function __construct(private int $point = 0)
-    {
+class ExampleClass {
+    public function __construct(private int $point = 0) {
     }
 }

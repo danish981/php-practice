@@ -12,7 +12,7 @@ $sampleContent = file_get_contents("file.txt");
 if (!file_exists($filename)) {
     // if file does not exists, create the file for w = writing, a for appending
     // if we remove these two lines, then the we will see error, "no such file exists"
-    fopen("fileDelete.txt", "w");
+    fopen("fileDelete.txt", 'wb');
     file_put_contents("fileDelete.txt", $sampleContent);
     // echo "file " . basename("deleteTxt.txt") . " created";
 }
