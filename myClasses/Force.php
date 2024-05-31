@@ -1,6 +1,6 @@
 <?php
 
-namespace newton\lawForces;
+namespace outside;
 
 class Force {
 

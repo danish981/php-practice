@@ -7,7 +7,7 @@
 // these files are actually classes
 use Factory\Administration\Person as adminPerson;
 use Factory\Employees\Person as managerPerson;
-use Factory\Managers\Person as factoryPerson;
+use outside\Person as factoryPerson;
 
 // but for the path of include, we have to give the real path with extensions too
 include("myClasses/Person.php");

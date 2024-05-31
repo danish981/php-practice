@@ -1,6 +1,6 @@
 <?php
 
-namespace Factory\Managers;
+namespace outside;
 
 // the full namespace would be after including the namespace would be
 // Factory\Managers\Person;				// not just Person 

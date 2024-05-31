@@ -1,6 +1,6 @@
 <?php
 
-namespace carbonate;
+namespace outside;
 
 class Quality {
 
