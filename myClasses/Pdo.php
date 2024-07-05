@@ -14,4 +14,12 @@ class Pdo {
         return "this is pdo class object " . self::$nextLine;
     }
 
+    private function anotherFunction(?string $string) {
+        if (empty($string)) {
+            return "empty string";
+        }
+
+        return 'string not empty';
+    }
+
 }
