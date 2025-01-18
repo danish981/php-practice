@@ -10,6 +10,8 @@ $another = "bla bla bla";
 // . (dot) means for concatenation, it is used to combine/concatenate the strings
 $resultingString = $string . $another . $anotherString . $goodString;
 
+
+
 echo $resultingString;
 
-?>
+

@@ -1,4 +1,4 @@
 <?php
 
-$number = readline('enter the numbers : ');
-echo $number;
+
+echo $readline('enter the numbers : ');
