@@ -18,4 +18,7 @@ class AnotherClass {
         return $this->username;
     }
 
+
+    
+
 }
